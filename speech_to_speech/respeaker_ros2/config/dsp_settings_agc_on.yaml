@@ -1,0 +1,7 @@
+respeaker_node:
+  ros__parameters:
+    stat_noise_onoff_sr: 1
+    nonstat_noise_onoff_sr: 1
+    hpf_onoff: 1
+    transient_onoff: 1
+    agc_onoff: 1
