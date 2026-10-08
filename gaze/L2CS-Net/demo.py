@@ -5,7 +5,6 @@ import cv2
 import time
 
 import threading
-
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
@@ -90,14 +89,24 @@ if __name__ == '__main__':
     arch=args.arch
     cam = args.cam_id
     # snapshot_path = args.snapshot
+    device = torch.device(args.device)
+
+    if device.type == "cuda" and not torch.cuda.is_available():
+        raise RuntimeError("CUDA requested but unavailable")
+
+    weights = pathlib.Path(args.snapshot).expanduser().resolve()
+    if not weights.is_file():
+        raise FileNotFoundError(f"Model weights not found: {weights}")
 
     gaze_pipeline = Pipeline(
-        weights=CWD / 'models' / 'L2CSNet_gaze360.pkl',
-        arch='ResNet50',
-        device = select_device(args.device, batch_size=1)
+        weights=weights,
+        arch=args.arch,
+        device=device,
     )
-     
-  
+
+    print("Gaze model device:", next(gaze_pipeline.model.parameters()).device)
+    print("Model weights:", weights)
+
     camera = LatestFrameCamera(cam)
     last_results = None
     frame_count = 0
