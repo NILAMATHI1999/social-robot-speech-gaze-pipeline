@@ -1,0 +1,708 @@
+test,seat,what_you_did,time_s,seat_angle_left_right_deg,seat_angle_up_down_deg,gaze_left_right_deg,gaze_up_down_deg,off_target_left_right_deg,off_target_up_down_deg,script_raw,script_smoothed,should_be,correct,brightness
+test3,centre,looked straight at the camera,0.0,-0.56,1.56,-1.02,8.89,-0.5,7.3,yes,yes,yes,1,108.50
+test3,centre,looked straight at the camera,0.8,-0.44,2.00,-2.59,17.38,-2.1,15.4,no,no,yes,0,105.55
+test3,centre,looked straight at the camera,1.2,-0.56,2.73,-8.78,5.87,-8.2,3.1,yes,yes,yes,1,87.85
+test3,centre,looked straight at the camera,1.7,-0.50,3.39,-6.87,11.49,-6.4,8.1,yes,yes,yes,1,86.67
+test3,centre,looked straight at the camera,2.1,-0.69,3.28,-6.83,8.40,-6.1,5.1,yes,yes,yes,1,87.02
+test3,centre,looked straight at the camera,2.5,-0.50,2.73,-4.99,6.06,-4.5,3.3,yes,yes,yes,1,83.71
+test3,centre,looked straight at the camera,3.0,-0.69,2.50,-7.20,10.14,-6.5,7.6,yes,yes,yes,1,81.06
+test3,centre,looked straight at the camera,3.5,-0.44,2.34,-4.26,8.31,-3.8,6.0,yes,yes,yes,1,81.02
+test3,centre,looked straight at the camera,4.0,-0.38,2.67,-0.40,10.45,-0.0,7.8,yes,yes,yes,1,87.28
+test3,centre,looked straight at the camera,4.4,-0.25,2.84,0.58,12.30,0.8,9.5,yes,yes,yes,1,87.78
+test3,centre,looked straight at the camera,4.8,-0.38,2.84,-0.76,12.24,-0.4,9.4,yes,yes,yes,1,88.74
+test3,centre,looked straight at the camera,5.2,-0.31,2.89,-0.08,10.19,0.2,7.3,yes,yes,yes,1,88.64
+test3,centre,looked straight at the camera,5.6,-0.38,2.89,-1.78,12.68,-1.4,9.8,yes,yes,yes,1,89.61
+test3,centre,looked straight at the camera,6.0,-0.38,2.89,-1.69,12.61,-1.3,9.7,yes,yes,yes,1,89.77
+test3,centre,looked straight at the camera,6.3,-0.38,2.84,-0.67,11.99,-0.3,9.2,yes,yes,yes,1,89.09
+test3,centre,looked straight at the camera,7.0,-0.31,2.89,-0.47,10.61,-0.2,7.7,yes,yes,yes,1,90.11
+test3,centre,looked straight at the camera,7.3,-0.31,2.89,0.87,11.26,1.2,8.4,yes,yes,yes,1,89.14
+test3,centre,looked straight at the camera,7.7,-0.25,2.95,-0.77,14.09,-0.5,11.1,no,yes,yes,1,89.50
+test3,centre,looked straight at the camera,8.1,-0.38,2.89,-0.10,11.96,0.3,9.1,yes,yes,yes,1,89.39
+test3,centre,looked straight at the camera,8.5,-0.44,2.84,2.15,10.41,2.6,7.6,yes,yes,yes,1,88.78
+test3,centre,looked straight at the camera,8.9,-0.44,2.89,1.82,10.50,2.3,7.6,yes,yes,yes,1,89.21
+test3,centre,looked straight at the camera,9.3,-0.44,2.84,2.69,10.00,3.1,7.2,yes,yes,yes,1,89.15
+test3,centre,looked straight at the camera,9.6,-0.50,2.84,-1.02,10.36,-0.5,7.5,yes,yes,yes,1,89.66
+test3,centre,looked straight at the camera,10.0,-0.38,2.84,3.76,11.68,4.1,8.8,yes,yes,yes,1,90.08
+test3,centre,looked straight at the camera,10.4,-0.44,2.84,-2.21,12.55,-1.8,9.7,yes,yes,yes,1,91.21
+test3,centre,looked to your right,0.0,-0.44,2.89,22.28,3.89,22.7,1.0,no,yes,no,0,92.77
+test3,centre,looked to your right,0.4,-0.56,3.00,6.11,7.14,6.7,4.1,yes,yes,no,0,91.91
+test3,centre,looked to your right,0.8,-0.63,2.95,25.01,5.64,25.6,2.7,no,no,no,1,92.57
+test3,centre,looked to your right,1.2,-0.56,3.00,22.84,6.91,23.4,3.9,no,no,no,1,93.58
+test3,centre,looked to your right,1.5,-0.63,2.95,26.33,4.34,27.0,1.4,no,no,no,1,92.26
+test3,centre,looked to your right,1.9,-0.50,2.95,10.87,4.68,11.4,1.7,no,no,no,1,92.12
+test3,centre,looked to your right,2.3,-0.56,2.95,5.91,2.11,6.5,-0.8,yes,no,no,1,91.47
+test3,centre,looked to your right,2.7,-0.56,2.95,8.02,4.53,8.6,1.6,yes,no,no,1,91.70
+test3,centre,looked to your right,3.1,-0.63,3.00,11.26,6.64,11.9,3.6,no,no,no,1,92.99
+test3,centre,looked to your right,3.5,-0.63,3.00,8.52,4.00,9.2,1.0,yes,yes,no,0,93.12
+test3,centre,looked to your right,3.9,-0.63,2.95,13.30,2.74,13.9,-0.2,no,yes,no,0,92.68
+test3,centre,looked to your right,4.3,-0.63,3.00,8.47,4.61,9.1,1.6,yes,yes,no,0,93.10
+test3,centre,looked to your right,4.8,-0.63,2.95,9.68,2.68,10.3,-0.3,no,no,no,1,93.05
+test3,centre,looked to your right,5.3,-0.63,2.95,14.62,2.91,15.2,-0.0,no,no,no,1,92.52
+test3,centre,looked to your right,5.7,-0.63,2.95,14.71,2.82,15.3,-0.1,no,no,no,1,93.07
+test3,centre,looked to your right,6.1,-0.63,2.95,11.80,-1.50,12.4,-4.5,no,no,no,1,92.54
+test3,centre,looked to your right,6.4,-0.63,2.95,12.11,1.86,12.7,-1.1,no,no,no,1,92.56
+test3,centre,looked to your right,6.8,-0.63,3.00,3.43,5.79,4.1,2.8,yes,no,no,1,93.36
+test3,centre,looked to your right,7.2,-0.69,2.95,10.52,1.95,11.2,-1.0,no,no,no,1,92.48
+test3,centre,looked to your right,7.6,-0.63,2.95,7.23,2.04,7.9,-0.9,yes,no,no,1,92.64
+test3,centre,looked to your right,8.0,-0.69,2.95,8.39,3.04,9.1,0.1,yes,yes,no,0,92.18
+test3,centre,looked to your left,0.0,-0.69,3.00,-26.72,6.58,-26.0,3.6,no,no,no,1,92.70
+test3,centre,looked to your left,0.4,-0.69,3.00,-27.31,5.91,-26.6,2.9,no,no,no,1,92.76
+test3,centre,looked to your left,0.8,-0.69,3.06,-32.42,8.66,-31.7,5.6,no,no,no,1,92.84
+test3,centre,looked to your left,1.2,-0.63,3.00,-22.03,6.33,-21.4,3.3,no,no,no,1,91.22
+test3,centre,looked to your left,1.5,-0.63,2.95,-22.99,6.31,-22.4,3.4,no,no,no,1,91.18
+test3,centre,looked to your left,1.9,-0.63,2.89,-23.45,8.56,-22.8,5.7,no,no,no,1,90.52
+test3,centre,looked to your left,2.3,-0.63,2.89,-21.48,5.64,-20.9,2.7,no,no,no,1,90.47
+test3,centre,looked to your left,2.7,-0.63,2.89,-16.95,9.05,-16.3,6.2,no,no,no,1,90.65
+test3,centre,looked to your left,3.1,-0.69,2.95,-22.00,7.19,-21.3,4.2,no,no,no,1,90.06
+test3,centre,looked to your left,3.5,-0.63,2.89,-18.66,5.89,-18.0,3.0,no,no,no,1,90.55
+test3,centre,looked to your left,3.8,-0.75,2.95,-23.56,7.17,-22.8,4.2,no,no,no,1,91.53
+test3,centre,looked to your left,4.2,-0.69,2.89,-20.08,10.05,-19.4,7.2,no,no,no,1,90.09
+test3,centre,looked to your left,4.6,-0.75,2.89,-22.55,5.23,-21.8,2.3,no,no,no,1,91.49
+test3,centre,looked to your left,5.0,-0.75,2.84,-22.94,5.36,-22.2,2.5,no,no,no,1,91.07
+test3,centre,looked to your left,5.4,-0.75,2.84,-21.35,6.51,-20.6,3.7,no,no,no,1,91.19
+test3,centre,looked to your left,5.8,-0.69,2.95,-23.41,7.79,-22.7,4.8,no,no,no,1,92.70
+test3,centre,looked to your left,6.1,-0.75,2.95,-22.26,8.61,-21.5,5.7,no,no,no,1,92.06
+test3,centre,looked to your left,6.5,-0.75,2.89,-22.69,8.82,-21.9,5.9,no,no,no,1,91.44
+test3,centre,looked to your left,6.9,-0.75,2.95,-18.92,9.27,-18.2,6.3,no,no,no,1,91.54
+test3,centre,looked up,0.0,-0.75,2.78,2.67,20.15,3.4,17.4,no,no,no,1,90.04
+test3,centre,looked up,0.4,-0.75,2.78,3.40,20.36,4.2,17.6,no,no,no,1,90.20
+test3,centre,looked up,0.8,-0.75,2.78,3.38,17.60,4.1,14.8,no,no,no,1,90.02
+test3,centre,looked up,1.2,-0.81,2.73,4.20,16.19,5.0,13.5,no,no,no,1,90.76
+test3,centre,looked up,1.5,-0.75,2.78,3.90,16.56,4.7,13.8,no,no,no,1,90.03
+test3,centre,looked up,1.9,-0.75,2.84,1.17,17.37,1.9,14.5,no,no,no,1,90.12
+test3,centre,looked up,2.3,-0.81,2.78,1.71,15.20,2.5,12.4,no,no,no,1,90.85
+test3,centre,looked up,2.7,-0.81,2.78,2.35,14.59,3.2,11.8,no,no,no,1,90.55
+test3,centre,looked up,3.1,-0.81,2.78,-0.14,19.78,0.7,17.0,no,no,no,1,90.54
+test3,centre,looked up,3.4,-0.81,2.78,1.74,18.40,2.5,15.6,no,no,no,1,90.50
+test3,centre,looked up,3.8,-0.81,2.84,-2.17,16.12,-1.4,13.3,no,no,no,1,91.09
+test3,centre,looked up,4.2,-0.81,2.78,0.64,19.05,1.5,16.3,no,no,no,1,90.57
+test3,centre,looked up,4.6,-0.63,2.78,1.83,14.45,2.5,11.7,no,no,no,1,91.24
+test3,centre,looked up,5.0,-0.63,2.78,-0.54,17.13,0.1,14.3,no,no,no,1,91.29
+test3,centre,looked up,5.4,-0.63,2.78,-0.01,17.28,0.6,14.5,no,no,no,1,91.30
+test3,centre,looked up,5.8,-0.69,2.73,-0.68,13.60,0.0,10.9,no,no,no,1,90.16
+test3,centre,looked up,6.1,-0.69,2.73,0.22,15.68,0.9,12.9,no,no,no,1,90.07
+test3,centre,looked up,6.5,-0.75,2.78,1.33,17.30,2.1,14.5,no,no,no,1,91.51
+test3,centre,looked up,6.9,-0.69,2.78,-1.20,17.21,-0.5,14.4,no,no,no,1,90.71
+test3,centre,looked up,7.3,-0.63,2.78,-1.88,17.11,-1.2,14.3,no,no,no,1,91.22
+test3,centre,looked up,7.7,-0.69,2.73,-2.76,17.96,-2.1,15.2,no,no,no,1,90.03
+test3,centre,looked down,0.0,-0.69,2.78,-4.12,-13.22,-3.4,-16.0,no,no,no,1,92.80
+test3,centre,looked down,0.4,-0.81,2.84,9.60,-21.06,10.4,-23.9,no,no,no,1,91.83
+test3,centre,looked down,0.8,-0.81,2.84,10.58,-20.97,11.4,-23.8,no,no,no,1,91.90
+test3,centre,looked down,1.2,-0.81,2.78,11.29,-20.47,12.1,-23.2,no,no,no,1,92.01
+test3,centre,looked down,1.5,-0.81,2.84,13.43,-19.23,14.2,-22.1,no,no,no,1,92.10
+test3,centre,looked down,1.9,-0.81,2.78,13.14,-20.49,14.0,-23.3,no,no,no,1,91.83
+test3,centre,looked down,2.3,-0.81,2.84,6.63,-20.32,7.4,-23.2,no,no,no,1,91.96
+test3,centre,looked down,2.7,-0.81,2.84,10.12,-21.73,10.9,-24.6,no,no,no,1,91.86
+test3,centre,looked down,3.1,-0.81,2.84,10.34,-23.11,11.2,-25.9,no,no,no,1,91.92
+test3,centre,looked down,3.4,-0.81,2.84,9.70,-22.33,10.5,-25.2,no,no,no,1,91.96
+test3,centre,looked down,3.8,-0.81,2.84,8.30,-20.10,9.1,-22.9,no,no,no,1,91.87
+test3,centre,looked down,4.2,-0.81,2.84,7.60,-20.41,8.4,-23.2,no,no,no,1,91.92
+test3,centre,looked down,4.6,-0.81,2.78,8.34,-20.00,9.2,-22.8,no,no,no,1,91.85
+test3,centre,looked down,5.0,-0.81,2.84,7.81,-20.97,8.6,-23.8,no,no,no,1,91.79
+test3,centre,looked down,5.4,-0.88,2.84,6.63,-19.45,7.5,-22.3,no,no,no,1,91.41
+test3,centre,looked down,5.7,-0.81,2.78,8.12,-19.66,8.9,-22.4,no,no,no,1,91.72
+test3,centre,looked down,6.1,-0.81,2.84,4.92,-20.11,5.7,-22.9,no,no,no,1,92.43
+test3,centre,looked down,6.5,-0.94,2.84,5.33,-19.16,6.3,-22.0,no,no,no,1,92.66
+test3,centre,looked down,6.9,-0.81,2.84,5.66,-21.93,6.5,-24.8,no,no,no,1,92.43
+test3,centre,looked down,7.2,-0.94,2.89,8.13,-20.51,9.1,-23.4,no,no,no,1,92.89
+test3,centre,looked down,7.6,-0.88,2.89,7.39,-20.16,8.3,-23.1,no,no,no,1,92.17
+test3,centre,looked down,8.0,-0.88,2.84,6.34,-21.02,7.2,-23.9,no,no,no,1,91.45
+test3,centre,looked down,8.4,-0.88,2.84,5.83,-20.42,6.7,-23.3,no,no,no,1,91.52
+test3,centre,looked down,8.8,-0.88,2.89,7.94,-21.60,8.8,-24.5,no,no,no,1,92.13
+test3,centre,looked down,9.1,-0.88,2.78,8.01,-19.49,8.9,-22.3,no,no,no,1,91.45
+test3,centre,looked down,9.5,-0.88,2.84,3.73,-19.04,4.6,-21.9,no,no,no,1,92.11
+test3,centre,looked down,9.9,-0.88,2.89,4.35,-20.30,5.2,-23.2,no,no,no,1,92.08
+test3,centre,looked down,10.3,-0.88,2.84,3.50,-17.72,4.4,-20.6,no,no,no,1,93.06
+test6_A,right side,looked at the camera lens,0.0,-10.48,10.57,-0.45,8.02,10.0,-2.6,no,no,yes,0,89.58
+test6_A,right side,looked at the camera lens,0.2,-10.54,10.40,2.86,7.59,13.4,-2.8,no,no,yes,0,90.77
+test6_A,right side,looked at the camera lens,0.4,-10.60,10.40,2.38,6.58,13.0,-3.8,no,no,yes,0,88.67
+test6_A,right side,looked at the camera lens,0.6,-10.54,10.46,-1.97,5.46,8.6,-5.0,yes,no,yes,0,88.68
+test6_A,right side,looked at the camera lens,0.9,-10.48,10.46,0.85,6.06,11.3,-4.4,no,no,yes,0,89.28
+test6_A,right side,looked at the camera lens,1.1,-10.41,10.46,-3.32,3.54,7.1,-6.9,yes,no,yes,0,88.56
+test6_A,right side,looked at the camera lens,1.3,-10.41,10.51,-1.23,6.32,9.2,-4.2,yes,yes,yes,1,89.15
+test6_A,right side,looked at the camera lens,1.5,-10.35,10.51,-1.32,7.32,9.0,-3.2,yes,yes,yes,1,89.88
+test6_A,right side,looked at the camera lens,1.7,-10.35,10.46,-0.71,6.72,9.6,-3.7,yes,yes,yes,1,89.21
+test6_A,right side,looked at the camera lens,1.9,-10.35,10.51,-1.76,6.96,8.6,-3.5,yes,yes,yes,1,89.94
+test6_A,right side,looked at the camera lens,2.2,-10.35,10.46,-3.08,6.57,7.3,-3.9,yes,yes,yes,1,89.47
+test6_A,right side,looked at the camera lens,2.4,-10.35,10.46,-3.85,6.14,6.5,-4.3,yes,yes,yes,1,89.61
+test6_A,right side,looked at the camera lens,2.6,-10.35,10.46,-3.72,7.14,6.6,-3.3,yes,yes,yes,1,89.90
+test6_A,right side,looked at the camera lens,2.8,-10.41,10.51,-2.76,6.77,7.7,-3.7,yes,yes,yes,1,89.43
+test6_A,right side,looked at the camera lens,3.0,-10.41,10.46,-5.63,6.76,4.8,-3.7,yes,yes,yes,1,89.68
+test6_A,right side,looked at the camera lens,3.2,-10.35,10.46,-4.59,6.12,5.8,-4.3,yes,yes,yes,1,90.34
+test6_A,right side,looked at the camera lens,3.5,-10.35,10.46,-4.89,6.20,5.5,-4.3,yes,yes,yes,1,90.24
+test6_A,right side,looked at the camera lens,3.7,-10.29,10.46,-2.29,6.74,8.0,-3.7,yes,yes,yes,1,89.78
+test6_A,right side,looked at the camera lens,3.9,-10.35,10.46,-4.15,6.47,6.2,-4.0,yes,yes,yes,1,90.35
+test6_A,right side,looked at the camera lens,4.1,-10.29,10.46,-3.34,7.10,6.9,-3.4,yes,yes,yes,1,89.82
+test6_A,right side,looked at the camera lens,4.3,-10.29,10.40,-6.29,5.59,4.0,-4.8,yes,yes,yes,1,89.13
+test6_A,right side,looked at the camera lens,4.5,-10.29,10.40,-5.52,5.20,4.8,-5.2,yes,yes,yes,1,89.14
+test6_A,right side,looked at the camera lens,4.7,-10.29,10.46,-5.75,6.23,4.5,-4.2,yes,yes,yes,1,89.90
+test6_A,right side,looked at the camera lens,5.0,-10.29,10.40,-7.24,6.05,3.0,-4.4,yes,yes,yes,1,89.24
+test6_A,right side,looked at the camera lens,5.2,-10.29,10.46,-6.15,5.88,4.1,-4.6,yes,yes,yes,1,89.90
+test6_A,right side,looked at the camera lens,5.4,-10.29,10.40,-4.43,5.44,5.9,-5.0,yes,yes,yes,1,89.17
+test6_A,right side,looked at the camera lens,5.6,-10.29,10.40,-4.07,4.83,6.2,-5.6,yes,yes,yes,1,89.35
+test6_A,right side,looked at the camera lens,5.8,-10.29,10.40,-5.09,5.44,5.2,-5.0,yes,yes,yes,1,89.29
+test6_A,right side,looked at the camera lens,6.0,-10.29,10.46,-7.54,4.86,2.7,-5.6,yes,yes,yes,1,89.87
+test6_A,right side,looked at the camera lens,6.3,-10.29,10.40,-7.98,6.26,2.3,-4.1,yes,yes,yes,1,88.97
+test6_A,right side,looked at the camera lens,6.5,-10.23,10.40,-5.10,6.99,5.1,-3.4,yes,yes,yes,1,88.40
+test6_A,right side,looked at the camera lens,6.7,-10.29,10.40,-7.80,6.79,2.5,-3.6,yes,yes,yes,1,88.80
+test6_A,right side,looked at the camera lens,6.9,-10.29,10.46,-6.93,5.81,3.4,-4.7,yes,yes,yes,1,89.59
+test6_A,right side,looked at the camera lens,7.1,-10.23,10.40,-2.48,6.81,7.8,-3.6,yes,yes,yes,1,88.54
+test6_A,right side,looked at the camera lens,7.3,-10.29,10.40,-8.17,7.34,2.1,-3.1,yes,yes,yes,1,88.98
+test6_A,right side,looked at the camera lens,7.6,-10.29,10.40,-7.41,7.27,2.9,-3.1,yes,yes,yes,1,89.13
+test6_A,right side,looked at the camera lens,7.8,-10.29,10.40,-6.13,6.17,4.2,-4.2,yes,yes,yes,1,89.29
+test6_A,right side,looked at the camera lens,8.0,-10.29,10.46,-4.83,5.59,5.5,-4.9,yes,yes,yes,1,90.22
+test6_A,right side,looked at the camera lens,8.2,-10.29,10.40,-6.91,6.77,3.4,-3.6,yes,yes,yes,1,89.73
+test6_A,right side,looked at the camera lens,8.4,-10.29,10.40,-4.11,6.92,6.2,-3.5,yes,yes,yes,1,89.67
+test6_A,right side,looked at the camera lens,8.6,-10.29,10.46,-7.40,5.65,2.9,-4.8,yes,yes,yes,1,90.37
+test6_A,right side,looked at the camera lens,8.9,-10.29,10.40,-7.07,7.86,3.2,-2.5,yes,yes,yes,1,89.76
+test6_A,right side,looked at the camera lens,9.1,-10.29,10.40,-7.15,7.97,3.1,-2.4,yes,yes,yes,1,89.83
+test6_A,right side,looked at the camera lens,9.3,-10.29,10.46,-6.33,7.24,4.0,-3.2,yes,yes,yes,1,90.60
+test6_A,right side,looked at the camera lens,9.5,-10.29,10.46,-8.50,5.93,1.8,-4.5,yes,yes,yes,1,90.41
+test6_A,right side,looked at the camera lens,9.7,-10.29,10.46,-7.47,6.21,2.8,-4.3,yes,yes,yes,1,90.29
+test6_A,right side,looked at the camera lens,9.9,-10.29,10.46,-8.30,7.11,2.0,-3.4,yes,yes,yes,1,90.32
+test6_A,right side,looked at the camera lens,10.2,-10.29,10.46,-7.23,6.48,3.1,-4.0,yes,yes,yes,1,90.29
+test6_A,right side,looked at the camera lens,10.4,-10.29,10.46,-9.71,8.04,0.6,-2.4,yes,yes,yes,1,90.19
+test6_A,right side,looked at the camera lens,10.6,-10.29,10.46,-8.28,7.17,2.0,-3.3,yes,yes,yes,1,90.28
+test6_A,right side,looked at the camera lens,10.8,-10.29,10.46,-7.65,6.56,2.6,-3.9,yes,yes,yes,1,90.37
+test6_A,right side,looked at the camera lens,11.0,-10.29,10.46,-9.25,7.11,1.0,-3.4,yes,yes,yes,1,90.40
+test6_A,right side,looked at the camera lens,11.2,-10.29,10.46,-6.13,6.40,4.2,-4.1,yes,yes,yes,1,90.45
+test6_A,right side,looked at the camera lens,11.4,-10.29,10.46,-7.73,7.48,2.6,-3.0,yes,yes,yes,1,90.75
+test6_A,right side,looked at the camera lens,11.7,-10.29,10.46,-9.81,7.54,0.5,-2.9,yes,yes,yes,1,90.80
+test6_A,right side,looked at the camera lens,11.9,-10.29,10.46,-9.78,7.25,0.5,-3.2,yes,yes,yes,1,90.84
+test6_A,right side,looked at the camera lens,12.1,-10.29,10.46,-7.63,7.96,2.7,-2.5,yes,yes,yes,1,90.93
+test6_A,right side,looked at the camera lens,12.3,-10.29,10.40,-8.74,8.79,1.5,-1.6,yes,yes,yes,1,90.22
+test6_A,right side,looked at the camera lens,12.6,-10.29,10.46,-8.95,7.86,1.3,-2.6,yes,yes,yes,1,90.99
+test6_A,right side,looked at the camera lens,12.8,-10.29,10.46,-8.18,8.32,2.1,-2.1,yes,yes,yes,1,90.96
+test6_A,right side,looked at the camera lens,13.0,-10.29,10.46,-7.56,8.58,2.7,-1.9,yes,yes,yes,1,90.87
+test6_A,right side,looked at the camera lens,13.2,-10.29,10.46,-6.87,8.32,3.4,-2.1,yes,yes,yes,1,90.89
+test6_A,right side,looked at the camera lens,13.4,-10.29,10.46,-7.56,7.50,2.7,-3.0,yes,yes,yes,1,91.03
+test6_A,right side,looked at the camera lens,13.7,-10.29,10.46,-7.81,7.77,2.5,-2.7,yes,yes,yes,1,91.22
+test6_A,right side,looked at the camera lens,13.9,-10.29,10.46,-6.91,7.57,3.4,-2.9,yes,yes,yes,1,91.27
+test6_A,right side,looked at the camera lens,14.1,-10.29,10.46,-8.46,8.25,1.8,-2.2,yes,yes,yes,1,91.21
+test6_A,right side,looked at the camera lens,14.3,-10.29,10.46,-8.16,8.22,2.1,-2.2,yes,yes,yes,1,91.22
+test6_A,right side,looked at the camera lens,14.5,-10.29,10.46,-6.16,8.54,4.1,-1.9,yes,yes,yes,1,91.24
+test6_A,right side,looked at the camera lens,14.7,-10.29,10.46,-6.57,7.39,3.7,-3.1,yes,yes,yes,1,91.29
+test6_A,right side,looked at the camera lens,15.0,-10.29,10.46,-6.28,7.80,4.0,-2.7,yes,yes,yes,1,91.26
+test6_A,right side,looked at the camera lens,15.2,-10.29,10.46,-9.62,8.08,0.7,-2.4,yes,yes,yes,1,91.19
+test6_A,right side,looked at the camera lens,15.4,-10.29,10.46,-8.51,7.55,1.8,-2.9,yes,yes,yes,1,91.19
+test6_A,right side,looked at the camera lens,15.6,-10.29,10.46,-8.46,8.59,1.8,-1.9,yes,yes,yes,1,91.17
+test6_A,right side,looked at the camera lens,15.8,-10.29,10.46,-8.63,7.62,1.7,-2.8,yes,yes,yes,1,91.18
+test6_A,right side,looked at the camera lens,16.0,-10.29,10.46,-8.33,7.81,2.0,-2.7,yes,yes,yes,1,91.24
+test6_A,right side,looked at the camera lens,16.2,-10.29,10.46,-7.91,7.69,2.4,-2.8,yes,yes,yes,1,91.12
+test6_A,right side,looked at the camera lens,16.5,-10.29,10.46,-7.33,8.18,3.0,-2.3,yes,yes,yes,1,91.03
+test6_A,right side,looked at the camera lens,16.7,-10.29,10.40,-7.83,8.09,2.5,-2.3,yes,yes,yes,1,90.12
+test6_A,right side,looked at the camera lens,16.9,-10.29,10.46,-10.21,7.03,0.1,-3.4,yes,yes,yes,1,90.76
+test6_A,right side,looked at the camera lens,17.1,-10.29,10.46,-8.61,7.99,1.7,-2.5,yes,yes,yes,1,90.82
+test6_A,right side,looked at the camera lens,17.3,-10.29,10.46,-7.99,8.16,2.3,-2.3,yes,yes,yes,1,90.86
+test6_A,right side,looked at the camera lens,17.5,-10.29,10.46,-7.05,7.41,3.2,-3.1,yes,yes,yes,1,90.77
+test6_A,right side,looked at the camera lens,17.7,-10.29,10.40,-6.72,8.31,3.6,-2.1,yes,yes,yes,1,89.98
+test6_B1,right side,turned toward the camera side,0.0,-16.46,11.05,-27.62,1.88,-11.2,-9.2,no,no,yes,0,87.71
+test6_B1,right side,turned toward the camera side,0.2,-16.46,11.05,-24.97,2.00,-8.5,-9.1,yes,no,yes,0,89.70
+test6_B1,right side,turned toward the camera side,0.4,-16.34,11.05,-26.19,3.28,-9.9,-7.8,yes,yes,yes,1,90.67
+test6_B1,right side,turned toward the camera side,0.7,-16.34,11.10,-26.35,2.35,-10.0,-8.8,no,yes,yes,1,90.01
+test6_B1,right side,turned toward the camera side,0.9,-16.46,11.00,-24.51,5.05,-8.1,-6.0,yes,yes,yes,1,88.30
+test6_B1,right side,turned toward the camera side,1.1,-16.46,11.00,-24.93,5.18,-8.5,-5.8,yes,yes,yes,1,88.16
+test6_B1,right side,turned toward the camera side,1.3,-16.34,11.05,-23.78,1.78,-7.4,-9.3,yes,yes,yes,1,88.03
+test6_B1,right side,turned toward the camera side,1.5,-16.34,11.05,-25.81,4.07,-9.5,-7.0,yes,yes,yes,1,88.34
+test6_B1,right side,turned toward the camera side,1.7,-16.34,11.05,-17.47,1.82,-1.1,-9.2,yes,yes,yes,1,88.06
+test6_B1,right side,turned toward the camera side,2.0,-16.46,11.05,-25.94,3.90,-9.5,-7.2,yes,yes,yes,1,87.96
+test6_B1,right side,turned toward the camera side,2.2,-16.46,11.05,-27.55,4.47,-11.1,-6.6,no,yes,yes,1,87.48
+test6_B1,right side,turned toward the camera side,2.4,-16.46,11.00,-24.61,5.39,-8.1,-5.6,yes,yes,yes,1,87.45
+test6_B1,right side,turned toward the camera side,2.6,-16.40,11.05,-27.54,4.44,-11.1,-6.6,no,yes,yes,1,86.65
+test6_B1,right side,turned toward the camera side,2.8,-16.40,11.05,-25.73,6.07,-9.3,-5.0,yes,yes,yes,1,86.66
+test6_B1,right side,turned toward the camera side,3.0,-16.46,11.05,-28.02,4.83,-11.6,-6.2,no,no,yes,0,87.13
+test6_B1,right side,turned toward the camera side,3.3,-16.46,11.05,-29.00,4.22,-12.5,-6.8,no,no,yes,0,86.94
+test6_B1,right side,turned toward the camera side,3.5,-16.40,11.05,-23.98,4.76,-7.6,-6.3,yes,no,yes,0,86.38
+test6_B1,right side,turned toward the camera side,3.7,-16.34,11.10,-26.36,4.04,-10.0,-7.1,no,no,yes,0,86.87
+test6_B1,right side,turned toward the camera side,3.9,-16.34,11.10,-24.62,1.48,-8.3,-9.6,yes,no,yes,0,87.11
+test6_B1,right side,turned toward the camera side,4.1,-16.46,11.05,-23.46,4.99,-7.0,-6.1,yes,yes,yes,1,87.23
+test6_B1,right side,turned toward the camera side,4.4,-16.40,11.05,-22.77,6.32,-6.4,-4.7,yes,yes,yes,1,87.60
+test6_B1,right side,turned toward the camera side,4.6,-16.34,11.16,-24.55,3.18,-8.2,-8.0,yes,yes,yes,1,88.28
+test6_B1,right side,turned toward the camera side,4.9,-16.28,11.16,-26.40,4.46,-10.1,-6.7,no,yes,yes,1,87.59
+test6_B1,right side,turned toward the camera side,5.1,-16.34,11.10,-24.79,1.23,-8.4,-9.9,yes,yes,yes,1,88.06
+test6_B1,right side,turned toward the camera side,5.3,-16.34,11.16,-24.59,0.73,-8.2,-10.4,no,yes,yes,1,87.74
+test6_B1,right side,turned toward the camera side,5.5,-16.34,11.10,-26.53,2.98,-10.2,-8.1,no,no,yes,0,87.01
+test6_B1,right side,turned toward the camera side,5.7,-16.34,11.10,-25.79,3.37,-9.4,-7.7,yes,no,yes,0,87.05
+test6_B1,right side,turned toward the camera side,6.0,-16.34,11.05,-20.77,3.23,-4.4,-7.8,yes,yes,yes,1,87.08
+test6_B1,right side,turned toward the camera side,6.2,-16.34,11.05,-22.90,7.69,-6.6,-3.4,yes,yes,yes,1,86.72
+test6_B1,right side,turned toward the camera side,6.4,-16.34,11.05,-23.09,4.15,-6.8,-6.9,yes,yes,yes,1,86.87
+test6_B1,right side,turned toward the camera side,6.6,-16.34,11.05,-24.06,5.69,-7.7,-5.4,yes,yes,yes,1,86.99
+test6_B1,right side,turned toward the camera side,6.8,-16.34,11.10,-23.60,2.84,-7.3,-8.3,yes,yes,yes,1,86.89
+test6_B1,right side,turned toward the camera side,7.0,-16.34,11.16,-16.02,2.09,0.3,-9.1,yes,yes,yes,1,88.25
+test6_B1,right side,turned toward the camera side,7.3,-16.34,11.05,-26.23,6.16,-9.9,-4.9,yes,yes,yes,1,87.26
+test6_B1,right side,turned toward the camera side,7.5,-16.40,11.05,-26.54,5.18,-10.1,-5.9,no,yes,yes,1,87.22
+test6_B1,right side,turned toward the camera side,7.7,-16.34,11.10,-27.41,4.40,-11.1,-6.7,no,yes,yes,1,86.43
+test6_B1,right side,turned toward the camera side,7.9,-16.28,11.10,-26.92,-0.95,-10.6,-12.0,no,no,yes,0,85.59
+test6_B1,right side,turned toward the camera side,8.1,-16.28,11.10,-27.90,1.08,-11.6,-10.0,no,no,yes,0,86.35
+test6_B1,right side,turned toward the camera side,8.4,-16.28,11.10,-28.51,1.84,-12.2,-9.3,no,no,yes,0,87.67
+test6_B1,right side,turned toward the camera side,8.6,-16.34,11.05,-25.24,3.27,-8.9,-7.8,yes,no,yes,0,88.74
+test6_B1,right side,turned toward the camera side,8.8,-16.34,11.10,-25.45,2.37,-9.1,-8.7,yes,no,yes,0,88.88
+test6_B1,right side,turned toward the camera side,9.0,-16.34,11.05,-26.09,3.29,-9.8,-7.8,yes,yes,yes,1,89.10
+test6_B1,right side,turned toward the camera side,9.2,-16.23,11.10,-25.42,1.36,-9.2,-9.7,yes,yes,yes,1,88.61
+test6_B1,right side,turned toward the camera side,9.5,-16.34,11.10,-25.19,4.69,-8.9,-6.4,yes,yes,yes,1,89.03
+test6_B1,right side,turned toward the camera side,9.7,-16.46,11.05,-25.27,2.67,-8.8,-8.4,yes,yes,yes,1,88.88
+test6_B1,right side,turned toward the camera side,9.9,-16.57,11.05,-22.76,4.57,-6.2,-6.5,yes,yes,yes,1,86.77
+test6_B1,right side,turned toward the camera side,10.1,-16.57,11.10,-21.61,2.96,-5.0,-8.1,yes,yes,yes,1,87.61
+test6_B1,right side,turned toward the camera side,10.3,-16.34,11.10,-24.67,1.36,-8.3,-9.7,yes,yes,yes,1,88.34
+test6_B1,right side,turned toward the camera side,10.6,-16.40,11.05,-20.82,3.79,-4.4,-7.3,yes,yes,yes,1,88.16
+test6_B1,right side,turned toward the camera side,10.8,-16.74,11.05,-21.30,3.10,-4.6,-8.0,yes,yes,yes,1,88.74
+test6_B1,right side,turned toward the camera side,11.0,-16.92,10.94,-22.64,2.72,-5.7,-8.2,yes,yes,yes,1,86.24
+test6_B1,right side,turned toward the camera side,11.2,-16.74,10.94,-13.75,0.83,3.0,-10.1,no,yes,yes,1,87.31
+test6_B1,right side,turned toward the camera side,11.4,-16.63,10.94,-18.04,5.56,-1.4,-5.4,yes,yes,yes,1,87.16
+test6_B1,right side,turned toward the camera side,11.6,-16.57,10.94,-18.32,5.73,-1.8,-5.2,yes,yes,yes,1,87.77
+test6_B1,right side,turned toward the camera side,11.9,-16.57,11.00,-19.32,6.10,-2.8,-4.9,yes,yes,yes,1,88.56
+test6_B1,right side,turned toward the camera side,12.1,-16.57,11.05,-19.91,6.14,-3.3,-4.9,yes,yes,yes,1,88.39
+test6_B1,right side,turned toward the camera side,12.3,-16.51,11.05,-22.55,4.39,-6.0,-6.7,yes,yes,yes,1,87.85
+test6_B1,right side,turned toward the camera side,12.5,-16.46,11.05,-20.39,7.47,-3.9,-3.6,yes,yes,yes,1,88.20
+test6_B1,right side,turned toward the camera side,12.7,-16.46,11.16,-24.12,3.73,-7.7,-7.4,yes,yes,yes,1,88.99
+test6_B1,right side,turned toward the camera side,13.0,-16.46,11.21,-21.91,5.22,-5.4,-6.0,yes,yes,yes,1,89.06
+test6_B1,right side,turned toward the camera side,13.2,-16.46,11.32,-21.91,4.22,-5.4,-7.1,yes,yes,yes,1,90.01
+test6_B1,right side,turned toward the camera side,13.4,-16.40,11.26,-23.36,4.81,-7.0,-6.5,yes,yes,yes,1,88.74
+test6_B1,right side,turned toward the camera side,13.6,-16.40,11.26,-23.10,6.24,-6.7,-5.0,yes,yes,yes,1,88.82
+test6_B1,right side,turned toward the camera side,13.8,-16.40,11.26,-21.98,5.65,-5.6,-5.6,yes,yes,yes,1,88.96
+test6_B1,right side,turned toward the camera side,14.0,-16.40,11.26,-25.26,5.33,-8.9,-5.9,yes,yes,yes,1,89.02
+test6_B1,right side,turned toward the camera side,14.3,-16.40,11.26,-22.64,5.31,-6.2,-6.0,yes,yes,yes,1,89.00
+test6_B1,right side,turned toward the camera side,14.5,-16.34,11.21,-2.06,-3.44,14.3,-14.7,no,yes,yes,1,89.98
+test6_B1,right side,turned toward the camera side,14.7,-16.34,11.21,-22.23,6.54,-5.9,-4.7,yes,yes,yes,1,89.33
+test6_B1,right side,turned toward the camera side,14.9,-16.34,11.21,-21.36,6.50,-5.0,-4.7,yes,yes,yes,1,89.27
+test6_B1,right side,turned toward the camera side,15.1,-16.34,11.16,-20.75,7.86,-4.4,-3.3,yes,yes,yes,1,89.49
+test6_B1,right side,turned toward the camera side,15.3,-16.34,11.16,-21.50,7.81,-5.2,-3.4,yes,yes,yes,1,89.67
+test6_B1,right side,turned toward the camera side,15.5,-16.40,11.10,-19.84,7.02,-3.4,-4.1,yes,yes,yes,1,88.64
+test6_B1,right side,turned toward the camera side,15.7,-16.34,11.16,-22.15,7.02,-5.8,-4.1,yes,yes,yes,1,89.66
+test6_B1,right side,turned toward the camera side,15.9,-16.34,11.16,-21.03,7.17,-4.7,-4.0,yes,yes,yes,1,89.17
+test6_B1,right side,turned toward the camera side,16.1,-16.28,11.21,-22.86,5.51,-6.6,-5.7,yes,yes,yes,1,89.54
+test6_B1,right side,turned toward the camera side,16.3,-16.34,11.16,-22.18,5.33,-5.8,-5.8,yes,yes,yes,1,90.38
+test6_B1,right side,turned toward the camera side,16.5,-16.28,11.16,-6.86,-11.33,9.4,-22.5,no,yes,yes,1,90.95
+test6_B1,right side,turned toward the camera side,16.7,-16.34,11.10,-17.35,6.77,-1.0,-4.3,yes,yes,yes,1,89.33
+test6_B1,right side,turned toward the camera side,16.9,-16.34,11.21,-24.87,5.27,-8.5,-5.9,yes,yes,yes,1,89.89
+test6_B1,right side,turned toward the camera side,17.1,-16.34,11.21,-24.09,5.58,-7.8,-5.6,yes,yes,yes,1,89.84
+test6_B1,right side,turned toward the camera side,17.2,-16.40,11.21,-26.21,5.24,-9.8,-6.0,yes,yes,yes,1,90.54
+test6_B1,right side,turned toward the camera side,17.4,-16.51,11.26,-23.61,5.56,-7.1,-5.7,yes,yes,yes,1,89.86
+test6_B1,right side,turned toward the camera side,17.6,-16.57,11.21,-24.48,2.64,-7.9,-8.6,yes,yes,yes,1,90.55
+test6_B1,right side,turned toward the camera side,17.8,-16.51,11.21,-23.12,4.31,-6.6,-6.9,yes,yes,yes,1,88.95
+test6_B1,right side,turned toward the camera side,18.0,-16.46,11.26,-20.52,4.98,-4.1,-6.3,yes,yes,yes,1,90.03
+test6_B1,right side,turned toward the camera side,18.2,-16.40,11.21,-23.67,5.75,-7.3,-5.5,yes,yes,yes,1,90.33
+test6_B1,right side,turned toward the camera side,18.4,-16.46,11.16,-23.88,5.38,-7.4,-5.8,yes,yes,yes,1,89.46
+test6_B1,right side,turned toward the camera side,18.6,-16.51,11.16,-23.54,4.27,-7.0,-6.9,yes,yes,yes,1,89.05
+test6_B1,right side,turned toward the camera side,18.8,-16.51,11.10,-22.85,4.21,-6.3,-6.9,yes,yes,yes,1,89.11
+test6_B1,right side,turned toward the camera side,19.0,-16.51,11.10,-22.79,3.93,-6.3,-7.2,yes,yes,yes,1,89.03
+test6_B1,right side,turned toward the camera side,19.2,-16.51,11.10,-9.77,-3.12,6.7,-14.2,no,yes,yes,1,90.23
+test6_B1,right side,turned toward the camera side,19.4,-16.51,11.05,-18.34,7.30,-1.8,-3.8,yes,yes,yes,1,89.21
+test6_B1,right side,turned toward the camera side,19.6,-16.51,11.10,-22.55,7.80,-6.0,-3.3,yes,yes,yes,1,89.10
+test6_B1,right side,turned toward the camera side,19.8,-16.46,11.10,-21.08,5.96,-4.6,-5.1,yes,yes,yes,1,89.28
+test6_B1,right side,turned toward the camera side,20.0,-16.46,11.10,-19.97,8.37,-3.5,-2.7,yes,yes,yes,1,89.20
+test6_B1,right side,turned toward the camera side,20.2,-16.46,11.10,-21.76,6.58,-5.3,-4.5,yes,yes,yes,1,89.22
+test6_B1,right side,turned toward the camera side,20.4,-16.46,11.10,-20.63,6.74,-4.2,-4.4,yes,yes,yes,1,89.25
+test6_B1,right side,turned toward the camera side,20.6,-16.46,11.10,-21.15,6.35,-4.7,-4.8,yes,yes,yes,1,89.27
+test6_B1,right side,turned toward the camera side,20.8,-16.46,11.10,-21.67,5.58,-5.2,-5.5,yes,yes,yes,1,89.29
+test6_B1,right side,turned toward the camera side,21.0,-16.51,11.05,-21.75,6.14,-5.2,-4.9,yes,yes,yes,1,89.12
+test6_B1,right side,turned toward the camera side,21.2,-16.46,11.10,-20.46,5.75,-4.0,-5.3,yes,yes,yes,1,89.26
+test6_B1,right side,turned toward the camera side,21.4,-16.57,11.10,-18.19,3.10,-1.6,-8.0,yes,yes,yes,1,89.84
+test6_B1,right side,turned toward the camera side,21.6,-16.69,11.00,-20.95,7.40,-4.3,-3.6,yes,yes,yes,1,87.62
+test6_B1,right side,turned toward the camera side,21.8,-16.74,11.00,-18.78,6.75,-2.0,-4.2,yes,yes,yes,1,88.06
+test6_B1,right side,turned toward the camera side,22.0,-16.86,11.05,-20.22,6.82,-3.4,-4.2,yes,yes,yes,1,87.18
+test6_B1,right side,turned toward the camera side,22.2,-16.97,11.05,-21.02,6.56,-4.1,-4.5,yes,yes,yes,1,86.46
+test6_B1,right side,turned toward the camera side,22.4,-16.97,11.00,-18.99,7.43,-2.0,-3.6,yes,yes,yes,1,86.74
+test6_B1,right side,turned toward the camera side,22.5,-17.03,11.00,-19.91,9.03,-2.9,-2.0,yes,yes,yes,1,86.37
+test6_B1,right side,turned toward the camera side,22.7,-17.09,11.00,-21.44,8.12,-4.4,-2.9,yes,yes,yes,1,86.91
+test6_B1,right side,turned toward the camera side,22.9,-17.09,11.00,-21.11,7.94,-4.0,-3.1,yes,yes,yes,1,86.91
+test6_B1,right side,turned toward the camera side,23.1,-17.09,11.00,-20.22,8.98,-3.1,-2.0,yes,yes,yes,1,86.94
+test6_B1,right side,turned toward the camera side,23.3,-17.09,11.05,-19.58,5.82,-2.5,-5.2,yes,yes,yes,1,87.70
+test6_B1,right side,turned toward the camera side,23.5,-16.97,11.05,-20.17,5.02,-3.2,-6.0,yes,yes,yes,1,87.64
+test6_B1,right side,turned toward the camera side,23.7,-16.92,11.05,-19.01,7.32,-2.1,-3.7,yes,yes,yes,1,87.15
+test6_B1,right side,turned toward the camera side,23.9,-16.92,11.05,-17.04,6.67,-0.1,-4.4,yes,yes,yes,1,87.93
+test6_B1,right side,turned toward the camera side,24.1,-16.92,11.05,-15.01,5.23,1.9,-5.8,yes,yes,yes,1,87.91
+test6_B1,right side,turned toward the camera side,24.3,-16.97,11.05,-16.85,6.26,0.1,-4.8,yes,yes,yes,1,87.48
+test6_B1,right side,turned toward the camera side,24.5,-16.92,11.05,-16.62,7.87,0.3,-3.2,yes,yes,yes,1,87.93
+test6_B1,right side,turned toward the camera side,24.7,-16.86,11.05,-13.88,8.96,3.0,-2.1,yes,yes,yes,1,87.43
+test6_B1,right side,turned toward the camera side,24.9,-16.86,11.05,-14.06,10.34,2.8,-0.7,yes,yes,yes,1,87.47
+test6_B1,right side,turned toward the camera side,25.1,-16.86,11.05,-15.51,8.93,1.3,-2.1,yes,yes,yes,1,87.57
+test6_B1,right side,turned toward the camera side,25.3,-16.86,11.10,-14.48,8.26,2.4,-2.8,yes,yes,yes,1,87.44
+test6_B1,right side,turned toward the camera side,25.6,-16.92,11.05,-18.23,7.88,-1.3,-3.2,yes,yes,yes,1,87.96
+test6_B1,right side,turned toward the camera side,25.8,-16.86,11.05,-14.47,9.23,2.4,-1.8,yes,yes,yes,1,87.41
+test6_B1,right side,turned toward the camera side,26.0,-16.92,11.05,-17.58,7.92,-0.7,-3.1,yes,yes,yes,1,87.97
+test6_B1,right side,turned toward the camera side,26.2,-16.86,11.05,-14.82,9.43,2.0,-1.6,yes,yes,yes,1,87.51
+test6_B1,right side,turned toward the camera side,26.4,-16.86,11.05,-14.34,8.71,2.5,-2.3,yes,yes,yes,1,87.53
+test6_B1,right side,turned toward the camera side,26.7,-16.97,11.10,-0.27,-8.96,16.7,-20.1,no,yes,yes,1,88.88
+test6_B1,right side,turned toward the camera side,26.9,-16.97,11.05,5.91,9.00,22.9,-2.1,no,yes,yes,1,87.68
+test6_B1,right side,turned toward the camera side,27.1,-16.97,11.05,5.84,7.19,22.8,-3.9,no,no,yes,0,87.59
+test6_B1,right side,turned toward the camera side,27.3,-16.97,11.05,4.91,7.15,21.9,-3.9,no,no,yes,0,87.55
+test6_B1,right side,turned toward the camera side,27.5,-16.92,11.05,-9.23,-2.58,7.7,-13.6,no,no,yes,0,88.27
+test6_B1,right side,turned toward the camera side,27.7,-16.92,11.00,-17.55,7.07,-0.6,-3.9,yes,no,yes,0,88.01
+test6_B1,right side,turned toward the camera side,28.0,-16.92,11.10,-20.86,5.22,-3.9,-5.9,yes,no,yes,0,88.77
+test6_B1,right side,turned toward the camera side,28.2,-16.86,11.05,-18.97,6.06,-2.1,-5.0,yes,yes,yes,1,87.51
+test6_B1,right side,turned toward the camera side,28.4,-16.92,11.05,-21.75,5.20,-4.8,-5.9,yes,yes,yes,1,88.11
+test6_B1,right side,turned toward the camera side,28.6,-16.92,11.05,-21.97,6.13,-5.0,-4.9,yes,yes,yes,1,88.19
+test6_B1,right side,turned toward the camera side,28.8,-16.92,11.10,-23.68,5.33,-6.8,-5.8,yes,yes,yes,1,88.95
+test6_B1,right side,turned toward the camera side,29.1,-16.92,11.05,-20.90,6.00,-4.0,-5.1,yes,yes,yes,1,88.12
+test6_B1,right side,turned toward the camera side,29.3,-16.92,11.05,-19.62,5.70,-2.7,-5.4,yes,yes,yes,1,87.95
+test6_B1,right side,turned toward the camera side,29.5,-16.92,11.05,-20.80,6.13,-3.9,-4.9,yes,yes,yes,1,88.04
+test6_B1,right side,turned toward the camera side,29.7,-16.92,11.05,-20.96,5.88,-4.0,-5.2,yes,yes,yes,1,88.11
+test6_B1,right side,turned toward the camera side,29.9,-16.92,11.10,-22.27,4.74,-5.3,-6.4,yes,yes,yes,1,87.95
+test6_B1,right side,turned toward the camera side,30.1,-16.86,11.05,-20.30,6.71,-3.4,-4.3,yes,yes,yes,1,87.34
+test6_B1,right side,turned toward the camera side,30.4,-16.92,11.05,-19.25,5.89,-2.3,-5.2,yes,yes,yes,1,87.82
+test6_B1,right side,turned toward the camera side,30.6,-16.97,11.05,-19.53,5.82,-2.6,-5.2,yes,yes,yes,1,87.48
+test6_B1,right side,turned toward the camera side,30.8,-16.97,11.00,-21.22,7.09,-4.2,-3.9,yes,yes,yes,1,86.73
+test6_B1,right side,turned toward the camera side,31.0,-16.97,11.00,-22.99,7.83,-6.0,-3.2,yes,yes,yes,1,86.76
+test6_B1,right side,turned toward the camera side,31.2,-16.97,11.00,-19.01,7.05,-2.0,-4.0,yes,yes,yes,1,86.68
+test6_B1,right side,turned toward the camera side,31.4,-16.97,11.05,-20.51,5.33,-3.5,-5.7,yes,yes,yes,1,87.41
+test6_B1,right side,turned toward the camera side,31.7,-16.97,11.10,-20.49,5.07,-3.5,-6.0,yes,yes,yes,1,87.30
+test6_B1,right side,turned toward the camera side,31.9,-16.97,11.05,-20.54,5.53,-3.6,-5.5,yes,yes,yes,1,87.36
+test6_B1,right side,turned toward the camera side,32.1,-16.97,11.05,-21.36,6.02,-4.4,-5.0,yes,yes,yes,1,87.39
+test6_B1,right side,turned toward the camera side,32.3,-16.97,11.05,-21.49,7.33,-4.5,-3.7,yes,yes,yes,1,87.34
+test6_B1,right side,turned toward the camera side,32.5,-16.97,11.05,-20.73,6.58,-3.8,-4.5,yes,yes,yes,1,87.22
+test6_B1,right side,turned toward the camera side,32.7,-16.97,11.05,-21.98,5.08,-5.0,-6.0,yes,yes,yes,1,87.38
+test6_B1,right side,turned toward the camera side,33.0,-16.97,11.05,-22.44,6.56,-5.5,-4.5,yes,yes,yes,1,87.31
+test6_B1,right side,turned toward the camera side,33.2,-16.97,11.05,-21.36,6.56,-4.4,-4.5,yes,yes,yes,1,87.40
+test6_B1,right side,turned toward the camera side,33.4,-16.97,11.10,-24.36,5.90,-7.4,-5.2,yes,yes,yes,1,88.19
+test6_B1,right side,turned toward the camera side,33.6,-16.97,11.05,-22.80,6.52,-5.8,-4.5,yes,yes,yes,1,87.36
+test6_B1,right side,turned toward the camera side,33.8,-17.09,11.05,-20.20,5.96,-3.1,-5.1,yes,yes,yes,1,87.34
+test6_B1,right side,turned toward the camera side,34.0,-17.09,11.05,-23.71,5.75,-6.6,-5.3,yes,yes,yes,1,87.39
+test6_B1,right side,turned toward the camera side,34.3,-17.09,11.05,-21.62,5.02,-4.5,-6.0,yes,yes,yes,1,87.42
+test6_B1,right side,turned toward the camera side,34.5,-17.09,11.00,-20.31,7.47,-3.2,-3.5,yes,yes,yes,1,86.68
+test6_B1,right side,turned toward the camera side,34.7,-17.09,11.05,-18.82,6.63,-1.7,-4.4,yes,yes,yes,1,87.41
+test6_B1,right side,turned toward the camera side,34.9,-17.09,11.00,-18.70,8.42,-1.6,-2.6,yes,yes,yes,1,86.69
+test6_B1,right side,turned toward the camera side,35.1,-17.03,11.10,-20.07,6.17,-3.0,-4.9,yes,yes,yes,1,86.90
+test6_B1,right side,turned toward the camera side,35.4,-17.03,11.00,-20.29,7.20,-3.3,-3.8,yes,yes,yes,1,88.06
+test6_B1,right side,turned toward the camera side,35.6,-17.09,11.05,-20.12,6.43,-3.0,-4.6,yes,yes,yes,1,87.45
+test6_B1,right side,turned toward the camera side,35.8,-17.03,11.05,-19.96,6.25,-2.9,-4.8,yes,yes,yes,1,87.88
+test6_B2,right side,looked straight ahead (ignoring camera),0.0,-15.53,11.00,4.57,6.70,20.1,-4.3,no,no,no,1,108.19
+test6_B2,right side,looked straight ahead (ignoring camera),0.2,-15.59,11.05,-3.04,6.54,12.6,-4.5,no,no,no,1,107.50
+test6_B2,right side,looked straight ahead (ignoring camera),0.4,-15.53,11.00,1.11,4.80,16.6,-6.2,no,no,no,1,108.10
+test6_B2,right side,looked straight ahead (ignoring camera),0.6,-15.53,11.00,0.24,4.82,15.8,-6.2,no,no,no,1,108.02
+test6_B2,right side,looked straight ahead (ignoring camera),0.9,-15.47,11.05,-2.89,6.10,12.6,-5.0,no,no,no,1,106.96
+test6_B2,right side,looked straight ahead (ignoring camera),1.1,-15.47,10.94,2.33,6.51,17.8,-4.4,no,no,no,1,106.40
+test6_B2,right side,looked straight ahead (ignoring camera),1.3,-15.47,11.00,2.01,6.39,17.5,-4.6,no,no,no,1,106.07
+test6_B2,right side,looked straight ahead (ignoring camera),1.5,-15.53,10.94,2.41,7.06,17.9,-3.9,no,no,no,1,106.82
+test6_B2,right side,looked straight ahead (ignoring camera),1.8,-15.59,10.94,-1.89,4.95,13.7,-6.0,no,no,no,1,106.27
+test6_B2,right side,looked straight ahead (ignoring camera),2.0,-15.53,10.89,7.68,5.07,23.2,-5.8,no,no,no,1,103.64
+test6_B2,right side,looked straight ahead (ignoring camera),2.2,-15.53,10.89,8.28,2.48,23.8,-8.4,no,no,no,1,104.79
+test6_B2,right side,looked straight ahead (ignoring camera),2.4,-15.47,10.94,-3.12,0.97,12.4,-10.0,no,no,no,1,106.10
+test6_B2,right side,looked straight ahead (ignoring camera),2.6,-15.59,10.89,0.89,7.87,16.5,-3.0,no,no,no,1,104.55
+test6_B2,right side,looked straight ahead (ignoring camera),2.8,-15.59,10.89,5.25,7.67,20.8,-3.2,no,no,no,1,104.41
+test6_B2,right side,looked straight ahead (ignoring camera),3.0,-15.53,10.94,5.65,7.06,21.2,-3.9,no,no,no,1,105.66
+test6_B2,right side,looked straight ahead (ignoring camera),3.2,-15.65,10.89,0.94,6.91,16.6,-4.0,no,no,no,1,104.84
+test6_B2,right side,looked straight ahead (ignoring camera),3.4,-15.70,10.94,3.10,4.80,18.8,-6.1,no,no,no,1,105.19
+test6_B2,right side,looked straight ahead (ignoring camera),3.6,-15.70,10.94,1.85,5.15,17.6,-5.8,no,no,no,1,103.99
+test6_B2,right side,looked straight ahead (ignoring camera),3.8,-15.70,10.94,2.36,4.92,18.1,-6.0,no,no,no,1,103.87
+test6_B2,right side,looked straight ahead (ignoring camera),4.0,-15.82,10.94,1.86,3.77,17.7,-7.2,no,no,no,1,104.31
+test6_B2,right side,looked straight ahead (ignoring camera),4.2,-15.88,11.00,3.79,0.72,19.7,-10.3,no,no,no,1,103.31
+test6_B2,right side,looked straight ahead (ignoring camera),4.4,-15.88,10.94,5.71,1.68,21.6,-9.3,no,no,no,1,102.42
+test6_B2,right side,looked straight ahead (ignoring camera),4.6,-15.88,11.00,3.52,3.55,19.4,-7.5,no,no,no,1,103.00
+test6_B2,right side,looked straight ahead (ignoring camera),4.8,-15.82,10.94,4.72,-0.02,20.5,-11.0,no,no,no,1,103.62
+test6_B2,right side,looked straight ahead (ignoring camera),5.1,-15.76,10.89,2.61,3.08,18.4,-7.8,no,no,no,1,104.81
+test6_B2,right side,looked straight ahead (ignoring camera),5.3,-15.70,10.94,5.63,3.92,21.3,-7.0,no,no,no,1,105.14
+test6_B2,right side,looked straight ahead (ignoring camera),5.5,-15.70,11.00,4.34,3.65,20.0,-7.3,no,no,no,1,105.00
+test6_B2,right side,looked straight ahead (ignoring camera),5.8,-15.82,10.94,4.74,-0.01,20.6,-10.9,no,no,no,1,104.36
+test6_B2,right side,looked straight ahead (ignoring camera),6.0,-15.82,10.94,8.82,7.18,24.6,-3.8,no,no,no,1,104.47
+test6_B2,right side,looked straight ahead (ignoring camera),6.2,-15.82,10.94,5.94,5.92,21.8,-5.0,no,no,no,1,104.44
+test6_B2,right side,looked straight ahead (ignoring camera),6.5,-15.82,10.89,7.60,3.36,23.4,-7.5,no,no,no,1,104.92
+test6_B2,right side,looked straight ahead (ignoring camera),6.7,-15.76,10.94,4.40,2.31,20.2,-8.6,no,no,no,1,103.89
+test6_B2,right side,looked straight ahead (ignoring camera),6.9,-15.76,10.94,4.43,1.40,20.2,-9.5,no,no,no,1,103.50
+test6_B2,right side,looked straight ahead (ignoring camera),7.1,-15.76,10.94,7.53,0.17,23.3,-10.8,no,no,no,1,103.36
+test6_B2,right side,looked straight ahead (ignoring camera),7.3,-15.76,10.94,7.88,1.54,23.6,-9.4,no,no,no,1,103.42
+test6_B2,right side,looked straight ahead (ignoring camera),7.6,-15.65,10.94,2.53,4.16,18.2,-6.8,no,no,no,1,105.37
+test6_B2,right side,looked straight ahead (ignoring camera),7.8,-15.70,10.89,3.78,4.69,19.5,-6.2,no,no,no,1,104.28
+test6_B2,right side,looked straight ahead (ignoring camera),8.0,-15.76,10.89,5.53,3.72,21.3,-7.2,no,no,no,1,103.70
+test6_B2,right side,looked straight ahead (ignoring camera),8.2,-15.76,10.89,6.35,2.36,22.1,-8.5,no,no,no,1,103.80
+test6_B2,right side,looked straight ahead (ignoring camera),8.4,-15.76,10.89,0.98,5.00,16.7,-5.9,no,no,no,1,103.77
+test6_B2,right side,looked straight ahead (ignoring camera),8.6,-15.76,10.89,0.32,5.73,16.1,-5.2,no,no,no,1,103.67
+test6_B2,right side,looked straight ahead (ignoring camera),8.8,-15.76,10.89,-0.40,3.81,15.4,-7.1,no,no,no,1,103.60
+test6_B2,right side,looked straight ahead (ignoring camera),9.0,-15.70,10.89,8.10,8.14,23.8,-2.8,no,no,no,1,103.99
+test6_B2,right side,looked straight ahead (ignoring camera),9.3,-15.53,10.89,6.87,8.79,22.4,-2.1,no,no,no,1,104.40
+test6_B2,right side,looked straight ahead (ignoring camera),9.5,-15.70,10.89,1.83,7.83,17.5,-3.1,no,no,no,1,104.01
+test6_B2,right side,looked straight ahead (ignoring camera),9.7,-15.76,10.89,5.18,5.96,20.9,-4.9,no,no,no,1,103.58
+test6_B2,right side,looked straight ahead (ignoring camera),9.9,-15.59,10.89,1.52,5.54,17.1,-5.4,no,no,no,1,104.76
+test6_B2,right side,looked straight ahead (ignoring camera),10.1,-15.65,10.89,0.39,5.46,16.0,-5.4,no,no,no,1,105.26
+test6_B2,right side,looked straight ahead (ignoring camera),10.3,-15.76,10.83,12.06,3.14,27.8,-7.7,no,no,no,1,103.99
+test6_B2,right side,looked straight ahead (ignoring camera),10.6,-15.76,10.83,7.83,4.01,23.6,-6.8,no,no,no,1,103.91
+test6_B2,right side,looked straight ahead (ignoring camera),10.8,-15.59,10.89,3.50,3.23,19.1,-7.7,no,no,no,1,104.83
+test6_B2,right side,looked straight ahead (ignoring camera),11.0,-15.59,10.89,1.52,2.65,17.1,-8.2,no,no,no,1,104.75
+test6_B2,right side,looked straight ahead (ignoring camera),11.2,-15.59,10.83,2.59,2.28,18.2,-8.6,no,no,no,1,103.77
+test6_B2,right side,looked straight ahead (ignoring camera),11.4,-15.53,10.73,8.69,3.98,24.2,-6.8,no,no,no,1,102.53
+test6_B2,right side,looked straight ahead (ignoring camera),11.7,-15.53,10.78,7.67,1.92,23.2,-8.9,no,no,no,1,102.29
+test6_B2,right side,looked straight ahead (ignoring camera),11.9,-15.65,10.78,6.06,4.67,21.7,-6.1,no,no,no,1,102.78
+test6_B2,right side,looked straight ahead (ignoring camera),12.1,-15.53,10.78,7.23,2.01,22.8,-8.8,no,no,no,1,102.41
+test6_B2,right side,looked straight ahead (ignoring camera),12.3,-15.47,10.78,1.83,3.41,17.3,-7.4,no,no,no,1,102.38
+test6_B2,right side,looked straight ahead (ignoring camera),12.4,-15.47,10.78,5.78,8.39,21.2,-2.4,no,no,no,1,103.62
+test6_B2,right side,looked straight ahead (ignoring camera),12.6,-15.47,10.78,1.44,6.92,16.9,-3.9,no,no,no,1,103.52
+test6_B2,right side,looked straight ahead (ignoring camera),12.8,-15.47,10.83,-2.48,3.92,13.0,-6.9,no,no,no,1,103.18
+test6_B2,right side,looked straight ahead (ignoring camera),13.0,-15.41,10.78,1.48,2.60,16.9,-8.2,no,no,no,1,104.24
+test6_B2,right side,looked straight ahead (ignoring camera),13.2,-15.41,10.83,8.82,3.24,24.2,-7.6,no,no,no,1,103.80
+test6_B2,right side,looked straight ahead (ignoring camera),13.4,-15.47,10.78,3.41,6.72,18.9,-4.1,no,no,no,1,103.41
+test6_B2,right side,looked straight ahead (ignoring camera),13.6,-15.47,10.78,2.08,4.08,17.6,-6.7,no,no,no,1,103.36
+test6_B2,right side,looked straight ahead (ignoring camera),13.8,-15.47,10.78,1.05,4.43,16.5,-6.3,no,no,no,1,103.36
+test6_B2,right side,looked straight ahead (ignoring camera),14.0,-15.47,10.78,-1.01,2.91,14.5,-7.9,no,no,no,1,103.30
+test6_B2,right side,looked straight ahead (ignoring camera),14.2,-15.59,10.78,6.09,3.70,21.7,-7.1,no,no,no,1,103.65
+test6_B2,right side,looked straight ahead (ignoring camera),14.4,-15.41,10.89,-0.37,5.15,15.0,-5.7,no,no,no,1,104.22
+test6_B2,right side,looked straight ahead (ignoring camera),14.6,-15.47,10.78,3.14,4.06,18.6,-6.7,no,no,no,1,102.50
+test6_B2,right side,looked straight ahead (ignoring camera),14.8,-15.47,10.78,0.84,1.86,16.3,-8.9,no,no,no,1,103.55
+test6_B2,right side,looked straight ahead (ignoring camera),15.0,-15.47,10.83,0.73,1.22,16.2,-9.6,no,no,no,1,103.26
+test6_B2,right side,looked straight ahead (ignoring camera),15.2,-15.59,10.73,4.61,4.32,20.2,-6.4,no,no,no,1,103.24
+test6_B2,right side,looked straight ahead (ignoring camera),15.4,-15.53,10.78,7.86,2.27,23.4,-8.5,no,no,no,1,102.34
+test6_B2,right side,looked straight ahead (ignoring camera),15.7,-15.47,10.83,1.27,6.08,16.7,-4.8,no,no,no,1,103.59
+test6_B2,right side,looked straight ahead (ignoring camera),15.9,-15.47,10.83,1.15,3.29,16.6,-7.5,no,no,no,1,103.54
+test6_B2,right side,looked straight ahead (ignoring camera),16.1,-15.47,10.78,8.20,2.74,23.7,-8.0,no,no,no,1,102.90
+test6_B2,right side,looked straight ahead (ignoring camera),16.3,-15.47,10.89,-0.27,1.38,15.2,-9.5,no,no,no,1,104.38
+test6_B2,right side,looked straight ahead (ignoring camera),16.5,-15.53,10.78,9.95,4.74,25.5,-6.0,no,no,no,1,102.45
+test6_B2,right side,looked straight ahead (ignoring camera),16.8,-15.47,10.78,6.47,4.01,21.9,-6.8,no,no,no,1,103.06
+test6_B2,right side,looked straight ahead (ignoring camera),17.0,-15.41,10.89,3.64,0.42,19.1,-10.5,no,no,no,1,103.88
+test6_B2,right side,looked straight ahead (ignoring camera),17.2,-15.53,10.83,4.97,1.23,20.5,-9.6,no,no,no,1,103.39
+test6_B2,right side,looked straight ahead (ignoring camera),17.4,-15.47,10.89,2.44,4.12,17.9,-6.8,no,no,no,1,104.44
+test6_B2,right side,looked straight ahead (ignoring camera),17.6,-15.47,10.89,2.19,3.73,17.7,-7.2,no,no,no,1,104.52
+test6_B2,right side,looked straight ahead (ignoring camera),17.9,-15.65,10.83,4.06,3.96,19.7,-6.9,no,no,no,1,103.62
+test6_B2,right side,looked straight ahead (ignoring camera),18.1,-15.47,10.89,1.19,3.40,16.7,-7.5,no,no,no,1,104.56
+test6_B2,right side,looked straight ahead (ignoring camera),18.3,-15.53,10.89,4.88,0.92,20.4,-10.0,no,no,no,1,104.19
+test6_B2,right side,looked straight ahead (ignoring camera),18.5,-15.53,10.83,10.04,7.86,25.6,-3.0,no,no,no,1,103.55
+test6_B2,right side,looked straight ahead (ignoring camera),18.7,-15.59,10.83,5.51,5.02,21.1,-5.8,no,no,no,1,104.21
+test6_B2,right side,looked straight ahead (ignoring camera),19.0,-15.47,10.89,-2.65,5.84,12.8,-5.1,no,no,no,1,104.72
+test6_B2,right side,looked straight ahead (ignoring camera),19.2,-15.65,10.83,10.11,2.50,25.8,-8.3,no,no,no,1,103.77
+test6_B2,right side,looked straight ahead (ignoring camera),19.4,-15.53,10.89,6.25,0.24,21.8,-10.7,no,no,no,1,104.26
+test6_B2,right side,looked straight ahead (ignoring camera),19.6,-15.59,10.83,7.90,2.60,23.5,-8.2,no,no,no,1,104.22
+test6_B2,right side,looked straight ahead (ignoring camera),19.8,-15.59,10.78,6.26,3.34,21.9,-7.4,no,no,no,1,104.50
+test6_B2,right side,looked straight ahead (ignoring camera),20.0,-15.65,10.83,5.00,4.05,20.6,-6.8,no,no,no,1,103.76
+test6_B2,right side,looked straight ahead (ignoring camera),20.1,-15.70,10.83,7.37,1.99,23.1,-8.8,no,no,no,1,104.19
+test6_B2,right side,looked straight ahead (ignoring camera),20.3,-15.53,10.89,3.37,2.88,18.9,-8.0,no,no,no,1,105.09
+test6_B2,right side,looked straight ahead (ignoring camera),20.6,-15.70,10.83,11.45,2.68,27.1,-8.2,no,no,no,1,104.21
+test6_B2,right side,looked straight ahead (ignoring camera),20.8,-15.59,10.89,2.89,0.62,18.5,-10.3,no,no,no,1,104.80
+test6_B2,right side,looked straight ahead (ignoring camera),21.0,-15.53,10.89,-1.44,2.82,14.1,-8.1,no,no,no,1,105.07
+test6_B2,right side,looked straight ahead (ignoring camera),21.2,-15.70,10.83,5.53,2.50,21.2,-8.3,no,no,no,1,104.04
+test6_B2,right side,looked straight ahead (ignoring camera),21.4,-15.59,10.89,4.02,6.31,19.6,-4.6,no,no,no,1,104.58
+test6_B2,right side,looked straight ahead (ignoring camera),21.6,-15.70,10.89,3.28,6.35,19.0,-4.5,no,no,no,1,104.81
+test6_B2,right side,looked straight ahead (ignoring camera),21.8,-15.70,10.83,7.95,4.45,23.6,-6.4,no,no,no,1,104.01
+test6_B2,right side,looked straight ahead (ignoring camera),22.0,-15.53,10.89,-1.47,4.88,14.1,-6.0,no,no,no,1,104.93
+test6_B2,right side,looked straight ahead (ignoring camera),22.2,-15.59,10.89,2.44,2.42,18.0,-8.5,no,no,no,1,104.63
+test6_B2,right side,looked straight ahead (ignoring camera),22.4,-15.53,10.83,-1.45,2.35,14.1,-8.5,no,no,no,1,105.24
+test6_B2,right side,looked straight ahead (ignoring camera),22.5,-15.59,10.89,2.84,0.47,18.4,-10.4,no,no,no,1,104.73
+test6_B2,right side,looked straight ahead (ignoring camera),22.8,-15.59,10.89,2.95,0.72,18.5,-10.2,no,no,no,1,104.80
+test6_B2,right side,looked straight ahead (ignoring camera),23.0,-15.70,10.83,7.34,3.91,23.0,-6.9,no,no,no,1,104.24
+test6_B2,right side,looked straight ahead (ignoring camera),23.2,-15.59,10.89,1.25,0.38,16.8,-10.5,no,no,no,1,104.79
+test6_B2,right side,looked straight ahead (ignoring camera),23.4,-15.59,10.89,1.89,2.90,17.5,-8.0,no,no,no,1,104.74
+test6_B2,right side,looked straight ahead (ignoring camera),23.7,-15.70,10.83,8.02,2.83,23.7,-8.0,no,no,no,1,104.31
+test6_B2,right side,looked straight ahead (ignoring camera),23.9,-15.53,10.83,-2.26,3.81,13.3,-7.0,no,no,no,1,105.42
+test6_B2,right side,looked straight ahead (ignoring camera),24.1,-15.76,10.78,6.62,1.02,22.4,-9.8,no,no,no,1,104.30
+test6_B2,right side,looked straight ahead (ignoring camera),24.3,-15.76,10.78,9.14,1.73,24.9,-9.0,no,no,no,1,105.19
+test6_B2,right side,looked straight ahead (ignoring camera),24.5,-15.76,10.78,-1.22,3.43,14.5,-7.3,no,no,no,1,104.30
+test6_B2,right side,looked straight ahead (ignoring camera),24.8,-15.76,10.83,6.95,2.79,22.7,-8.0,no,no,no,1,105.71
+test6_B2,right side,looked straight ahead (ignoring camera),25.0,-15.76,10.78,7.03,5.58,22.8,-5.2,no,no,no,1,105.32
+test6_B2,right side,looked straight ahead (ignoring camera),25.2,-15.76,10.78,0.09,2.82,15.8,-8.0,no,no,no,1,105.14
+test6_B2,right side,looked straight ahead (ignoring camera),25.4,-15.76,10.73,2.58,0.68,18.3,-10.1,no,no,no,1,104.31
+test6_B2,right side,looked straight ahead (ignoring camera),25.7,-15.65,10.83,2.72,1.96,18.4,-8.9,no,no,no,1,104.74
+test6_B2,right side,looked straight ahead (ignoring camera),25.9,-15.65,10.83,1.48,-1.48,17.1,-12.3,no,no,no,1,104.82
+test6_B2,right side,looked straight ahead (ignoring camera),26.1,-15.65,10.83,1.60,1.19,17.2,-9.6,no,no,no,1,104.85
+test6_B2,right side,looked straight ahead (ignoring camera),26.3,-15.65,10.83,3.36,1.49,19.0,-9.3,no,no,no,1,104.75
+test6_B2,right side,looked straight ahead (ignoring camera),26.6,-15.65,10.89,-0.67,0.44,15.0,-10.5,no,no,no,1,104.56
+test6_B2,right side,looked straight ahead (ignoring camera),26.8,-15.82,10.78,0.66,1.35,16.5,-9.4,no,no,no,1,105.30
+test6_B2,right side,looked straight ahead (ignoring camera),27.0,-15.82,10.78,4.62,0.54,20.4,-10.2,no,no,no,1,104.95
+test6_B2,right side,looked straight ahead (ignoring camera),27.2,-15.82,10.78,2.31,-1.98,18.1,-12.8,no,no,no,1,104.99
+test6_B2,right side,looked straight ahead (ignoring camera),27.4,-15.59,10.83,6.19,5.65,21.8,-5.2,no,no,no,1,104.82
+test6_B2,right side,looked straight ahead (ignoring camera),27.6,-15.65,10.83,-2.48,2.87,13.2,-8.0,no,no,no,1,105.27
+test6_B2,right side,looked straight ahead (ignoring camera),27.8,-15.82,10.83,0.97,2.73,16.8,-8.1,no,no,no,1,105.87
+test6_B2,right side,looked straight ahead (ignoring camera),28.0,-15.76,10.83,3.30,2.28,19.1,-8.6,no,no,no,1,105.37
+test6_B2,right side,looked straight ahead (ignoring camera),28.2,-15.82,10.83,-0.73,2.32,15.1,-8.5,no,no,no,1,105.81
+test6_B2,right side,looked straight ahead (ignoring camera),28.4,-15.70,10.83,2.12,2.65,17.8,-8.2,no,no,no,1,105.84
+test6_B2,right side,looked straight ahead (ignoring camera),28.6,-15.76,10.83,4.86,1.36,20.6,-9.5,no,no,no,1,105.41
+test6_B2,right side,looked straight ahead (ignoring camera),28.8,-15.82,10.83,6.57,0.77,22.4,-10.1,no,no,no,1,106.01
+test6_B2,right side,looked straight ahead (ignoring camera),29.0,-15.82,10.83,3.11,-0.69,18.9,-11.5,no,no,no,1,106.12
+test6_B2,right side,looked straight ahead (ignoring camera),29.3,-15.82,10.83,3.06,0.76,18.9,-10.1,no,no,no,1,106.11
+test6_B2,right side,looked straight ahead (ignoring camera),29.5,-15.82,10.83,-2.77,1.31,13.1,-9.5,no,no,no,1,106.24
+test6_B2,right side,looked straight ahead (ignoring camera),29.7,-15.82,10.89,7.81,-0.99,23.6,-11.9,no,no,no,1,106.02
+test6_B2,right side,looked straight ahead (ignoring camera),29.9,-15.76,10.89,7.34,-0.98,23.1,-11.9,no,no,no,1,105.58
+test6_B2,right side,looked straight ahead (ignoring camera),30.1,-15.70,10.89,5.55,3.10,21.2,-7.8,no,no,no,1,106.06
+test6_B2,right side,looked straight ahead (ignoring camera),30.3,-15.70,10.89,2.54,3.21,18.2,-7.7,no,no,no,1,106.37
+test6_B2,right side,looked straight ahead (ignoring camera),30.5,-15.70,10.89,6.65,1.32,22.4,-9.6,no,no,no,1,105.59
+test6_B2,right side,looked straight ahead (ignoring camera),30.7,-15.70,10.89,4.22,1.98,19.9,-8.9,no,no,no,1,106.66
+test6_B2,right side,looked straight ahead (ignoring camera),30.9,-15.76,10.89,9.83,-1.81,25.6,-12.7,no,no,no,1,107.48
+test6_B2,right side,looked straight ahead (ignoring camera),31.1,-15.65,10.89,6.61,2.03,22.3,-8.9,no,no,no,1,107.47
+test6_B2,right side,looked straight ahead (ignoring camera),31.3,-15.76,10.89,5.76,1.13,21.5,-9.8,no,no,no,1,106.06
+test6_B2,right side,looked straight ahead (ignoring camera),31.5,-15.70,10.89,2.36,0.68,18.1,-10.2,no,no,no,1,106.64
+test6_B2,right side,looked straight ahead (ignoring camera),31.7,-15.76,10.89,7.32,-0.13,23.1,-11.0,no,no,no,1,106.26
+test6_B2,right side,looked straight ahead (ignoring camera),31.9,-15.70,10.89,0.26,0.35,16.0,-10.5,no,no,no,1,106.83
+test6_B2,right side,looked straight ahead (ignoring camera),32.1,-15.70,10.89,5.31,3.83,21.0,-7.1,no,no,no,1,106.83
+test6_B2,right side,looked straight ahead (ignoring camera),32.4,-15.65,10.94,12.12,3.91,27.8,-7.0,no,no,no,1,108.44
+test6_B2,right side,looked straight ahead (ignoring camera),32.6,-15.70,10.89,1.62,3.50,17.3,-7.4,no,no,no,1,106.61
+test6_B2,right side,looked straight ahead (ignoring camera),32.8,-15.70,10.89,7.69,0.61,23.4,-10.3,no,no,no,1,106.47
+test6_B2,right side,looked straight ahead (ignoring camera),33.0,-15.70,10.89,3.94,0.73,19.6,-10.2,no,no,no,1,106.37
+test6_B2,right side,looked straight ahead (ignoring camera),33.2,-15.82,10.89,3.97,0.76,19.8,-10.1,no,no,no,1,106.13
+test6_B2,right side,looked straight ahead (ignoring camera),33.4,-15.76,10.89,8.84,0.74,24.6,-10.2,no,no,no,1,105.71
+test6_B2,right side,looked straight ahead (ignoring camera),33.6,-15.70,10.89,5.88,-0.94,21.6,-11.8,no,no,no,1,106.25
+test6_B2,right side,looked straight ahead (ignoring camera),33.8,-15.70,10.89,5.73,1.36,21.4,-9.5,no,no,no,1,106.29
+test6_B2,right side,looked straight ahead (ignoring camera),34.0,-15.76,10.83,7.25,1.54,23.0,-9.3,no,no,no,1,105.95
+test6_B2,right side,looked straight ahead (ignoring camera),34.3,-15.76,10.83,10.05,2.37,25.8,-8.5,no,no,no,1,105.92
+test6_B2,right side,looked straight ahead (ignoring camera),34.5,-15.65,10.89,1.57,3.44,17.2,-7.5,no,no,no,1,106.54
+test6_B2,right side,looked straight ahead (ignoring camera),34.7,-15.76,10.83,17.05,0.37,32.8,-10.5,no,no,no,1,105.91
+test6_B2,right side,looked straight ahead (ignoring camera),34.9,-15.65,10.83,16.23,4.80,31.9,-6.0,no,no,no,1,105.72
+test6_B2,right side,looked straight ahead (ignoring camera),35.1,-15.70,10.78,9.22,3.91,24.9,-6.9,no,no,no,1,104.98
+test6_B2,right side,looked straight ahead (ignoring camera),35.3,-15.76,10.78,8.96,3.72,24.7,-7.1,no,no,no,1,104.53
+test6_B2,right side,looked straight ahead (ignoring camera),35.5,-15.70,10.83,0.40,2.73,16.1,-8.1,no,no,no,1,106.12
+test6_B2,right side,looked straight ahead (ignoring camera),35.8,-15.76,10.83,0.70,4.68,16.5,-6.2,no,no,no,1,105.50
+test6_C,right side,looked away to your right,0.0,-15.94,10.13,20.11,15.66,36.0,5.5,no,no,no,1,52.96
+test6_C,right side,looked away to your right,0.2,-16.51,9.76,33.68,18.32,50.2,8.6,no,no,no,1,52.44
+test6_C,right side,looked away to your right,0.4,-16.57,9.76,32.35,20.52,48.9,10.8,no,no,no,1,53.17
+test6_C,right side,looked away to your right,0.6,-16.57,9.70,33.59,24.29,50.2,14.6,no,no,no,1,52.66
+test6_C,right side,looked away to your right,0.9,-16.63,9.81,39.13,22.85,55.8,13.0,no,no,no,1,53.17
+test6_C,right side,looked away to your right,1.1,-16.63,9.81,32.91,22.62,49.5,12.8,no,no,no,1,53.09
+test6_C,right side,looked away to your right,1.3,-16.74,9.59,33.32,21.30,50.1,11.7,no,no,no,1,52.82
+test6_C,right side,looked away to your right,1.5,-16.80,9.65,33.83,26.70,50.6,17.0,no,no,no,1,53.57
+test6_C,right side,looked away to your right,1.7,-16.92,9.65,35.66,26.27,52.6,16.6,no,no,no,1,54.76
+test6_C,right side,looked away to your right,2.0,-16.92,9.76,36.09,18.95,53.0,9.2,no,no,no,1,54.92
+test6_C,right side,looked away to your right,2.2,-17.03,9.76,38.70,25.72,55.7,16.0,no,no,no,1,55.05
+test6_C,right side,looked away to your right,2.4,-17.03,9.70,37.78,22.27,54.8,12.6,no,no,no,1,54.81
+test6_C,right side,looked away to your right,2.6,-17.03,9.70,34.09,22.40,51.1,12.7,no,no,no,1,54.88
+test6_C,right side,looked away to your right,2.8,-17.03,9.70,33.73,19.69,50.8,10.0,no,no,no,1,54.85
+test6_C,right side,looked away to your right,3.0,-17.03,9.65,26.09,20.87,43.1,11.2,no,no,no,1,54.57
+test6_C,right side,looked away to your right,3.2,-17.09,9.54,31.53,21.23,48.6,11.7,no,no,no,1,54.43
+test6_C,right side,looked away to your right,3.4,-17.09,9.49,35.22,25.23,52.3,15.7,no,no,no,1,54.42
+test6_C,right side,looked away to your right,3.6,-17.09,9.54,34.03,24.39,51.1,14.9,no,no,no,1,54.71
+test6_C,right side,looked away to your right,3.8,-16.97,9.54,40.63,25.31,57.6,15.8,no,no,no,1,54.54
+test6_C,right side,looked away to your right,4.0,-16.97,9.54,34.81,27.60,51.8,18.1,no,no,no,1,54.51
+test6_C,right side,looked away to your right,4.2,-17.03,9.54,40.22,24.60,57.2,15.1,no,no,no,1,54.70
+test6_C,right side,looked away to your right,4.4,-16.97,9.54,38.34,26.72,55.3,17.2,no,no,no,1,54.38
+test6_C,right side,looked away to your right,4.6,-16.97,9.59,30.26,28.72,47.2,19.1,no,no,no,1,54.49
+test6_C,right side,looked away to your right,4.8,-16.92,9.54,40.13,18.73,57.1,9.2,no,no,no,1,53.93
+test6_C,right side,looked away to your right,5.0,-16.97,9.59,34.31,27.40,51.3,17.8,no,no,no,1,54.56
+test6_C,right side,looked away to your right,5.3,-16.97,9.59,36.27,26.45,53.2,16.9,no,no,no,1,54.58
+test6_C,right side,looked away to your right,5.5,-16.97,9.59,38.62,20.71,55.6,11.1,no,no,no,1,54.51
+test6_C,right side,looked away to your right,5.7,-16.97,9.59,40.36,20.28,57.3,10.7,no,no,no,1,54.50
+test6_C,right side,looked away to your right,5.9,-16.97,9.59,38.92,24.45,55.9,14.9,no,no,no,1,54.54
+test6_C,right side,looked away to your right,6.1,-16.97,9.59,39.83,21.19,56.8,11.6,no,no,no,1,54.43
+test6_C,right side,looked away to your right,6.4,-16.97,9.65,37.18,22.67,54.1,13.0,no,no,no,1,54.68
+test6_C,right side,looked away to your right,6.6,-16.97,9.59,39.26,17.79,56.2,8.2,no,no,no,1,54.40
+test6_C,right side,looked away to your right,6.8,-16.97,9.65,40.50,23.59,57.5,13.9,no,no,no,1,54.79
+test6_C,right side,looked away to your right,6.9,-17.03,9.76,38.48,21.05,55.5,11.3,no,no,no,1,55.54
+test6_C,right side,looked away to your right,7.2,-17.03,9.70,38.57,25.26,55.6,15.6,no,no,no,1,55.39
+test6_C,right side,looked away to your right,7.6,-17.09,9.70,39.61,23.31,56.7,13.6,no,no,no,1,55.59
+test6_C,right side,looked away to your right,7.7,-17.03,9.76,40.04,24.80,57.1,15.0,no,no,no,1,55.53
+test6_C,right side,looked away to your right,7.9,-17.03,9.70,35.40,10.43,52.4,0.7,no,no,no,1,55.28
+test6_C,right side,looked away to your right,8.1,-17.03,9.70,33.34,2.50,50.4,-7.2,no,no,no,1,55.27
+test6_C,right side,looked away to your right,8.3,-17.03,9.76,26.34,17.08,43.4,7.3,no,no,no,1,55.25
+test6_C,right side,looked away to your right,8.5,-17.03,9.76,29.17,20.49,46.2,10.7,no,no,no,1,55.28
+test6_C,right side,looked away to your right,8.8,-17.03,9.70,28.64,24.40,45.7,14.7,no,no,no,1,55.27
+test6_C,right side,looked away to your right,9.0,-17.03,9.70,34.99,25.94,52.0,16.2,no,no,no,1,55.40
+test6_C,right side,looked away to your right,9.2,-17.03,9.70,36.64,26.69,53.7,17.0,no,no,no,1,55.50
+test6_C,right side,looked away to your right,9.4,-17.03,9.70,35.75,28.18,52.8,18.5,no,no,no,1,55.56
+test6_C,right side,looked away to your right,9.6,-17.03,9.76,39.11,23.62,56.1,13.9,no,no,no,1,55.51
+test6_C,right side,looked away to your right,9.8,-17.03,9.76,37.76,23.26,54.8,13.5,no,no,no,1,55.50
+test6_C,right side,looked away to your right,10.1,-17.03,9.76,38.98,19.48,56.0,9.7,no,no,no,1,55.40
+test6_C,right side,looked away to your right,10.3,-17.03,9.76,35.42,16.53,52.5,6.8,no,no,no,1,55.34
+test6_C,right side,looked away to your right,10.5,-17.03,9.76,32.04,20.55,49.1,10.8,no,no,no,1,55.28
+test6_C,right side,looked away to your right,10.7,-17.03,9.76,29.79,18.46,46.8,8.7,no,no,no,1,55.20
+test6_C,right side,looked away to your right,10.9,-17.03,9.76,34.64,19.15,51.7,9.4,no,no,no,1,55.31
+test6_C,right side,looked away to your right,11.2,-17.09,9.76,37.88,18.92,55.0,9.2,no,no,no,1,55.36
+test6_C,right side,looked away to your right,11.4,-17.09,9.81,43.85,13.73,60.9,3.9,no,no,no,1,55.93
+test6_C,right side,looked away to your right,11.6,-17.09,9.76,35.70,18.44,52.8,8.7,no,no,no,1,55.20
+test6_C,right side,looked away to your right,11.8,-17.09,9.76,29.44,23.08,46.5,13.3,no,no,no,1,55.40
+test6_C,right side,looked away to your right,12.0,-17.03,9.76,27.50,26.14,44.5,16.4,no,no,no,1,55.20
+test6_C,right side,looked away to your right,12.2,-17.09,9.76,33.47,22.26,50.6,12.5,no,no,no,1,55.51
+test6_C,right side,looked away to your right,12.5,-17.15,9.70,31.48,12.14,48.6,2.4,no,no,no,1,55.49
+test6_C,right side,looked away to your right,12.7,-17.15,9.70,34.97,22.41,52.1,12.7,no,no,no,1,55.40
+test6_C,right side,looked away to your right,12.9,-17.09,9.76,27.67,29.65,44.8,19.9,no,no,no,1,55.79
+test6_C,right side,looked away to your right,13.1,-17.20,9.76,27.76,23.47,45.0,13.7,no,no,no,1,56.04
+test6_C,right side,looked away to your right,13.3,-17.15,9.70,29.83,25.78,47.0,16.1,no,no,no,1,55.40
+test6_C,right side,looked away to your right,13.6,-17.15,9.76,33.94,24.60,51.1,14.8,no,no,no,1,55.86
+test6_C,right side,looked away to your right,13.8,-17.15,9.70,25.90,19.62,43.0,9.9,no,no,no,1,55.36
+test6_C,right side,looked away to your right,14.0,-17.20,9.76,36.37,28.38,53.6,18.6,no,no,no,1,55.93
+test6_C,right side,looked away to your right,14.2,-17.20,9.76,34.24,22.33,51.4,12.6,no,no,no,1,55.93
+test6_C,right side,looked away to your right,14.4,-17.15,9.76,21.98,28.42,39.1,18.7,no,no,no,1,56.13
+test6_C,right side,looked away to your right,14.6,-17.20,9.76,32.74,25.93,49.9,16.2,no,no,no,1,56.15
+test6_C,right side,looked away to your right,14.9,-17.15,9.76,24.68,23.95,41.8,14.2,no,no,no,1,56.17
+test6_C,right side,looked away to your right,15.1,-17.20,9.76,33.38,20.97,50.6,11.2,no,no,no,1,56.07
+test6_C,right side,looked away to your right,15.3,-17.20,9.76,36.21,20.33,53.4,10.6,no,no,no,1,55.96
+test6_C,right side,looked away to your right,15.5,-17.20,9.76,33.35,16.55,50.5,6.8,no,no,no,1,55.67
+test6_C,right side,looked away to your right,15.7,-17.20,9.76,27.88,17.92,45.1,8.2,no,no,no,1,55.48
+test6_C,right side,looked away to your right,15.9,-17.20,9.76,26.24,16.46,43.4,6.7,no,no,no,1,55.40
+test6_C,right side,looked away to your right,16.2,-17.20,9.81,22.74,10.49,39.9,0.7,no,no,no,1,55.38
+test6_C,right side,looked away to your right,16.4,-17.26,9.86,23.08,9.33,40.3,-0.5,no,no,no,1,55.64
+test6_C,right side,looked away to your right,16.6,-17.26,9.86,23.40,15.26,40.7,5.4,no,no,no,1,55.70
+test6_C,right side,looked away to your right,16.8,-17.20,9.86,25.58,11.93,42.8,2.1,no,no,no,1,56.07
+test6_C,right side,looked away to your right,17.0,-17.26,9.81,22.86,18.29,40.1,8.5,no,no,no,1,55.43
+test6_C,right side,looked away to your right,17.2,-17.26,9.92,25.68,14.75,42.9,4.8,no,no,no,1,55.79
+test6_C,right side,looked away to your right,17.5,-17.26,9.86,20.23,19.47,37.5,9.6,no,no,no,1,56.00
+test6_C,right side,looked away to your right,17.7,-17.20,9.92,28.17,15.69,45.4,5.8,no,no,no,1,55.91
+test6_C,right side,looked away to your right,17.9,-17.26,9.86,25.77,21.25,43.0,11.4,no,no,no,1,56.13
+test6_C,right side,looked away to your right,18.1,-17.26,9.81,27.93,25.25,45.2,15.4,no,no,no,1,55.77
+test6_C,right side,looked away to your right,18.3,-17.26,9.86,24.80,19.36,42.1,9.5,no,no,no,1,56.17
+test6_C,right side,looked away to your right,18.5,-17.26,9.76,25.74,28.02,43.0,18.3,no,no,no,1,55.53
+test6_C,right side,looked away to your right,18.8,-17.20,9.81,32.31,23.95,49.5,14.1,no,no,no,1,55.50
+test6_C,right side,looked away to your right,19.0,-17.26,9.86,35.58,17.12,52.8,7.3,no,no,no,1,56.02
+test6_C,right side,looked away to your right,19.2,-17.20,9.81,32.42,19.40,49.6,9.6,no,no,no,1,55.50
+test6_C,right side,looked away to your right,19.4,-17.20,9.92,32.14,18.51,49.3,8.6,no,no,no,1,55.99
+test6_C,right side,looked away to your right,19.6,-17.26,9.86,31.97,20.02,49.2,10.2,no,no,no,1,56.08
+test6_C,right side,looked away to your right,19.8,-17.26,9.86,34.61,21.98,51.9,12.1,no,no,no,1,56.04
+test6_C,right side,looked away to your right,20.1,-17.20,9.81,25.48,26.76,42.7,17.0,no,no,no,1,55.38
+test6_C,right side,looked away to your right,20.3,-17.26,9.81,31.12,22.88,48.4,13.1,no,no,no,1,55.58
+test6_C,right side,looked away to your right,20.5,-17.32,9.92,26.52,25.50,43.8,15.6,no,no,no,1,56.12
+test6_C,right side,looked away to your right,20.7,-17.26,9.92,27.36,23.04,44.6,13.1,no,no,no,1,56.18
+test6_C,right side,looked away to your right,20.9,-17.26,9.92,24.81,22.51,42.1,12.6,no,no,no,1,56.21
+test6_C,right side,looked away to your right,21.1,-17.26,9.92,29.52,23.57,46.8,13.7,no,no,no,1,56.26
+test6_C,right side,looked away to your right,21.3,-17.26,9.92,25.22,23.66,42.5,13.7,no,no,no,1,56.30
+test6_C,right side,looked away to your right,21.6,-17.26,9.86,26.57,21.54,43.8,11.7,no,no,no,1,56.03
+test6_C,right side,looked away to your right,21.8,-17.20,9.86,26.71,20.24,43.9,10.4,no,no,no,1,55.43
+test6_C,right side,looked away to your right,21.9,-17.32,9.81,31.47,24.92,48.8,15.1,no,no,no,1,55.66
+test6_C,right side,looked away to your right,22.1,-17.20,9.92,26.92,20.62,44.1,10.7,no,no,no,1,55.92
+test6_C,right side,looked away to your right,22.3,-17.26,9.81,29.44,24.02,46.7,14.2,no,no,no,1,55.74
+test6_C,right side,looked away to your right,22.5,-17.26,9.86,28.77,23.34,46.0,13.5,no,no,no,1,56.13
+test6_C,right side,looked away to your right,22.7,-17.26,9.86,32.35,24.23,49.6,14.4,no,no,no,1,56.11
+test6_C,right side,looked away to your right,22.9,-17.32,9.81,29.41,13.78,46.7,4.0,no,no,no,1,55.58
+test6_C,right side,looked away to your right,23.1,-17.26,9.81,24.66,25.55,41.9,15.7,no,no,no,1,55.40
+test6_C,right side,looked away to your right,23.3,-17.26,9.81,26.94,23.31,44.2,13.5,no,no,no,1,55.55
+test6_C,right side,looked away to your right,23.5,-17.38,9.76,29.35,20.66,46.7,10.9,no,no,no,1,55.45
+test6_C,right side,looked away to your right,23.7,-17.26,9.81,33.45,22.61,50.7,12.8,no,no,no,1,55.60
+test6_C,right side,looked away to your right,23.9,-17.26,9.86,27.60,22.30,44.9,12.4,no,no,no,1,56.03
+test6_C,right side,looked away to your right,24.1,-17.26,9.86,32.04,17.88,49.3,8.0,no,no,no,1,55.95
+test6_C,right side,looked away to your right,24.3,-17.20,9.92,31.04,14.20,48.2,4.3,no,no,no,1,56.43
+test6_C,right side,looked away to your right,24.5,-17.20,9.92,29.50,17.20,46.7,7.3,no,no,no,1,55.90
+test6_C,right side,looked away to your right,24.7,-17.26,9.92,26.78,17.28,44.0,7.4,no,no,no,1,56.18
+test6_C,right side,looked away to your right,24.9,-17.26,9.92,26.22,18.10,43.5,8.2,no,no,no,1,56.24
+test6_C,right side,looked away to your right,25.1,-17.26,9.86,22.70,21.82,40.0,12.0,no,no,no,1,55.87
+test6_C,right side,looked away to your right,25.3,-17.26,9.92,23.43,23.07,40.7,13.2,no,no,no,1,56.08
+test6_C,right side,looked away to your right,25.5,-17.32,9.86,24.26,21.49,41.6,11.6,no,no,no,1,55.68
+test6_C,right side,looked away to your right,25.7,-17.26,9.92,22.51,19.31,39.8,9.4,no,no,no,1,56.09
+test6_C,right side,looked away to your right,25.9,-17.20,9.92,29.88,17.80,47.1,7.9,no,no,no,1,55.89
+test6_C,right side,looked away to your right,26.1,-17.32,9.81,31.48,16.67,48.8,6.9,no,no,no,1,55.66
+test6_C,right side,looked away to your right,26.3,-17.26,9.81,27.55,23.60,44.8,13.8,no,no,no,1,55.58
+test6_C,right side,looked away to your right,26.4,-17.26,9.86,18.95,24.08,36.2,14.2,no,no,no,1,55.99
+test6_C,right side,looked away to your right,26.6,-17.26,9.86,27.71,19.28,45.0,9.4,no,no,no,1,56.02
+test6_C,right side,looked away to your right,26.8,-17.26,9.81,23.78,19.57,41.0,9.8,no,no,no,1,55.66
+test6_C,right side,looked away to your right,27.0,-17.32,9.86,23.87,19.04,41.2,9.2,no,no,no,1,56.01
+test6_C,right side,looked away to your right,27.3,-17.32,9.81,28.79,21.17,46.1,11.4,no,no,no,1,55.65
+test6_C,right side,looked away to your right,27.5,-17.26,9.86,29.22,19.40,46.5,9.5,no,no,no,1,56.00
+test6_C,right side,looked away to your right,27.7,-17.26,9.92,25.37,20.51,42.6,10.6,no,no,no,1,56.14
+test6_C,right side,looked away to your right,27.9,-17.26,9.92,21.47,15.98,38.7,6.1,no,no,no,1,56.22
+test6_C,right side,looked away to your right,28.1,-17.26,9.97,18.19,22.03,35.5,12.1,no,no,no,1,56.41
+test6_C,right side,looked away to your right,28.3,-17.20,9.97,26.07,19.51,43.3,9.5,no,no,no,1,56.13
+test6_C,right side,looked away to your right,28.5,-17.26,9.97,27.98,14.82,45.2,4.8,no,no,no,1,56.64
+test6_C,right side,looked away to your right,28.7,-17.26,10.03,33.47,16.90,50.7,6.9,no,no,no,1,56.76
+test6_C,right side,looked away to your right,28.9,-17.26,9.97,27.09,14.74,44.4,4.8,no,no,no,1,56.40
+test6_C,right side,looked away to your right,29.1,-17.26,10.03,32.26,14.46,49.5,4.4,no,no,no,1,56.78
+test6_C,right side,looked away to your right,29.3,-17.26,9.92,28.98,19.40,46.2,9.5,no,no,no,1,56.18
+test6_C,right side,looked away to your right,29.5,-17.26,9.97,29.96,14.40,47.2,4.4,no,no,no,1,56.25
+test6_C,right side,looked away to your right,29.8,-17.20,9.92,25.48,22.02,42.7,12.1,no,no,no,1,55.77
+test6_C,right side,looked away to your right,30.0,-17.20,9.92,33.42,22.27,50.6,12.3,no,no,no,1,55.85
+test6_C,right side,looked away to your right,30.2,-17.26,9.97,28.79,18.89,46.0,8.9,no,no,no,1,56.59
+test6_C,right side,looked away to your right,30.4,-17.26,9.97,29.29,15.68,46.5,5.7,no,no,no,1,56.52
+test6_C,right side,looked away to your right,30.6,-17.26,9.92,30.59,22.88,47.9,13.0,no,no,no,1,56.09
+test6_C,right side,looked away to your right,30.8,-17.20,9.92,24.30,15.49,41.5,5.6,no,no,no,1,56.08
+test6_C,right side,looked away to your right,31.0,-17.26,9.92,26.61,17.11,43.9,7.2,no,no,no,1,56.06
+test6_C,right side,looked away to your right,31.2,-17.32,9.76,29.97,16.44,47.3,6.7,no,no,no,1,55.13
+test6_C,right side,looked away to your right,31.4,-17.26,9.97,28.64,18.88,45.9,8.9,no,no,no,1,56.05
+test6_C,right side,looked away to your right,31.6,-17.26,9.97,24.20,16.46,41.5,6.5,no,no,no,1,56.03
+test6_C,right side,looked away to your right,31.8,-17.26,9.97,32.11,13.33,49.4,3.4,no,no,no,1,56.32
+test6_C,right side,looked away to your right,32.1,-17.26,9.92,31.03,21.77,48.3,11.8,no,no,no,1,55.90
+test6_C,right side,looked away to your right,32.3,-17.20,10.03,30.35,13.74,47.5,3.7,no,no,no,1,56.10
+test6_C,right side,looked away to your right,32.5,-17.26,9.97,28.38,16.65,45.6,6.7,no,no,no,1,56.02
+test6_C,right side,looked away to your right,32.7,-17.32,9.97,28.00,16.36,45.3,6.4,no,no,no,1,55.89
+test6_C,right side,looked away to your right,33.0,-17.26,9.92,21.87,20.26,39.1,10.3,no,no,no,1,55.80
+test6_C,right side,looked away to your right,33.2,-17.26,9.97,25.33,17.73,42.6,7.8,no,no,no,1,55.90
+test6_C,right side,looked away to your right,33.4,-17.26,10.03,25.96,23.67,43.2,13.6,no,no,no,1,56.23
+test6_C,right side,looked away to your right,33.6,-17.26,10.03,30.72,15.81,48.0,5.8,no,no,no,1,56.48
+test6_C,right side,looked away to your right,33.9,-17.20,10.03,29.76,16.17,47.0,6.1,no,no,no,1,56.11
+test6_C,right side,looked away to your right,34.1,-17.26,10.03,30.27,14.45,47.5,4.4,no,no,no,1,56.36
+test6_C,right side,looked away to your right,34.3,-17.26,10.03,30.36,17.72,47.6,7.7,no,no,no,1,56.41
+test6_C,right side,looked away to your right,34.6,-17.26,9.97,26.32,25.55,43.6,15.6,no,no,no,1,55.98
+test6_C,right side,looked away to your right,34.8,-17.26,9.97,27.23,23.18,44.5,13.2,no,no,no,1,56.06
+test6_C,right side,looked away to your right,35.0,-17.26,9.97,26.24,16.49,43.5,6.5,no,no,no,1,56.00
+test6_C,right side,looked away to your right,35.2,-17.26,9.92,27.95,23.98,45.2,14.1,no,no,no,1,55.77
+test6_C,right side,looked away to your right,35.5,-17.26,9.92,24.54,25.73,41.8,15.8,no,no,no,1,55.75
+test6_C,right side,looked away to your right,35.7,-17.26,10.03,30.67,15.12,47.9,5.1,no,no,no,1,56.44
+test6_C,right side,looked away to your right,35.9,-17.26,9.97,25.81,21.75,43.1,11.8,no,no,no,1,56.03

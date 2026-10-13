@@ -102,7 +102,7 @@ class Pipeline:
             yaw=yaw,
             bboxes=np.asarray(bboxes, dtype=np.float32).reshape(-1, 4),
             landmarks=np.asarray(landmarks, dtype=np.float32).reshape(-1, 5, 2),
-            scores=np.asarray(scores, dtype=np.float32),
+            scores=np.asarray(scores, dtype=np.float32).reshape(-1),
         )
 
         return results
