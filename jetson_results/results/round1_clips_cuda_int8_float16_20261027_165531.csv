@@ -1,0 +1,221 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+large-v3-turbo,cuda,int8_float16,none,background_01,background,"Hello robot, how are you today?","Hello Robon, how are you today?",2.192
+large-v3-turbo,cuda,int8_float16,none,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",1.75
+large-v3-turbo,cuda,int8_float16,none,background_03,background,My name is Nila and I study at the university.,My name is Nila and I study at the University.,1.77
+large-v3-turbo,cuda,int8_float16,none,background_04,background,Please turn to the left and wave at me.,please turn to the left and wave at me,1.645
+large-v3-turbo,cuda,int8_float16,none,background_05,background,What is the weather like in Erlangen?,What is the weather like in Erlangen?,1.541
+large-v3-turbo,cuda,int8_float16,none,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with the milk.,1.478
+large-v3-turbo,cuda,int8_float16,none,background_07,background,Stop robot.,Stop robot,1.364
+large-v3-turbo,cuda,int8_float16,none,background_08,background,What is the nearest train station?,What is the nearest train station?,1.393
+large-v3-turbo,cuda,int8_float16,none,background_09,background,Can you repeat that more slowly?,can you repeat that more slowly,1.384
+large-v3-turbo,cuda,int8_float16,none,background_10,background,The meeting starts at half past three.,The meeting starts at half past 3.,1.385
+large-v3-turbo,cuda,int8_float16,none,background_11,background,I am looking for the computer science building.,I am looking for the computer science building.,1.396
+large-v3-turbo,cuda,int8_float16,none,background_12,background,Thank you very much for your help.,Thank you very much for your help.,1.397
+large-v3-turbo,cuda,int8_float16,none,background_13,background,Could you speak a little louder please?,"Could you speak a little louder, please?",1.396
+large-v3-turbo,cuda,int8_float16,none,background_14,background,Today is Tuesday the twenty first of October.,today is Tuesday the 21st of October,1.391
+large-v3-turbo,cuda,int8_float16,none,background_15,background,Please follow me to the next room.,Please follow me to the next room.,1.389
+large-v3-turbo,cuda,int8_float16,none,background_16,background,How many people are in this room?,How many people are in this room?,1.391
+large-v3-turbo,cuda,int8_float16,none,background_17,background,I do not understand the question.,I do not understand the question.,1.392
+large-v3-turbo,cuda,int8_float16,none,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,1.392
+large-v3-turbo,cuda,int8_float16,none,background_19,background,What can you do for me?,What can you do for me?,1.382
+large-v3-turbo,cuda,int8_float16,none,background_20,background,"Goodbye robot, see you tomorrow.","Goodbye, robots. See you tomorrow.",1.395
+large-v3-turbo,cuda,int8_float16,none,background_loud_01,background_loud,"Hello robot, how are you today?",And I asked her if she got better than her parents. And then we had a conversation.,1.51
+large-v3-turbo,cuda,int8_float16,none,background_loud_02,background_loud,Can you tell me the time please?,Can you tell me the time please?,1.397
+large-v3-turbo,cuda,int8_float16,none,background_loud_03,background_loud,My name is Nila and I study at the university.,I'm even scared that I have been told too often that love is hard. It's not. Love is what happens.,2.045
+large-v3-turbo,cuda,int8_float16,none,background_loud_04,background_loud,Please turn to the left and wave at me.,"When we stop trying to figure out who deserves it and we welcome someone, anyone",1.471
+large-v3-turbo,cuda,int8_float16,none,background_loud_05,background_loud,What is the weather like in Erlangen?,"It took me two more years before I learned to do this with all the parts of myself, but it started just...",1.511
+large-v3-turbo,cuda,int8_float16,none,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.406
+large-v3-turbo,cuda,int8_float16,none,background_loud_07,background_loud,Stop robot.,Stop the problem,1.972
+large-v3-turbo,cuda,int8_float16,none,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of harassment, whether out of exhaustion or epiphany, instead of sh...",1.49
+large-v3-turbo,cuda,int8_float16,none,background_loud_09,background_loud,Can you repeat that more slowly?,"I said out loud, and a voice could surprise me. Thank you for sharing.",1.487
+large-v3-turbo,cuda,int8_float16,none,background_loud_10,background_loud,The meeting starts at half past three.,The meeting starts at half past three.,1.41
+large-v3-turbo,cuda,int8_float16,none,background_loud_11,background_loud,I am looking for the computer science building.,I'm looking for this. I'm looking for this. I'm looking for this. She told me that she was in a lot of pain and I told her I know.,1.622
+large-v3-turbo,cuda,int8_float16,none,background_loud_12,background_loud,Thank you very much for your help.,Thank you very much for your help.,1.396
+large-v3-turbo,cuda,int8_float16,none,background_loud_13,background_loud,Could you speak a little louder please?,"dialogue with myself. Could you speak in a few longer, please? More voices with more points of view, some of them more fun.",1.567
+large-v3-turbo,cuda,int8_float16,none,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,Today is June's day they're doing this round table of wildly mixed characters and one,1.458
+large-v3-turbo,cuda,int8_float16,none,background_loud_15,background_loud,Please follow me to the next room.,Please follow me to the next floor.,1.385
+large-v3-turbo,cuda,int8_float16,none,background_loud_16,background_loud,How many people are in this room?,how many how many people are in this room less like a broken mirror and more like a prism,1.475
+large-v3-turbo,cuda,int8_float16,none,background_loud_17,background_loud,I do not understand the question.,"And while some of us are usually unreasonable, we're not mean. Even my whiny, shaming...",1.5
+large-v3-turbo,cuda,int8_float16,none,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better and what she'd like for me to learn.",1.527
+large-v3-turbo,cuda,int8_float16,none,background_loud_19,background_loud,What can you do for me?,exactly what can you do for me so while my openings for,1.429
+large-v3-turbo,cuda,int8_float16,none,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the round table, I would hand out parking validation and remind everyone to sign for their cash.",1.48
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?",How are you doing?,1.361
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,I'm going to take you down to this.,1.409
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,My name is Mila and I study at the University.,1.416
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,"Please don't go to the next one, we all know.",1.429
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the weather like in Irlandan?,1.406
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I will make a cup of coffee with me.,1.401
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Stop rubble,1.494
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,I just want to know what I've done. I want to know what you want. I can't believe it's your time. That's where I'm at. I'm sorry. I'm sorry.,3.207
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,and we'll repeat that more slowly,1.392
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The main thing starts at half past three.,1.401
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,I'm going to put it on my phone. I'm going to put it on my phone.,2.487
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,1.391
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,"Can you speak a little louder, please?",1.399
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,"It is, it is doing that one because I can't believe it.",1.454
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next channel.,1.388
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,I'm going to go out in this room.,1.409
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,1.39
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,I love the legs.,2.064
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,What a music for me.,2.039
+large-v3-turbo,cuda,int8_float16,none,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.",goodbye robots see you tomorrow,1.376
+large-v3-turbo,cuda,int8_float16,none,clean_01,clean,"Hello robot, how are you today?",hello robot how are you today,1.384
+large-v3-turbo,cuda,int8_float16,none,clean_02,clean,Can you tell me the time please?,can you tell me the time please,1.401
+large-v3-turbo,cuda,int8_float16,none,clean_03,clean,My name is Nila and I study at the university.,My name is Neela and I study at the University.,1.408
+large-v3-turbo,cuda,int8_float16,none,clean_04,clean,Please turn to the left and wave at me.,please turn to the left and wave at me,1.407
+large-v3-turbo,cuda,int8_float16,none,clean_05,clean,What is the weather like in Erlangen?,what is the weather like in Erlangen,1.408
+large-v3-turbo,cuda,int8_float16,none,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.395
+large-v3-turbo,cuda,int8_float16,none,clean_07,clean,Stop robot.,Stop robot!,1.363
+large-v3-turbo,cuda,int8_float16,none,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,1.382
+large-v3-turbo,cuda,int8_float16,none,clean_09,clean,Can you repeat that more slowly?,Can you repeat that move slowly?,1.378
+large-v3-turbo,cuda,int8_float16,none,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,1.388
+large-v3-turbo,cuda,int8_float16,none,clean_11,clean,I am looking for the computer science building.,I am looking for the comparisons building,1.385
+large-v3-turbo,cuda,int8_float16,none,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,1.392
+large-v3-turbo,cuda,int8_float16,none,clean_13,clean,Could you speak a little louder please?,could you speak a little louder please,1.377
+large-v3-turbo,cuda,int8_float16,none,clean_14,clean,Today is Tuesday the twenty first of October.,today is Tuesday the 21st of October,1.385
+large-v3-turbo,cuda,int8_float16,none,clean_15,clean,Please follow me to the next room.,please follow me to the next room,1.393
+large-v3-turbo,cuda,int8_float16,none,clean_16,clean,How many people are in this room?,How many people are in this room?,1.386
+large-v3-turbo,cuda,int8_float16,none,clean_17,clean,I do not understand the question.,I do not understand that question.,1.38
+large-v3-turbo,cuda,int8_float16,none,clean_18,clean,Turn off the lights when you leave.,turn off the lights when you leave,1.395
+large-v3-turbo,cuda,int8_float16,none,clean_19,clean,What can you do for me?,What can you do for me?,1.377
+large-v3-turbo,cuda,int8_float16,none,clean_20,clean,"Goodbye robot, see you tomorrow.",Goodbye robot. See you tomorrow.,1.384
+large-v3-turbo,cuda,int8_float16,none,noise_01,noise,,Thank you.,1.348
+large-v3-turbo,cuda,int8_float16,none,noise_02,noise,,"So, let's go.",4.946
+large-v3-turbo,cuda,int8_float16,none,noise_03,noise,,Thank you.,1.348
+large-v3-turbo,cuda,int8_float16,none,noise_04,noise,,"All right, let's go.",6.603
+large-v3-turbo,cuda,int8_float16,none,noise_05,noise,,"So, let's go.",4.172
+large-v3-turbo,cuda,int8_float16,none,noise_06,noise,,Thank you.,4.35
+large-v3-turbo,cuda,int8_float16,none,noise_07,noise,,Thank you.,4.066
+large-v3-turbo,cuda,int8_float16,none,noise_08,noise,,Thank you.,1.376
+large-v3-turbo,cuda,int8_float16,none,noise_09,noise,,I don't know.,4.244
+large-v3-turbo,cuda,int8_float16,none,noise_10,noise,,"So, let's go.",5.17
+large-v3-turbo,cuda,int8_float16,none,noise_loud_01,noise_loud,,Thank you.,1.367
+large-v3-turbo,cuda,int8_float16,none,noise_loud_02,noise_loud,,Thank you.,2.145
+large-v3-turbo,cuda,int8_float16,none,noise_loud_03,noise_loud,,Thank you.,1.352
+large-v3-turbo,cuda,int8_float16,none,noise_loud_04,noise_loud,,Thank you.,1.363
+large-v3-turbo,cuda,int8_float16,none,noise_loud_05,noise_loud,,All right.,1.372
+large-v3-turbo,cuda,int8_float16,none,noise_loud_06,noise_loud,,Thank you.,1.364
+large-v3-turbo,cuda,int8_float16,none,noise_loud_07,noise_loud,,Thank you.,1.376
+large-v3-turbo,cuda,int8_float16,none,noise_loud_08,noise_loud,,Thank you.,1.356
+large-v3-turbo,cuda,int8_float16,none,noise_loud_09,noise_loud,,Thank you.,1.372
+large-v3-turbo,cuda,int8_float16,none,noise_loud_10,noise_loud,,Thank you.,1.362
+large-v3-turbo,cuda,int8_float16,none,silence_01,silence,,Thank you.,1.349
+large-v3-turbo,cuda,int8_float16,none,silence_02,silence,,Thank you.,1.353
+large-v3-turbo,cuda,int8_float16,none,silence_03,silence,,Thank you.,1.355
+large-v3-turbo,cuda,int8_float16,none,silence_04,silence,,Thank you.,1.344
+large-v3-turbo,cuda,int8_float16,none,silence_05,silence,,Thank you.,1.343
+large-v3-turbo,cuda,int8_float16,none,silence_06,silence,,Thank you.,1.358
+large-v3-turbo,cuda,int8_float16,none,silence_07,silence,,You,1.692
+large-v3-turbo,cuda,int8_float16,none,silence_08,silence,,You,1.38
+large-v3-turbo,cuda,int8_float16,none,silence_09,silence,,You,1.351
+large-v3-turbo,cuda,int8_float16,none,silence_10,silence,,Thank you.,1.344
+large-v3-turbo,cuda,int8_float16,silero,background_01,background,"Hello robot, how are you today?",Hello robot how are you today?,1.467
+large-v3-turbo,cuda,int8_float16,silero,background_02,background,Can you tell me the time please?,Can you tell me the time please?,1.423
+large-v3-turbo,cuda,int8_float16,silero,background_03,background,My name is Nila and I study at the university.,My name is Mila and I study at the University.,1.436
+large-v3-turbo,cuda,int8_float16,silero,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,1.42
+large-v3-turbo,cuda,int8_float16,silero,background_05,background,What is the weather like in Erlangen?,What is the weather like in Ellangan?,1.418
+large-v3-turbo,cuda,int8_float16,silero,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with the milk.,1.423
+large-v3-turbo,cuda,int8_float16,silero,background_07,background,Stop robot.,Stop robot.,1.373
+large-v3-turbo,cuda,int8_float16,silero,background_08,background,What is the nearest train station?,What is the nearest train station?,1.404
+large-v3-turbo,cuda,int8_float16,silero,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,1.397
+large-v3-turbo,cuda,int8_float16,silero,background_10,background,The meeting starts at half past three.,The meeting starts at half past three.,1.412
+large-v3-turbo,cuda,int8_float16,silero,background_11,background,I am looking for the computer science building.,I am looking for the computer science building.,1.412
+large-v3-turbo,cuda,int8_float16,silero,background_12,background,Thank you very much for your help.,Thank you very much for your help.,1.407
+large-v3-turbo,cuda,int8_float16,silero,background_13,background,Could you speak a little louder please?,"Could you speak a little louder, please?",1.423
+large-v3-turbo,cuda,int8_float16,silero,background_14,background,Today is Tuesday the twenty first of October.,today is tuesday the 21st of october,1.438
+large-v3-turbo,cuda,int8_float16,silero,background_15,background,Please follow me to the next room.,Please follow me to the next room.,1.404
+large-v3-turbo,cuda,int8_float16,silero,background_16,background,How many people are in this room?,How many people are in this room?,1.404
+large-v3-turbo,cuda,int8_float16,silero,background_17,background,I do not understand the question.,I do not understand that question.,1.4
+large-v3-turbo,cuda,int8_float16,silero,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,1.406
+large-v3-turbo,cuda,int8_float16,silero,background_19,background,What can you do for me?,What can you do for me?,1.397
+large-v3-turbo,cuda,int8_float16,silero,background_20,background,"Goodbye robot, see you tomorrow.","Goodbye, robots! See you tomorrow!",1.413
+large-v3-turbo,cuda,int8_float16,silero,background_loud_01,background_loud,"Hello robot, how are you today?",And I asked her if she didn't have her own parents. And then we had a conversation.,1.529
+large-v3-turbo,cuda,int8_float16,silero,background_loud_02,background_loud,Can you tell me the time please?,Can you tell me the time please?,1.423
+large-v3-turbo,cuda,int8_float16,silero,background_loud_03,background_loud,My name is Nila and I study at the university.,"My name is Leanne, I'm going to say that love is a word, it's not. Love is what happens.",1.543
+large-v3-turbo,cuda,int8_float16,silero,background_loud_04,background_loud,Please turn to the left and wave at me.,"Please don't figure out who deserves it and we welcome someone, anyone.",1.476
+large-v3-turbo,cuda,int8_float16,silero,background_loud_05,background_loud,What is the weather like in Erlangen?,What is the weather like in England?,1.406
+large-v3-turbo,cuda,int8_float16,silero,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.428
+large-v3-turbo,cuda,int8_float16,silero,background_loud_07,background_loud,Stop robot.,Stop the problem,1.926
+large-v3-turbo,cuda,int8_float16,silero,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of harassment, whether out of exhaustion or epiphany, instead of sh...",1.498
+large-v3-turbo,cuda,int8_float16,silero,background_loud_09,background_loud,Can you repeat that more slowly?,I said out loud and a voice could surprise me. Thank you for sharing.,1.499
+large-v3-turbo,cuda,int8_float16,silero,background_loud_10,background_loud,The meeting starts at half past three.,The meeting starts at half past three.,1.436
+large-v3-turbo,cuda,int8_float16,silero,background_loud_11,background_loud,I am looking for the computer science building.,"The part answering didn't affect someone different parts. She told me that she was in a lot of pain, and I told her I know.",1.603
+large-v3-turbo,cuda,int8_float16,silero,background_loud_12,background_loud,Thank you very much for your help.,and your image for your help,1.396
+large-v3-turbo,cuda,int8_float16,silero,background_loud_13,background_loud,Could you speak a little louder please?,Could you speak a little bit louder please?,1.417
+large-v3-turbo,cuda,int8_float16,silero,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,"Today is Tuesday, they're doing different stuff for both of them.",1.458
+large-v3-turbo,cuda,int8_float16,silero,background_loud_15,background_loud,Please follow me to the next room.,Please follow me to the next one.,1.408
+large-v3-turbo,cuda,int8_float16,silero,background_loud_16,background_loud,How many people are in this room?,how many how many people are in this room less like a broken mirror and more like a prism,1.546
+large-v3-turbo,cuda,int8_float16,silero,background_loud_17,background_loud,I do not understand the question.,and while some of us are usually unreasonable we're not mean even my whiny shaming,1.561
+large-v3-turbo,cuda,int8_float16,silero,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better and what she'd like for me to learn.",1.556
+large-v3-turbo,cuda,int8_float16,silero,background_loud_19,background_loud,What can you do for me?,exactly what's in here doing for me so while my openings for,1.488
+large-v3-turbo,cuda,int8_float16,silero,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","at the round table, I would handle parking validation and remind everyone to sign for their cash.",1.537
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","How are you doing, how are you doing?",1.498
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,So I'm going to take you down to it.,1.492
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,I use Mila and I study at the University.,1.434
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,"Please don't go to the next one, we all know.",1.443
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the weather like in Irlanda?,1.423
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I will make a cup of coffee with me.,1.429
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Stop rubin,1.947
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,,0.026
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,okay and we'll repeat that,1.401
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The weekend starts at half past three.,1.409
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,and you're perfect like I'm pretty good,2.412
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,1.408
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,"Would you speak a little louder, please?",1.416
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,"It is, it is the one that I think was perfect for you.",1.466
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me through the next day.,1.404
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,How many people are in the room?,1.411
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,1.412
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,That's crazy!,2.091
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,What can you do for me?,1.4
+large-v3-turbo,cuda,int8_float16,silero,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.","Goodbye, robots. See you tomorrow.",1.42
+large-v3-turbo,cuda,int8_float16,silero,clean_01,clean,"Hello robot, how are you today?",Hello robot how are you today?,1.409
+large-v3-turbo,cuda,int8_float16,silero,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,1.416
+large-v3-turbo,cuda,int8_float16,silero,clean_03,clean,My name is Nila and I study at the university.,My name is Neela and I study at the University.,1.437
+large-v3-turbo,cuda,int8_float16,silero,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,1.439
+large-v3-turbo,cuda,int8_float16,silero,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,1.418
+large-v3-turbo,cuda,int8_float16,silero,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.425
+large-v3-turbo,cuda,int8_float16,silero,clean_07,clean,Stop robot.,Stop robot.,1.377
+large-v3-turbo,cuda,int8_float16,silero,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,1.398
+large-v3-turbo,cuda,int8_float16,silero,clean_09,clean,Can you repeat that more slowly?,Can you repeat that move slowly?,1.421
+large-v3-turbo,cuda,int8_float16,silero,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,1.403
+large-v3-turbo,cuda,int8_float16,silero,clean_11,clean,I am looking for the computer science building.,I am looking for the computer sensibility.,1.448
+large-v3-turbo,cuda,int8_float16,silero,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,1.406
+large-v3-turbo,cuda,int8_float16,silero,clean_13,clean,Could you speak a little louder please?,Could you speak a little louder please?,1.424
+large-v3-turbo,cuda,int8_float16,silero,clean_14,clean,Today is Tuesday the twenty first of October.,today is tuesday the 21st of october,1.421
+large-v3-turbo,cuda,int8_float16,silero,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,1.421
+large-v3-turbo,cuda,int8_float16,silero,clean_16,clean,How many people are in this room?,How many people are in this room?,1.416
+large-v3-turbo,cuda,int8_float16,silero,clean_17,clean,I do not understand the question.,I do not understand the question.,1.398
+large-v3-turbo,cuda,int8_float16,silero,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,1.405
+large-v3-turbo,cuda,int8_float16,silero,clean_19,clean,What can you do for me?,What can you do for me?,1.4
+large-v3-turbo,cuda,int8_float16,silero,clean_20,clean,"Goodbye robot, see you tomorrow.",Goodbye robot. See you tomorrow,1.394
+large-v3-turbo,cuda,int8_float16,silero,noise_01,noise,,,0.026
+large-v3-turbo,cuda,int8_float16,silero,noise_02,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_03,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_04,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_05,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_06,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_07,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_08,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_09,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_10,noise,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_01,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_02,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_03,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_04,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_05,noise_loud,,So much fun.,1.381
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_06,noise_loud,,,0.026
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_07,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_08,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_09,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,noise_loud_10,noise_loud,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_01,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_02,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_03,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_04,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_05,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_06,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_07,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_08,silence,,,0.025
+large-v3-turbo,cuda,int8_float16,silero,silence_09,silence,,,0.026
+large-v3-turbo,cuda,int8_float16,silero,silence_10,silence,,,0.025

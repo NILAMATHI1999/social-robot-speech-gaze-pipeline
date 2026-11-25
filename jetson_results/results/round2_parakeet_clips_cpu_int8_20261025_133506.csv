@@ -1,0 +1,221 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_01,background,"Hello robot, how are you today?","Hello Robot, how are you today? Ex-military guy keeps staring at the two-way mirrors.",1.106
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_02,background,Can you tell me the time please?,Can you tell me the time things? And it's my job as the moderator to.,1.109
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_03,background,My name is Nila and I study at the university.,My name is Nila and I study at the university.,0.966
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me. I start every morning by,0.953
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_05,background,What is the weather like in Erlangen?,"What is the weather, lady Pelangan?",0.847
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_06,background,I would like a cup of coffee with milk.,"Reasonable. I would like a cup of coffee with milk. So, I don't know about you, but there are a lot of nadies.",0.863
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_07,background,Stop robot.,"Start Robert. My mind has plenty of quirks, but what I have to share.",0.973
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_08,background,What is the nearest train station?,What is the nearest train station? And then I wondered if I didn't.,1.066
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,0.965
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_10,background,The meeting starts at half past three.,The meeting starts at half past three.,0.937
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_11,background,I am looking for the computer science building.,I'm looking for the computer science building.,0.842
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_12,background,Thank you very much for your help.,"Thank you very much for your help. And when we're honest and rational, we can see that these are common experiences.",0.855
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_13,background,Could you speak a little louder please?,"No harm to you. Could you speak a little louder, please?",0.846
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_14,background,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,0.854
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_15,background,Please follow me to the next room.,Please follow me to the next room.,0.888
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_16,background,How many people are in this room?,"Heard of how many people are in this room energy healing, body work, hypnotherapy, soul resting.",0.9
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_17,background,I do not understand the question.,I do not understand that question. I admit I did pass on the acupuncture.,0.848
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_18,background,Turn off the lights when you leave.,"Turn off the lights when you leave. And still, sometimes, when I was alone, I would hear myself shouting.",0.857
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_19,background,What can you do for me?,Job to practice. What can you do for me to receive everything I can about their world in order?,0.852
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_20,background,"Goodbye robot, see you tomorrow.",My supervisor knows that.,0.875
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_01,background_loud,"Hello robot, how are you today?","Son, and I asked her if she knew what she could be. And then we had a conversation.",0.927
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_02,background_loud,Can you tell me the time please?,"Fear to make a moment. Can you tell me the time, please? When I welcomed this woman unconditionally, I saw her.",0.958
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_03,background_loud,My name is Nila and I study at the university.,My name is Miss. We are understanding the words.,0.964
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_04,background_loud,Please turn to the left and wave at me.,"When we stop trying to figure out who deserves it, and we welcome someone, anyone.",1.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_05,background_loud,What is the weather like in Erlangen?,I think more years before I learned to do this with all the parts of myself. But it started just,1.059
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_06,background_loud,I would like a cup of coffee with milk.,"I would like a cup of coffee with demanding, unreasonable, and relentless.",1.036
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_07,background_loud,Stop robot.,"Her, what I could do, she only told me she wanted to die over and over and over and over.",0.849
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of the nearest train station, whether out of exhaustion or epiphany, instead of",0.848
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_09,background_loud,Can you repeat that more slowly?,I said out loud in a voice that surprised me. Thank you for sharing.,0.902
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_10,background_loud,The meeting starts at half past three.,"Reasonable. The meeting starts at half past. She answered me. That voice. Now, don't get spooked. This is.",0.943
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_11,background_loud,I am looking for the computer science building.,"The part answering didn't affect some like different parts. She told me that she was in a lot of pain, and I told her, I know.",0.961
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_12,background_loud,Thank you very much for your help.,"To you, but I will not. And as clearly, as I'm speaking to you now, she said, okay.",0.886
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_13,background_loud,Could you speak a little louder please?,"Dialogue with myself. Would you speak a little louder, please? More voices with more points of view, some of them more fun.",0.865
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,A lot of this round table of wildly mixed characters and one might be.,0.863
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_15,background_loud,Please follow me to the next room.,"Kindness and most importantly, gratitude. I thank myself for their kindness.",0.864
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_16,background_loud,How many people are in this room?,How many how many I think of my fragment itself less like a broken mirror and more like a prism.,0.891
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_17,background_loud,I do not understand the question.,"And while some of us are occasionally invasible, we're not mean. Even my whiny, shamy,",0.87
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better, and what she'd like for me to learn.",0.868
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_19,background_loud,What can you do for me?,Exactly as she's in home before me. So while my openings for,0.854
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the roundtable, I would hand out parking validation and remind everyone to sign through their cash.",0.948
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?",Have a good holiday.,0.93
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,,0.891
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,My name is Lila and I study at the University.,0.98
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,Please don't do the next time you are.,0.852
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the rather like in Iran?,0.841
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with Mary.,0.865
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,,0.944
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,,1.028
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,Can you see that mouse movie?,0.898
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The Lincoln starts on broadcasting.,1.08
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,I need to put in the region.,1.321
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,0.98
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,Just keep them to cover this.,0.94
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,Please please do that in the first campaign.,1.082
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Inspire me to the next journey.,1.027
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,How many people are in this room?,1.015
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,0.917
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,,1.106
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,What can you do for me?,1.246
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.","Goodbye, we both see you tomorrow.",1.197
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_01,clean,"Hello robot, how are you today?","Hello Robot, how are you today?",1.206
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_02,clean,Can you tell me the time please?,"Can you tell me the time, please?",1.04
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_03,clean,My name is Nila and I study at the university.,My name is Nila and I study at the university.,1.128
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,1.322
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,1.2
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.092
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_07,clean,Stop robot.,Stop robot,0.973
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,0.843
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_09,clean,Can you repeat that more slowly?,Can you repeat that more slowly?,0.86
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,0.938
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_11,clean,I am looking for the computer science building.,I am looking for the computer sensibility.,0.868
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_12,clean,Thank you very much for your help.,Thank you very much for your help,0.847
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_13,clean,Could you speak a little louder please?,"Could you speak a little louder, please?",0.844
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_14,clean,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty first of October.",0.868
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,0.851
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_16,clean,How many people are in this room?,How many people are in this room?,0.847
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_17,clean,I do not understand the question.,I do not understand the question.,0.863
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,0.851
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_19,clean,What can you do for me?,What can you do for me?,0.834
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,clean_20,clean,"Goodbye robot, see you tomorrow.","Goodbye, Robert. See you tomorrow.",0.841
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_01,noise,,Um they got this job.,0.85
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_02,noise,,,0.878
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_03,noise,,,0.866
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_04,noise,,I think I'm not about to say that we have,0.856
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_05,noise,,,0.844
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_06,noise,,"Yeah, and I take that.",0.848
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_07,noise,,,0.841
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_08,noise,,I don't know what you're trying to do.,0.843
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_09,noise,,,0.875
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_10,noise,,,0.85
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_01,noise_loud,,That's like next door.,0.852
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_02,noise_loud,,,0.844
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_03,noise_loud,,I got this.,0.927
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_04,noise_loud,,,1.001
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_05,noise_loud,,,0.982
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_06,noise_loud,,,0.974
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_07,noise_loud,,,0.965
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_08,noise_loud,,,0.966
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_09,noise_loud,,I don't know what to do with your business.,1.033
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,noise_loud_10,noise_loud,,You're making a difference.,1.068
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_01,silence,,,1.001
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_02,silence,,,1.043
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_03,silence,,,1.012
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_04,silence,,,1.016
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_05,silence,,,1.009
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_06,silence,,,1.048
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_07,silence,,,1.017
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_08,silence,,,0.944
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_09,silence,,,0.865
+parakeet-tdt-0.6b-v2-int8,cpu,int8,none,silence_10,silence,,I think I'll do it.,0.89
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_01,background,"Hello robot, how are you today?","Hello Robot, how are you today?",0.382
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_02,background,Can you tell me the time please?,Can you tell me the time please?,0.375
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_03,background,My name is Nila and I study at the university.,My name is Nila and I study at the university.,0.561
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,0.452
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_05,background,What is the weather like in Erlangen?,What is the weather like in Elangan?,0.451
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,0.436
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_07,background,Stop robot.,Start robot.,0.266
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_08,background,What is the nearest train station?,What is the nearest train station?,0.553
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,0.38
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_10,background,The meeting starts at half past three.,The meeting starts at half past three.,0.502
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_11,background,I am looking for the computer science building.,I'm looking for the Computer Science Building.,0.513
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_12,background,Thank you very much for your help.,Thank you very much for your help.,0.506
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_13,background,Could you speak a little louder please?,Could you speak a little louder please?,0.401
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_14,background,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,0.494
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_15,background,Please follow me to the next room.,Please follow me to the next room.,0.372
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_16,background,How many people are in this room?,How many people are in this room?,0.418
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_17,background,I do not understand the question.,I do not understand their question.,0.417
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,0.371
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_19,background,What can you do for me?,What can you do for me?,0.314
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_20,background,"Goodbye robot, see you tomorrow.","Goodbye, Robot. See you tomorrow.",0.424
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_01,background_loud,"Hello robot, how are you today?",And I asked her if she wanted to hold her appearance. And then we had a conversation.,0.669
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_02,background_loud,Can you tell me the time please?,"Fear to make a moment. Can you tell me the time, please? When I welcomed this woman unconditionally, I saw her.",1.116
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_03,background_loud,My name is Nila and I study at the university.,My name is Maria. Love is hard. It's not. Love is what.,0.882
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_04,background_loud,Please turn to the left and wave at me.,"But we stop trying to figure out who deserves it. And we welcome someone, anyone.",0.938
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_05,background_loud,What is the weather like in Erlangen?,It's like more years before I learned to do this with all the parts of myself. But it started just,0.996
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with demanding and reasonable.,0.729
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_07,background_loud,Stop robot.,her what I could do. She only told me she wanted to die over and over and over and over.,0.975
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of the nearest train station, whether out of exhaustion or epiphany, instead of",1.096
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_09,background_loud,Can you repeat that more slowly?,I said out loud in a voice that surprised me. You for sharing?,0.727
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_10,background_loud,The meeting starts at half past three.,"Reasonable. The meeting starts at half past. She answered me. That voice. Now, don't get spooked. This is.",1.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_11,background_loud,I am looking for the computer science building.,"Part answering didn't affect some like different parts. She told me that she was in a lot of pain, and I told her I know.",0.886
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_12,background_loud,Thank you very much for your help.,"Clearly, as I'm speaking to you now, she said, Okay.",0.808
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_13,background_loud,Could you speak a little louder please?,"With myself, more voices with more points of view, some of them more fun.",0.992
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,A lot of round table of wildly mixed characters and one might,0.861
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_15,background_loud,Please follow me to the next room.,"kindness and most importantly, gratitude.",0.761
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_16,background_loud,How many people are in this room?,How many how many I think of my fragment itself less like a broken mirror and more like a prism.,0.864
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_17,background_loud,I do not understand the question.,"And while some of us are occasionally unreasonable, we're not mean. Even my whiny, shamey,",0.937
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better and what she'd like for me to learn.",0.908
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_19,background_loud,What can you do for me?,Exactly as she's in the middle of the house. So while my openings for,0.734
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the roundtable, I would hand out parking validation and remind everyone to sign through their cash.",0.804
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?",I like how I look at this.,0.568
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Are you taking the brown goods?,0.511
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,My name is Lila Andai Stabi at the University.,0.773
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,He's part of the lights and the earth.,0.656
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the legal making at the end of the night?,0.606
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I would make a papa coffee with Mary.,0.791
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Start the vote.,0.406
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,Can you repeat that more slowly?,0.641
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The main starts of me.,0.676
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,And you just like them.,0.592
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,0.452
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,The Just Keep in the Colours please?,0.5
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,It is doing that and because,0.669
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next channel.,0.416
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,How many people are in this room?,0.446
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,0.525
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,I'm not the legacy.,0.378
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,How can you be from here?,0.353
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.",The value both in Harry,0.453
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_01,clean,"Hello robot, how are you today?","Hello robot, how are you today?",0.377
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_02,clean,Can you tell me the time please?,"Can you tell me the time, please?",0.345
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_03,clean,My name is Nila and I study at the university.,My name is Nila and I study at the university.,0.512
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,0.419
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,0.41
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,0.479
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_07,clean,Stop robot.,Stop robot.,0.248
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_08,clean,Where is the nearest train station?,Where is the nearest transition?,0.396
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_09,clean,Can you repeat that more slowly?,Can you repeat that more slowly?,0.388
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,0.509
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_11,clean,I am looking for the computer science building.,I am looking for the compressions building.,0.47
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,0.387
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_13,clean,Could you speak a little louder please?,Could you speak a little longer please?,0.477
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_14,clean,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty first of October.",0.607
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,0.434
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_16,clean,How many people are in this room?,How many people are in this room?,0.417
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_17,clean,I do not understand the question.,I do not understand the question.,0.451
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,0.391
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_19,clean,What can you do for me?,What can you do for me?,0.352
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,clean_20,clean,"Goodbye robot, see you tomorrow.","Goodbye, Robot. See you tomorrow.",0.462
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_01,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_02,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_03,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_04,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_05,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_06,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_07,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_08,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_09,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_10,noise,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_01,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_02,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_03,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_04,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_05,noise_loud,,So,0.256
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_06,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_07,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_08,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_09,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,noise_loud_10,noise_loud,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_01,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_02,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_03,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_04,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_05,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_06,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_07,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_08,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_09,silence,,,0.0
+parakeet-tdt-0.6b-v2-int8,cpu,int8,silero,silence_10,silence,,,0.0

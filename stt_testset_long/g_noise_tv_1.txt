@@ -1,0 +1,1 @@
+I am working on a social robot that can listen to people and answer them. It looks at the person who is speaking, waits until they finish, and then replies with a short and friendly sentence.

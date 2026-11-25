@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1280, user-scalable=no">  <!-- Pepper tablet: page width fixed to 1280 px -->
+<title>Robot Chat Monitor</title>
+<style>
+  body   { margin: 0; font-family: sans-serif; background: #f4f6f8; color: #222; }
+  h1     { margin: 10px 24px 6px; font-size: 20px; }
+  #state { margin: 0 24px; padding: 12px; border-radius: 12px; color: white;
+           font-size: 34px; font-weight: bold; text-align: center; background: #888; }
+  .row   { display: flex; gap: 12px; margin: 12px 24px; }
+  .col   { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+  .card  { flex: 1; background: white; border-radius: 12px; padding: 10px 16px; box-shadow: 0 1px 3px #0002; }
+  .small { flex: 0 0 auto; }
+  .label { font-size: 13px; color: #777; text-transform: uppercase; }
+  .big   { font-size: 26px; font-weight: bold; margin-top: 2px; }
+  #turns div { margin: 3px 0; font-size: 17px; }
+  #cam   { width: 480px; height: 360px; border-radius: 8px; background: #ddd; display: block; margin-top: 8px; }
+  .ctl   { margin-top: 12px; }
+  .ctl input  { font-size: 16px; padding: 6px 8px; border: 1px solid #bbb; border-radius: 6px; }
+  .ctl button { font-size: 16px; padding: 6px 14px; border: 0; border-radius: 6px; background: #2f6fd6; color: white; cursor: pointer; }
+  .ctl button.off { background: #888; }
+  #msg   { color: #2e9d4a; font-size: 14px; margin-top: 8px; }
+
+</style>
+</head>
+<body>
+<h1>Robot Chat Monitor</h1>
+<div id="state">...</div>
+<div class="row">
+  <div class="card" style="flex: 0 0 auto">
+    <div class="label">Camera (green box = looking at the robot, orange = looking away)</div>
+    <img id="cam" alt="">
+  </div>
+  <div class="col">
+  <div class="row" style="margin: 0">
+    <div class="card small" style="flex: 1">
+      <div class="label">Partner</div>
+      <div class="big" id="looking">-</div>
+      <div id="seen"></div>
+    </div>
+    <div class="card small" style="flex: 1">
+      <div class="label">Lip check - last sentence</div>
+      <div class="big" id="lips">-</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="label">Controls</div>
+    <div class="ctl">
+      <input id="typed" size="22" placeholder="type instead of speaking">
+      <button onclick="send('type', val('typed'), 'typed')">Send</button>
+    </div>
+    <div class="ctl">
+      <button id="mute" onclick="send('mute', null)">Mute robot</button>
+    </div>
+    <div class="ctl">
+      Not engaged after <input id="ne" size="3"> s
+      <button onclick="send('not_engaged', val('ne'))">Set</button>
+    </div>
+    <div class="ctl">
+      <input id="note" size="22" placeholder="test note (what happened)">
+      <button onclick="send('note', 'pass | ' + val('note'), 'note')">Pass</button>
+      <button onclick="send('note', 'fail | ' + val('note'), 'note')" style="background:#d33">Fail</button>
+    </div>
+    <div id="msg"></div>
+  </div>
+  </div>
+</div>
+<div class="row">
+  <div class="card">
+    <div class="label">Conversation (last 5 turns)</div>
+    <div id="turns"></div>
+  </div>
+</div>
+<div class="row" id="times"></div>
+
+<script>
+function val(id) { return document.getElementById(id).value; }
+
+// a button was pressed: send {"cmd": ..., "value": ...} to chat_demo (/cmd); clear the text box if given
+function send(cmd, value, clearId) {
+  var req = new XMLHttpRequest();
+  req.open("POST", "/cmd");
+  req.setRequestHeader("Content-Type", "application/json");
+  req.onload = function () {
+    document.getElementById("msg").textContent = "sent: " + cmd + (value ? " (" + value + ")" : "");
+    if (clearId) { document.getElementById(clearId).value = ""; }
+  };
+  req.onerror = function () { document.getElementById("msg").textContent = "not sent (chat_demo running?)"; };
+  req.send(JSON.stringify({cmd: cmd, value: value}));
+}
+var neFilled = false;
+
+// colour + text per state. Green = "speak now" (professor: "I wait for the green light")
+var LOOK = {WAITING:   ["#888888", "WAITING - look at the robot"],
+            LISTENING: ["#2e9d4a", "LISTENING - speak now"],
+            THINKING:  ["#d9a400", "THINKING"],
+            SPEAKING:  ["#2f6fd6", "ROBOT SPEAKING"]};
+
+function update() {
+  // ask chat_demo for the latest status (old-style request: also works in Pepper's old tablet browser)
+  var req = new XMLHttpRequest();
+  req.open("GET", "/status");
+  req.onload = function () {
+    var s = JSON.parse(req.responseText);
+    var box = document.getElementById("state");
+    var look = LOOK[s.state] || ["#888888", s.state];
+    box.style.background = look[0];
+    box.textContent = look[1];
+    // (direction "partner / NOT partner" removed 16 Nov: wrong since the camera was moved)
+
+    // lip check (Light-ASD): % of the sentence the partner's lips were speaking; >= 50 % = partner (rule B)
+    var lp = document.getElementById("lips");
+    if (s.lips === undefined || s.lips === null) { lp.textContent = "no data"; lp.style.color = "#888"; }
+    else { lp.textContent = s.lips + " % speaking"; lp.style.color = s.lips >= 50 ? "#2e9d4a" : "#d33"; }
+
+    // conversation: one line per turn
+    var html = "";
+    for (var i = 0; i < s.turns.length; i++) {
+      var grey = s.turns[i][0] === "ignored" ? " style='color:#999'" : "";   // ignored = not from the partner
+      html += "<div" + grey + "><b>" + s.turns[i][0] + ":</b> " + s.turns[i][1] + "</div>";
+    }
+    document.getElementById("turns").innerHTML = html;
+
+    // time tiles: one card per value (whisper, llm, piper, total)
+    var t = "";
+    for (var k in s.times) {
+      t += "<div class='card'><div class='label'>" + k + "</div><div class='big'>" + s.times[k] + " s</div></div>";
+    }
+    document.getElementById("times").innerHTML = t;
+
+    // partner box: is the person looking now? (look seen in the last 1.5 s; gaze gives only ~1.7 frames/s on the laptop CPU)
+    var lk = document.getElementById("looking");
+    if (s.look_ago !== null && s.look_ago < 1.5)      { lk.textContent = "looking";      lk.style.color = "#2e9d4a"; }
+    else if (s.face_ago !== null && s.face_ago < 1.5) { lk.textContent = "looking away"; lk.style.color = "#e08a00"; }
+    else                                              { lk.textContent = "no face";      lk.style.color = "#888"; }
+    document.getElementById("seen").textContent =
+        "face seen " + s.face_ago + " s ago | look " + s.look_ago + " s ago";
+
+    // controls: mute button shows the current state; "not engaged" box filled once with the current value
+    var mb = document.getElementById("mute");
+    mb.textContent = s.mute ? "Unmute robot (muted now)" : "Mute robot";
+    mb.className = s.mute ? "off" : "";
+    if (!neFilled && s.not_engaged_s) { document.getElementById("ne").value = s.not_engaged_s; neFilled = true; }
+
+    // camera image: load the new one in the background, then swap (no flicker)
+    var next = new Image();
+    next.onload = function () { document.getElementById("cam").src = next.src; };
+    next.src = "/camera.jpg?t=" + new Date().getTime();
+
+  };
+  req.onerror = function () {
+    document.getElementById("state").textContent = "chat_demo not running";
+  };
+  req.send();
+}
+setInterval(update, 300);   // 3 times per second
+update();
+</script>
+</body>
+</html>

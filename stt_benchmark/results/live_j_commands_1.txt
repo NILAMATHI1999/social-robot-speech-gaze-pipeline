@@ -1,0 +1,9 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.9 s | waiting  2.0 s | took 0.92 s | 
+  4.8 s | waiting  2.0 s | took 0.80 s | 
+  6.9 s | waiting  2.0 s | took 0.91 s |  Hello
+  8.9 s | waiting  2.0 s | took 0.85 s | 
+ 10.9 s | waiting  2.0 s | took 0.86 s | 
+ 13.0 s | waiting  2.0 s | took 0.94 s | 
+  end   |  everyone. Please don't let stop. Thank you.
+saved results/live_j_commands_1.wav

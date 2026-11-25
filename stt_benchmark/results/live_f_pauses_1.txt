@@ -1,0 +1,14 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.0 s | waiting  2.0 s | took 0.04 s | 
+  4.9 s | waiting  2.0 s | took 0.89 s | 
+  6.9 s | waiting  2.0 s | took 0.86 s |  I would like to
+  8.8 s | waiting  2.0 s | took 0.81 s |  know if you have the time.
+ 11.0 s | waiting  2.0 s | took 0.99 s | 
+ 13.0 s | waiting  2.0 s | took 1.01 s |  how
+ 15.0 s | waiting  2.0 s | took 0.97 s |  this
+ 17.1 s | waiting  2.0 s | took 1.02 s |  robot was built, who wrote the software
+ 19.1 s | waiting  2.0 s | took 1.08 s |  for
+ 21.9 s | waiting  2.0 s | took 1.83 s |  it, and whether it can
+ 23.0 s | waiting  2.0 s | took 0.94 s | 
+  end   |  be it can also understand other languages.
+saved results/live_f_pauses_1.wav

@@ -1,0 +1,29 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+qwen3-asr-0.6b,cpu,float32,none,background_01,background,"Hello robot, how are you today?","Hello, robot. How are you today?",4.918
+qwen3-asr-0.6b,cpu,float32,none,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",3.817
+qwen3-asr-0.6b,cpu,float32,none,background_loud_01,background_loud,"Hello robot, how are you today?","Hello, she wrote her address today. And then we had a conversation.",6.066
+qwen3-asr-0.6b,cpu,float32,none,background_loud_02,background_loud,Can you tell me the time please?,"Can you tell me the time, please? When I welcomed this woman unconditionally, I saw.",6.747
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hello, neighborhood. How are you today?",4.47
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Can you tell me the phone number?,3.913
+qwen3-asr-0.6b,cpu,float32,none,clean_01,clean,"Hello robot, how are you today?",Hello robot. How are you today?,3.9
+qwen3-asr-0.6b,cpu,float32,none,clean_02,clean,Can you tell me the time please?,"Can you tell me the time, please?",4.105
+qwen3-asr-0.6b,cpu,float32,none,noise_01,noise,,The.,2.774
+qwen3-asr-0.6b,cpu,float32,none,noise_02,noise,,The.,2.097
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_01,noise_loud,,Next.,2.175
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_02,noise_loud,,You're the hammer.,3.255
+qwen3-asr-0.6b,cpu,float32,none,silence_01,silence,,The.,2.139
+qwen3-asr-0.6b,cpu,float32,none,silence_02,silence,,The.,2.133
+qwen3-asr-0.6b,cpu,float32,silero,background_01,background,"Hello robot, how are you today?","Hello, robot. How are you today?",3.515
+qwen3-asr-0.6b,cpu,float32,silero,background_02,background,Can you tell me the time please?,"Can you tell me the time, please.",2.986
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_01,background_loud,"Hello robot, how are you today?","I asked her if she got that review today, and then we had a conversation.",5.228
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_02,background_loud,Can you tell me the time please?,"Can you tell me the time, please? When I welcomed this woman unconditionally, I saw.",8.194
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hello, my boy, how are you today?",4.239
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Someone taking the blame.,2.367
+qwen3-asr-0.6b,cpu,float32,silero,clean_01,clean,"Hello robot, how are you today?","Hello, robot. How are you today?",3.651
+qwen3-asr-0.6b,cpu,float32,silero,clean_02,clean,Can you tell me the time please?,"Can you tell me the time, please?",3.635
+qwen3-asr-0.6b,cpu,float32,silero,noise_01,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_02,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_01,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_02,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_01,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_02,silence,,,0.0

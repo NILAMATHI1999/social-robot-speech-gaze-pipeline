@@ -1,0 +1,10 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.9 s | waiting  2.0 s | took 0.93 s | 
+  5.0 s | waiting  2.0 s | took 0.96 s |  Please tell me
+  7.0 s | waiting  2.0 s | took 1.03 s |  what weather is like today and what I should
+  9.9 s | waiting  2.0 s | took 1.85 s |  do this
+ 11.2 s | waiting  2.0 s | took 1.13 s |  afternoon.
+ 13.1 s | waiting  2.0 s | took 1.08 s | 
+ 15.1 s | waiting  2.0 s | took 1.11 s |  to know if it's sunny I would like to go for a walk near the river but if it rains I will stay at home, read a book and
+  end   |  call my family in the evening.
+saved results/live_i_fast_1.wav

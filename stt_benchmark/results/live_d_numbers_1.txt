@@ -1,0 +1,10 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.9 s | waiting  2.0 s | took 0.90 s | 
+  4.9 s | waiting  2.0 s | took 0.84 s |  The
+  6.9 s | waiting  2.0 s | took 0.87 s |  meeting starts at 3.45 in
+  9.0 s | waiting  2.0 s | took 0.92 s |  June,
+ 10.9 s | waiting  2.0 s | took 0.91 s | 
+ 13.8 s | waiting  2.0 s | took 1.77 s | 
+ 15.1 s | waiting  2.0 s | took 1.10 s |  204 and we need 12 chairs, 6 tables and 2 screens for about 30 people.
+  end   | 
+saved results/live_d_numbers_1.wav

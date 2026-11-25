@@ -1,0 +1,152 @@
+=== ../stt_testset_long/a_short_1.wav
+clip 8.2 s, new audio every 2.0 s
+  2.0 s | took 0.06 s | 
+  4.0 s | took 0.03 s | 
+  6.0 s | took 19.67 s | 
+  8.0 s | took 18.74 s | 
+ 10.0 s | took 19.45 s | 
+  end   | took 0.00 s |  Hello robot, how are you today?
+=== ../stt_testset_long/a_short_2.wav
+clip 5.9 s, new audio every 2.0 s
+  2.0 s | took 0.06 s | 
+  4.0 s | took 18.96 s | 
+  6.0 s | took 18.67 s | 
+  end   | took 0.00 s |  Please stop and wait for me here
+=== ../stt_testset_long/b_medium_1.wav
+clip 10.5 s, new audio every 2.0 s
+  2.0 s | took 18.29 s | 
+  4.0 s | took 18.25 s |  My name is
+  6.0 s | took 43.32 s |  Nila and I study at the
+  8.0 s | took 19.34 s |  University of
+ 10.0 s | took 37.63 s |  Nirnirnaman and today I want to show you
+ 12.0 s | took 18.81 s |  my project
+  end   | took 0.00 s | 
+=== ../stt_testset_long/b_medium_2.wav
+clip 10.0 s, new audio every 2.0 s
+  2.0 s | took 17.92 s | 
+  4.0 s | took 17.82 s |  Can you tell
+  6.0 s | took 18.01 s |  me where the nearest coffee machine
+  8.0 s | took 43.72 s |  is and how long it
+ 10.0 s | took 37.22 s |  takes to work there
+ 12.0 s | took 18.82 s |  from this room
+  end   | took 0.00 s | 
+=== ../stt_testset_long/c_long_1.wav
+clip 22.3 s, new audio every 2.0 s
+  2.0 s | took 17.76 s | 
+  4.0 s | took 18.19 s |  I am working
+  6.0 s | took 17.97 s |  on a new social robot that can listen to
+  8.0 s | took 40.87 s |  people and answer
+ 10.0 s | took 18.13 s | 
+ 12.0 s | took 18.43 s |  them. It looks at the person who is
+ 14.0 s | took 18.70 s |  speaking, wait until they finish and
+ 16.0 s | took 36.44 s | 
+ 18.0 s | took 36.33 s | 
+ 20.0 s | took 36.67 s | 
+ 22.0 s | took 36.74 s |  then replies with a short and trendy sentence. sometimes the room is loud so the robot has to decide carefully who it should listen to
+ 24.0 s | took 17.78 s | 
+  end   | took 0.00 s | 
+=== ../stt_testset_long/c_long_2.wav
+clip 22.3 s, new audio every 2.0 s
+  2.0 s | took 0.05 s | 
+  4.0 s | took 17.74 s | 
+  6.0 s | took 17.92 s |  Yesterday I went to the laboratory at
+  8.0 s | took 18.18 s |  FAU in Erlangen to test the
+ 10.0 s | took 36.01 s |  microphone on the robot.
+ 12.0 s | took 18.30 s |  first we check the speaker then
+ 14.0 s | took 18.71 s |  we measured how long the answer to
+ 16.0 s | took 18.30 s | 
+ 18.0 s | took 18.26 s | 
+ 20.0 s | took 19.48 s |  work and after that we wrote the results in a table.
+ 22.0 s | took 18.01 s | 
+ 24.0 s | took 18.02 s |  tomorrow we will repeat the test with two more people in the room
+  end   | took 0.00 s | 
+=== ../stt_testset_long/c_long_3.wav
+clip 18.6 s, new audio every 2.0 s
+  2.0 s | took 0.05 s | 
+  4.0 s | took 18.55 s | 
+  6.0 s | took 17.71 s |  Please tell me what
+  8.0 s | took 18.20 s |  the weather is like today and
+ 10.0 s | took 18.55 s |  what I should do this
+ 12.0 s | took 18.95 s |  afternoon if it's sunny I would
+ 14.0 s | took 40.57 s |  like to go for a walk near the river
+ 16.0 s | took 19.44 s |  but if it rains I will
+ 18.0 s | took 19.64 s |  stay at home
+ 20.0 s | took 19.25 s |  read a book and call my family in the evening
+  end   | took 0.00 s | 
+=== ../stt_testset_long/d_numbers_1.wav
+clip 15.4 s, new audio every 2.0 s
+  2.0 s | took 0.05 s | 
+  4.0 s | took 36.48 s | 
+  6.0 s | took 17.68 s |  The meeting starts at
+  8.0 s | took 35.32 s |  day 43 in room
+ 10.0 s | took 35.57 s | 
+ 12.0 s | took 17.95 s |  204 and we need
+ 14.0 s | took 18.39 s |  12 chairs, 6 tables
+ 16.0 s | took 18.42 s |  and 2 screens for
+  end   | took 0.00 s |  about 30 people
+=== ../stt_testset_long/e_verylong_1.wav
+clip 40.4 s, new audio every 2.0 s
+  2.0 s | took 0.05 s | 
+  4.0 s | took 17.89 s | 
+  6.0 s | took 17.60 s | 
+  8.0 s | took 17.75 s |  A good conversation with the robot should feel
+ 10.0 s | took 17.90 s |  natural. The robot should
+ 12.0 s | took 17.86 s |  notice when somebody
+ 14.0 s | took 18.16 s |  looks at
+ 16.0 s | took 18.56 s |  it, greet the person and listen without
+ 18.0 s | took 18.42 s |  cutting them off.
+ 20.0 s | took 41.82 s | 
+ 22.0 s | took 36.66 s | 
+ 24.0 s | took 18.50 s |  When the person takes a short breath in the middle of a sentence, the robot should keep listening. When the person has
+ 26.0 s | took 18.76 s |  really finished, he should answer quickly.
+ 28.0 s | took 18.46 s |  Because a long
+ 30.0 s | took 18.82 s |  sentence feels
+ 32.0 s | took 19.13 s |  strange, if the robot did not
+ 34.0 s | took 19.04 s |  understand something, we should
+ 36.0 s | took 36.81 s |  politely ask the person to see it again.
+ 38.0 s | took 19.58 s |  At the end of the talk,
+ 40.0 s | took 19.69 s |  it should say goodbye and
+ 42.0 s | took 19.90 s |  wait for the next person who wants to speak with it.
+  end   | took 0.00 s | 
+=== ../stt_testset_long/f_pauses_1.wav
+clip 26.6 s, new audio every 2.0 s
+  2.0 s | took 0.05 s | 
+  4.0 s | took 0.02 s | 
+  6.0 s | took 17.61 s | 
+  8.0 s | took 17.58 s |  I
+ 10.0 s | took 17.64 s |  would like to know
+ 12.0 s | took 17.65 s |  if you
+ 14.0 s | took 17.83 s |  have the
+ 16.0 s | took 18.08 s | 
+ 18.0 s | took 17.78 s |  time how this robot was built
+ 20.0 s | took 18.08 s | 
+ 22.0 s | took 17.85 s |  who wrote the software for it.
+ 24.0 s | took 42.14 s | 
+ 26.0 s | took 36.89 s |  and whether it can
+ 28.0 s | took 37.22 s |  also understand other languages Thank you.
+  end   | took 0.00 s | 
+=== ../stt_testset_long/g_noise_tv_1.wav
+clip 16.5 s, new audio every 2.0 s
+  2.0 s | took 0.05 s | 
+  4.0 s | took 17.49 s | 
+  6.0 s | took 17.75 s |  I'm
+  8.0 s | took 18.04 s |  working on a social
+ 10.0 s | took 18.22 s | 
+ 12.0 s | took 18.17 s |  level that
+ 14.0 s | took 18.55 s |  can listen to people and answer them. It looks at the person who is
+ 16.0 s | took 18.67 s | 
+ 18.0 s | took 18.45 s | 
+  end   | took 0.00 s |  speaking, wait until they finish and then replies with a short and friendly sentence.
+=== ../stt_testset_long/h_far_2m_1.wav
+clip 18.5 s, new audio every 2.0 s
+  2.0 s | took 0.04 s | 
+  4.0 s | took 17.61 s | 
+  6.0 s | took 17.73 s |  I am working on
+  8.0 s | took 30.97 s |  a social network that can listen to
+ 10.0 s | took 58.46 s |  people and answer
+ 12.0 s | took 18.76 s |  them. It looks at the person who is
+ 14.0 s | took 45.03 s |  speaking, waits until the
+ 16.0 s | took 20.58 s |  finish and then replace
+ 18.0 s | took 20.22 s |  with short and friendly sentences.
+ 20.0 s | took 20.60 s | 
+  end   | took 0.00 s | 

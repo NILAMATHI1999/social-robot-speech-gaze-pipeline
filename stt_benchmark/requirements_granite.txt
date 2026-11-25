@@ -1,0 +1,7 @@
+# venv: ~/stt_granite_venv (laptop only). torch/torchaudio CPU builds:
+#   pip install torch==2.14.1 torchaudio==2.11.0 --index-url https://download.pytorch.org/whl/cpu
+# NOT for the Jetson: never install torch there.
+transformers==5.20.2
+numpy
+jiwer==4.0.0
+whisper-normalizer==0.1.15

@@ -1,0 +1,221 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+medium.en,cpu,int8,none,background_01,background,"Hello robot, how are you today?","Hello Rupaul, how are you today?",18.843
+medium.en,cpu,int8,none,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",17.121
+medium.en,cpu,int8,none,background_03,background,My name is Nila and I study at the university.,My name is Mila and I study at the University.,16.17
+medium.en,cpu,int8,none,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,15.924
+medium.en,cpu,int8,none,background_05,background,What is the weather like in Erlangen?,What is the weather like in London?,15.602
+medium.en,cpu,int8,none,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,15.688
+medium.en,cpu,int8,none,background_07,background,Stop robot.,Stop the boat?,14.996
+medium.en,cpu,int8,none,background_08,background,What is the nearest train station?,What is the nearest train station?,15.168
+medium.en,cpu,int8,none,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,15.445
+medium.en,cpu,int8,none,background_10,background,The meeting starts at half past three.,The meeting starts at 3.30.,15.279
+medium.en,cpu,int8,none,background_11,background,I am looking for the computer science building.,I'm looking for the computer science building.,15.602
+medium.en,cpu,int8,none,background_12,background,Thank you very much for your help.,Thank you very much for your help.,15.141
+medium.en,cpu,int8,none,background_13,background,Could you speak a little louder please?,could you speak a little louder please,15.532
+medium.en,cpu,int8,none,background_14,background,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,15.63
+medium.en,cpu,int8,none,background_15,background,Please follow me to the next room.,Please follow me to the next room.,15.275
+medium.en,cpu,int8,none,background_16,background,How many people are in this room?,how many people are in this room,15.457
+medium.en,cpu,int8,none,background_17,background,I do not understand the question.,I do not understand the question,15.54
+medium.en,cpu,int8,none,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,15.326
+medium.en,cpu,int8,none,background_19,background,What can you do for me?,What can you do for me?,15.179
+medium.en,cpu,int8,none,background_20,background,"Goodbye robot, see you tomorrow.","Goodbye robot, see you tomorrow!",15.064
+medium.en,cpu,int8,none,background_loud_01,background_loud,"Hello robot, how are you today?",And then we had a conversation.,16.384
+medium.en,cpu,int8,none,background_loud_02,background_loud,Can you tell me the time please?,Can you tell me the time please?,15.585
+medium.en,cpu,int8,none,background_loud_03,background_loud,My name is Nila and I study at the university.,My name is Nisar Best and you are being noticed.,15.774
+medium.en,cpu,int8,none,background_loud_04,background_loud,Please turn to the left and wave at me.,"When we stop trying to figure out who deserves it, and we welcome someone, anyone.",16.222
+medium.en,cpu,int8,none,background_loud_05,background_loud,What is the weather like in Erlangen?,"Or just a little more here's a morning to do this with all the parts of myself, but it started just",25.414
+medium.en,cpu,int8,none,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,15.285
+medium.en,cpu,int8,none,background_loud_07,background_loud,Stop robot.,That's the problem,55.669
+medium.en,cpu,int8,none,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of harassment, whether out of exhaustion or epiphany...",16.038
+medium.en,cpu,int8,none,background_loud_09,background_loud,Can you repeat that more slowly?,Can you build up more flow?,14.937
+medium.en,cpu,int8,none,background_loud_10,background_loud,The meeting starts at half past three.,The meeting starts at half past eight.,15.235
+medium.en,cpu,int8,none,background_loud_11,background_loud,I am looking for the computer science building.,I'm looking for the sample that sounds brilliant.,15.159
+medium.en,cpu,int8,none,background_loud_12,background_loud,Thank you very much for your help.,Thank you very much for your help.,14.869
+medium.en,cpu,int8,none,background_loud_13,background_loud,Could you speak a little louder please?,"Would you speak to her if she's younger, please?",15.712
+medium.en,cpu,int8,none,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,"Today is Tuesday, the 25th of October.",15.626
+medium.en,cpu,int8,none,background_loud_15,background_loud,Please follow me to the next room.,Please follow me to the next one.,15.377
+medium.en,cpu,int8,none,background_loud_16,background_loud,How many people are in this room?,"How many, how many people are in this room?",15.632
+medium.en,cpu,int8,none,background_loud_17,background_loud,I do not understand the question.,"And while some of us are not mean, even my whiny shaming.",16.355
+medium.en,cpu,int8,none,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better, and what she'd like for me to learn.",17.267
+medium.en,cpu,int8,none,background_loud_19,background_loud,What can you do for me?,What can you do for me?,15.019
+medium.en,cpu,int8,none,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the roundtable, I would hand out parking validation and remind everyone to sign for their cash.",15.816
+medium.en,cpu,int8,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?",How you all doing? How are you today?,15.108
+medium.en,cpu,int8,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Can you take me to Bantu?,15.599
+medium.en,cpu,int8,none,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,My name is Mila and I study under new recipes.,16.073
+medium.en,cpu,int8,none,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,Please don't put the lights on the way out now.,15.437
+medium.en,cpu,int8,none,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the letter making around them?,14.722
+medium.en,cpu,int8,none,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I will make a cup of coffee with milk,15.261
+medium.en,cpu,int8,none,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,"Stop it, bro.",52.763
+medium.en,cpu,int8,none,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,,14.856
+medium.en,cpu,int8,none,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,"Ok, I'm going to repeat that and now it's ready.",15.932
+medium.en,cpu,int8,none,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The amazing stats of part 3.,15.198
+medium.en,cpu,int8,none,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,"I'm a new princess, I'm good at things and good at them.",15.803
+medium.en,cpu,int8,none,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your attention.,14.916
+medium.en,cpu,int8,none,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,"Can you speak to Mr. Carter, please?",15.321
+medium.en,cpu,int8,none,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,"Today is Thursday, but I'm going to go start my favorite.",15.612
+medium.en,cpu,int8,none,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next channel.,15.157
+medium.en,cpu,int8,none,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,How many people are in this room?,15.066
+medium.en,cpu,int8,none,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand what is to you.,15.215
+medium.en,cpu,int8,none,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,I don't know if the light is in the room.,15.509
+medium.en,cpu,int8,none,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,Why can't you be for me?,14.985
+medium.en,cpu,int8,none,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.","Goodbye, we both see you tomorrow.",15.188
+medium.en,cpu,int8,none,clean_01,clean,"Hello robot, how are you today?",hello robot how are you today,15.19
+medium.en,cpu,int8,none,clean_02,clean,Can you tell me the time please?,can you tell me the time please,15.455
+medium.en,cpu,int8,none,clean_03,clean,My name is Nila and I study at the university.,My name is Neela and I study at the university.,15.18
+medium.en,cpu,int8,none,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,15.39
+medium.en,cpu,int8,none,clean_05,clean,What is the weather like in Erlangen?,what is the weather like in Erlangen,15.454
+medium.en,cpu,int8,none,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,15.276
+medium.en,cpu,int8,none,clean_07,clean,Stop robot.,Stop your boat.,15.14
+medium.en,cpu,int8,none,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,14.638
+medium.en,cpu,int8,none,clean_09,clean,Can you repeat that more slowly?,Can you repeat that move slowly?,14.886
+medium.en,cpu,int8,none,clean_10,clean,The meeting starts at half past three.,The meeting starts at 12 past three.,15.324
+medium.en,cpu,int8,none,clean_11,clean,I am looking for the computer science building.,I am looking for the comparisons building.,15.171
+medium.en,cpu,int8,none,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,15.062
+medium.en,cpu,int8,none,clean_13,clean,Could you speak a little louder please?,could you speak a little louder please,14.829
+medium.en,cpu,int8,none,clean_14,clean,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,14.992
+medium.en,cpu,int8,none,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,15.109
+medium.en,cpu,int8,none,clean_16,clean,How many people are in this room?,How many people are in this room?,15.052
+medium.en,cpu,int8,none,clean_17,clean,I do not understand the question.,I do not understand the question.,14.902
+medium.en,cpu,int8,none,clean_18,clean,Turn off the lights when you leave.,turn off the lights when you leave,15.253
+medium.en,cpu,int8,none,clean_19,clean,What can you do for me?,What can you do for me?,14.808
+medium.en,cpu,int8,none,clean_20,clean,"Goodbye robot, see you tomorrow.","Goodbye, Robot. See you tomorrow.",15.094
+medium.en,cpu,int8,none,noise_01,noise,,,14.402
+medium.en,cpu,int8,none,noise_02,noise,,,14.481
+medium.en,cpu,int8,none,noise_03,noise,,Thank you very much.,14.488
+medium.en,cpu,int8,none,noise_04,noise,,,14.691
+medium.en,cpu,int8,none,noise_05,noise,,,14.859
+medium.en,cpu,int8,none,noise_06,noise,,,14.858
+medium.en,cpu,int8,none,noise_07,noise,,,14.57
+medium.en,cpu,int8,none,noise_08,noise,,,14.653
+medium.en,cpu,int8,none,noise_09,noise,,,14.727
+medium.en,cpu,int8,none,noise_10,noise,,,14.561
+medium.en,cpu,int8,none,noise_loud_01,noise_loud,,,14.592
+medium.en,cpu,int8,none,noise_loud_02,noise_loud,,,14.982
+medium.en,cpu,int8,none,noise_loud_03,noise_loud,,,16.254
+medium.en,cpu,int8,none,noise_loud_04,noise_loud,,Thank you.,14.501
+medium.en,cpu,int8,none,noise_loud_05,noise_loud,,We'll see you next time.,15.078
+medium.en,cpu,int8,none,noise_loud_06,noise_loud,,,14.648
+medium.en,cpu,int8,none,noise_loud_07,noise_loud,,,14.532
+medium.en,cpu,int8,none,noise_loud_08,noise_loud,,,14.487
+medium.en,cpu,int8,none,noise_loud_09,noise_loud,,"I don't know, I don't know, I don't know, I don't know.",15.987
+medium.en,cpu,int8,none,noise_loud_10,noise_loud,,,14.968
+medium.en,cpu,int8,none,silence_01,silence,,,14.365
+medium.en,cpu,int8,none,silence_02,silence,,Thank you very much.,14.811
+medium.en,cpu,int8,none,silence_03,silence,,You,15.514
+medium.en,cpu,int8,none,silence_04,silence,,,14.304
+medium.en,cpu,int8,none,silence_05,silence,,Thank you very much.,13.883
+medium.en,cpu,int8,none,silence_06,silence,,,14.225
+medium.en,cpu,int8,none,silence_07,silence,,,14.375
+medium.en,cpu,int8,none,silence_08,silence,,Thank you very much.,14.772
+medium.en,cpu,int8,none,silence_09,silence,,,14.535
+medium.en,cpu,int8,none,silence_10,silence,,Thank you very much.,14.554
+medium.en,cpu,int8,silero,background_01,background,"Hello robot, how are you today?","Hello Ruben, how are you today?",15.408
+medium.en,cpu,int8,silero,background_02,background,Can you tell me the time please?,Can you tell me the time please?,16.107
+medium.en,cpu,int8,silero,background_03,background,My name is Nila and I study at the university.,My name is Mila and I study at the University.,15.53
+medium.en,cpu,int8,silero,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,15.345
+medium.en,cpu,int8,silero,background_05,background,What is the weather like in Erlangen?,What is the weather like in London?,15.131
+medium.en,cpu,int8,silero,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,15.441
+medium.en,cpu,int8,silero,background_07,background,Stop robot.,Start robot.,14.361
+medium.en,cpu,int8,silero,background_08,background,What is the nearest train station?,What is the nearest train station?,15.104
+medium.en,cpu,int8,silero,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,15.693
+medium.en,cpu,int8,silero,background_10,background,The meeting starts at half past three.,The meeting starts at half past 3.,15.352
+medium.en,cpu,int8,silero,background_11,background,I am looking for the computer science building.,I'm looking for the computer science building.,15.292
+medium.en,cpu,int8,silero,background_12,background,Thank you very much for your help.,Thank you very much for your help.,15.365
+medium.en,cpu,int8,silero,background_13,background,Could you speak a little louder please?,"Could you speak a little louder, please?",15.323
+medium.en,cpu,int8,silero,background_14,background,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,15.457
+medium.en,cpu,int8,silero,background_15,background,Please follow me to the next room.,Please follow me to the next room.,14.908
+medium.en,cpu,int8,silero,background_16,background,How many people are in this room?,How many people are in this room?,14.745
+medium.en,cpu,int8,silero,background_17,background,I do not understand the question.,I do not understand that question.,14.808
+medium.en,cpu,int8,silero,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,14.193
+medium.en,cpu,int8,silero,background_19,background,What can you do for me?,What can you do for me?,14.767
+medium.en,cpu,int8,silero,background_20,background,"Goodbye robot, see you tomorrow.",Goodbye robots see you tomorrow,14.713
+medium.en,cpu,int8,silero,background_loud_01,background_loud,"Hello robot, how are you today?","and I asked her if she didn't know her parents, and then we had a conversation.",16.061
+medium.en,cpu,int8,silero,background_loud_02,background_loud,Can you tell me the time please?,Can you tell me the time please?,15.268
+medium.en,cpu,int8,silero,background_loud_03,background_loud,My name is Nila and I study at the university.,My name is Nia and I am the winner of this video.,15.811
+medium.en,cpu,int8,silero,background_loud_04,background_loud,Please turn to the left and wave at me.,"when we stop trying to figure out who deserves it, and we welcome someone, anyone.",16.055
+medium.en,cpu,int8,silero,background_loud_05,background_loud,What is the weather like in Erlangen?,Or just a little bit more here,62.385
+medium.en,cpu,int8,silero,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with me.,14.942
+medium.en,cpu,int8,silero,background_loud_07,background_loud,Stop robot.,That's the problem,52.483
+medium.en,cpu,int8,silero,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of harassment, whether out of exhaustion or epiphany...",15.229
+medium.en,cpu,int8,silero,background_loud_09,background_loud,Can you repeat that more slowly?,"I said out loud and it always could surprise me, you're for sharing.",15.832
+medium.en,cpu,int8,silero,background_loud_10,background_loud,The meeting starts at half past three.,The meeting starts at half past eight.,15.02
+medium.en,cpu,int8,silero,background_loud_11,background_loud,I am looking for the computer science building.,I'm looking for the same person's brain.,15.436
+medium.en,cpu,int8,silero,background_loud_12,background_loud,Thank you very much for your help.,Thank you very much for your help.,14.82
+medium.en,cpu,int8,silero,background_loud_13,background_loud,Could you speak a little louder please?,"Could you speak a little bit louder, please?",15.544
+medium.en,cpu,int8,silero,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,"Today is Tuesday, the 21st day of October.",15.134
+medium.en,cpu,int8,silero,background_loud_15,background_loud,Please follow me to the next room.,Please follow me to the next one.,14.636
+medium.en,cpu,int8,silero,background_loud_16,background_loud,How many people are in this room?,"How many, how many people are in this room?",15.052
+medium.en,cpu,int8,silero,background_loud_17,background_loud,I do not understand the question.,"And well, some of us are not mean, even my whiny, shaming.",15.723
+medium.en,cpu,int8,silero,background_loud_18,background_loud,Turn off the lights when you leave.,She tells me exactly what I need to know what she needs to feel better and what she'd like for me to learn,16.718
+medium.en,cpu,int8,silero,background_loud_19,background_loud,What can you do for me?,What can you do for me?,15.281
+medium.en,cpu,int8,silero,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the roundtable, I would hand out parking validation and remind everyone to sign for their cash.",16.123
+medium.en,cpu,int8,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","I'm only good, how are you today?",15.054
+medium.en,cpu,int8,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,I'm going to take you to the bathroom.,15.309
+medium.en,cpu,int8,silero,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,My name is Leila and I study at the University.,15.541
+medium.en,cpu,int8,silero,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,Please don't blow the light from way out now.,15.136
+medium.en,cpu,int8,silero,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,Or just the leathermaking around them.,15.19
+medium.en,cpu,int8,silero,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I will make a cup of coffee with milk.,14.571
+medium.en,cpu,int8,silero,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Stop the boat.,44.863
+medium.en,cpu,int8,silero,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,,0.045
+medium.en,cpu,int8,silero,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,"Ok, I'm going to repeat that to mouse voice.",15.046
+medium.en,cpu,int8,silero,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The main theme starts with part 3.,15.257
+medium.en,cpu,int8,silero,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,I'm a new person who has a whole new thing to do now.,15.618
+medium.en,cpu,int8,silero,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,"And you are the next one, I think.",14.863
+medium.en,cpu,int8,silero,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,"Will you speak to Mr. Cloudy, please?",15.122
+medium.en,cpu,int8,silero,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,"Today is Thursday, but thank you for stopping by.",15.479
+medium.en,cpu,int8,silero,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next channel,14.746
+medium.en,cpu,int8,silero,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,How many people are in this room?,14.765
+medium.en,cpu,int8,silero,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand what you are saying.,15.028
+medium.en,cpu,int8,silero,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,I like the way you see me.,15.702
+medium.en,cpu,int8,silero,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,What can you be for me?,14.998
+medium.en,cpu,int8,silero,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.","Goodbye, we both see you tomorrow.",15.025
+medium.en,cpu,int8,silero,clean_01,clean,"Hello robot, how are you today?","Hello Robot, How are you today?",14.926
+medium.en,cpu,int8,silero,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,14.953
+medium.en,cpu,int8,silero,clean_03,clean,My name is Nila and I study at the university.,My name is Neela and I study at the university.,15.301
+medium.en,cpu,int8,silero,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and behave at me.,15.141
+medium.en,cpu,int8,silero,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,15.309
+medium.en,cpu,int8,silero,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,15.339
+medium.en,cpu,int8,silero,clean_07,clean,Stop robot.,Stop robot.,14.752
+medium.en,cpu,int8,silero,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,14.496
+medium.en,cpu,int8,silero,clean_09,clean,Can you repeat that more slowly?,Can you repeat that move slowly?,14.28
+medium.en,cpu,int8,silero,clean_10,clean,The meeting starts at half past three.,The meeting starts at 12 past 3.,15.225
+medium.en,cpu,int8,silero,clean_11,clean,I am looking for the computer science building.,I am looking for the computer sensibility.,15.081
+medium.en,cpu,int8,silero,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,14.977
+medium.en,cpu,int8,silero,clean_13,clean,Could you speak a little louder please?,"Could you speak a little louder, please?",14.559
+medium.en,cpu,int8,silero,clean_14,clean,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,15.098
+medium.en,cpu,int8,silero,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,14.763
+medium.en,cpu,int8,silero,clean_16,clean,How many people are in this room?,How many people are in this room?,14.91
+medium.en,cpu,int8,silero,clean_17,clean,I do not understand the question.,I do not understand the question.,14.578
+medium.en,cpu,int8,silero,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,15.034
+medium.en,cpu,int8,silero,clean_19,clean,What can you do for me?,What can you do for me?,14.927
+medium.en,cpu,int8,silero,clean_20,clean,"Goodbye robot, see you tomorrow.","Goodbye, Robot. See you tomorrow.",15.162
+medium.en,cpu,int8,silero,noise_01,noise,,,0.046
+medium.en,cpu,int8,silero,noise_02,noise,,,0.033
+medium.en,cpu,int8,silero,noise_03,noise,,,0.034
+medium.en,cpu,int8,silero,noise_04,noise,,,0.029
+medium.en,cpu,int8,silero,noise_05,noise,,,0.022
+medium.en,cpu,int8,silero,noise_06,noise,,,0.02
+medium.en,cpu,int8,silero,noise_07,noise,,,0.017
+medium.en,cpu,int8,silero,noise_08,noise,,,0.017
+medium.en,cpu,int8,silero,noise_09,noise,,,0.016
+medium.en,cpu,int8,silero,noise_10,noise,,,0.019
+medium.en,cpu,int8,silero,noise_loud_01,noise_loud,,,0.024
+medium.en,cpu,int8,silero,noise_loud_02,noise_loud,,,0.016
+medium.en,cpu,int8,silero,noise_loud_03,noise_loud,,,0.028
+medium.en,cpu,int8,silero,noise_loud_04,noise_loud,,,0.026
+medium.en,cpu,int8,silero,noise_loud_05,noise_loud,,Thank you. Thank you.,12.484
+medium.en,cpu,int8,silero,noise_loud_06,noise_loud,,,0.036
+medium.en,cpu,int8,silero,noise_loud_07,noise_loud,,,0.018
+medium.en,cpu,int8,silero,noise_loud_08,noise_loud,,,0.016
+medium.en,cpu,int8,silero,noise_loud_09,noise_loud,,,0.015
+medium.en,cpu,int8,silero,noise_loud_10,noise_loud,,,0.015
+medium.en,cpu,int8,silero,silence_01,silence,,,0.018
+medium.en,cpu,int8,silero,silence_02,silence,,,0.016
+medium.en,cpu,int8,silero,silence_03,silence,,,0.019
+medium.en,cpu,int8,silero,silence_04,silence,,,0.016
+medium.en,cpu,int8,silero,silence_05,silence,,,0.016
+medium.en,cpu,int8,silero,silence_06,silence,,,0.017
+medium.en,cpu,int8,silero,silence_07,silence,,,0.016
+medium.en,cpu,int8,silero,silence_08,silence,,,0.015
+medium.en,cpu,int8,silero,silence_09,silence,,,0.016
+medium.en,cpu,int8,silero,silence_10,silence,,,0.016

@@ -32,8 +32,10 @@ from step1d_l2cs_gaze import (
 # Measured on 2026-10-14 with the laptop camera and the ReSpeaker flat
 # under it, USB socket to the right: camera angle = 183 - ReSpeaker angle.
 # Re-measure whenever the camera or the ReSpeaker is moved.
-DOA_CENTRE_DEG = 183.0
-DOA_SCALE = 1.0
+DOA_CENTRE_DEG = 182.8            # calibrated 11 Nov 2026 (3 runs, 10 places, 0.7 + 1.2 m): camera angle = (182.8 - ReSpeaker angle) * 0.77
+DOA_SCALE = 0.77                  # ReSpeaker angles are about 1.3x bigger than camera angles; typical error 3 deg, max 12.5
+                 # ReSpeaker angles were about 1.36x too big at the sides
+
 
 # Faces further than this from the sound direction are not the speaker.
 MATCH_TOLERANCE_DEG = 15.0
@@ -364,3 +366,84 @@ def draw_frame(frame, faces, speaker_index, decision, speaking, doa,
         (255, 255, 255),
         2,
     )
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
+    parser.add_argument("--cam", type=int, default=0)
+    parser.add_argument("--weights", default=str(Path(__file__).resolve().parents[2] / "gaze" / "L2CS-Net" / "models" / "L2CSNet_gaze360.pkl"))   # same weights as mvp/gaze_trigger.py
+    args = parser.parse_args()
+
+    if args.device == "cuda" and not torch.cuda.is_available():
+        raise RuntimeError("CUDA was requested but torch.cuda.is_available() is False")
+
+    weights = Path(args.weights)
+    if not weights.exists():
+        raise FileNotFoundError(f"Model weights not found: {weights}")
+
+    gaze_pipeline = Pipeline(
+        weights=weights,
+        arch="ResNet50",
+        device=select_device(args.device, batch_size=1),
+        confidence_threshold=FACE_CONFIDENCE_THRESHOLD,
+    )
+
+    camera = LatestFrameCamera(args.cam)
+    respeaker = RespeakerDirection()
+    loudness = LoudnessMonitor()
+
+    log_name = datetime.now().strftime("step2b_%Y%m%d_%H%M%S.csv")
+    log_file = open(log_name, "w", newline="")
+    log = csv.writer(log_file)
+    log.writerow(["t", "doa", "voice_flag", "speaking", "rms", "sound_angle", "faces",
+                  "face_angles", "face_gazes", "speaker_face", "angle_error",
+                  "speaker_gaze", "decision"])
+    print(f"Logging to {log_name}. Stay quiet for the first second (noise calibration).")
+    gaze_histories = {}
+
+    try:
+        while True:
+            ok, frame = camera.read()
+            if not ok:
+                print("Camera stopped")
+                break
+
+            now = time.monotonic()
+            faces = measure_faces(frame, gaze_pipeline, gaze_histories)
+            doa, voice_flag = respeaker.read()
+            speaking = loudness.is_speaking(now)
+            _, rms = loudness.status()
+
+            sound_angle, speaker_index, error = None, None, None
+            if speaking and doa is not None:
+                sound_angle = sound_camera_angle_deg(doa)
+                speaker_index, error = match_speaker(
+                    {i: f["angle"] for i, f in faces.items()}, sound_angle)
+
+            speaker_gaze = faces[speaker_index]["gaze"] if speaker_index is not None else None
+            decision = decide(speaking, speaker_index, speaker_gaze)
+
+            draw_frame(frame, faces, speaker_index, decision, speaking, doa, sound_angle)
+            log.writerow([
+                f"{now:.3f}", doa, int(voice_flag), int(speaking), f"{rms:.0f}",
+                "" if sound_angle is None else f"{sound_angle:.1f}", len(faces),
+                " ".join(f"{f['angle']:.1f}" for f in faces.values()),
+                " ".join(f["gaze"] for f in faces.values()),
+                "" if speaker_index is None else speaker_index,
+                "" if error is None else f"{error:.1f}",
+                speaker_gaze or "", decision,
+            ])
+
+            cv2.imshow("Step 2B", frame)
+            if cv2.waitKey(1) & 0xFF == ord("q"):
+                break
+    finally:
+        log_file.close()
+        camera.release()
+        respeaker.close()
+        loudness.close()
+        cv2.destroyAllWindows()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,10 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  3.0 s | waiting  2.0 s | took 0.94 s | 
+  4.9 s | waiting  2.0 s | took 0.88 s |  I am working on
+  7.0 s | waiting  2.0 s | took 0.93 s |  a social robot that can listen to
+  9.1 s | waiting  2.0 s | took 1.03 s |  people and answer them.
+ 11.1 s | waiting  2.0 s | took 1.13 s | 
+ 13.2 s | waiting  2.0 s | took 1.18 s |  it looks at the person who is peaking, wait until they
+ 15.8 s | waiting  2.0 s | took 1.76 s |  finish and then replace with the
+  end   |  short and friendly sentence. Indians.
+saved results/live_h_far_2m_1.wav

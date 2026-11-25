@@ -1,0 +1,3 @@
+model,device,compute_type,vad,wer_clean,wer_background,wer_background_loud,wer_cafe_speech_loud,halluc_silence,halluc_noise,halluc_noise_loud,latency_median_s,peak_ram_mb
+base.en,cuda,float16,none,0.0,15.4,138.5,130.8,1/2,2/2,0/2,0.45,968
+base.en,cuda,float16,silero,0.0,7.7,207.7,130.8,0/2,0/2,0/2,0.49,968

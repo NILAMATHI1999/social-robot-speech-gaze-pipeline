@@ -1,0 +1,11 @@
+model,device,compute_type,vad,wer_clean,wer_background,wer_background_loud,wer_cafe_speech_loud,halluc_silence,halluc_noise,halluc_noise_loud,latency_median_s,peak_ram_mb
+base.en,cuda,float16,none,13.2,16.9,208.1,119.9,8/10,8/10,1/10,0.18,854
+base.en,cuda,float16,silero,5.9,11.8,235.3,105.9,0/10,0/10,0/10,0.22,854
+small.en,cuda,float16,none,6.6,7.4,160.3,78.7,4/10,0/10,1/10,0.41,933
+small.en,cuda,float16,silero,8.1,6.6,153.7,78.7,0/10,0/10,0/10,0.46,933
+medium.en,cuda,float16,none,3.7,6.6,110.3,60.3,6/10,0/10,3/10,1.06,1924
+medium.en,cuda,float16,silero,3.7,4.4,120.6,64.7,0/10,0/10,1/10,1.05,1924
+distil-whisper/distil-large-v3.5-ct2,cuda,float16,none,2.2,8.1,150.7,60.3,10/10,10/10,10/10,1.33,1918
+distil-whisper/distil-large-v3.5-ct2,cuda,float16,silero,3.7,5.1,141.9,58.1,0/10,0/10,1/10,1.43,1918
+large-v3-turbo,cuda,float16,none,2.9,2.9,143.4,73.5,10/10,10/10,10/10,1.42,2013
+large-v3-turbo,cuda,float16,silero,2.2,3.7,95.6,53.7,0/10,0/10,1/10,1.34,2013

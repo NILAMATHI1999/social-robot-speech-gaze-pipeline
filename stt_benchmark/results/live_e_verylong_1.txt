@@ -1,0 +1,21 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  3.0 s | waiting  2.0 s | took 0.95 s | 
+  4.9 s | waiting  2.0 s | took 0.94 s |  A good conversation with
+  7.0 s | waiting  2.0 s | took 0.97 s |  the robot, feeling natural, the
+  9.1 s | waiting  2.0 s | took 1.02 s |  robot should notice when somebody looks at
+ 11.1 s | waiting  2.0 s | took 1.11 s |  it, read the version and
+ 14.7 s | waiting  2.0 s | took 2.71 s |  listen without cutting them off.
+ 15.9 s | waiting  2.6 s | took 1.14 s |  When the person take the
+ 17.7 s | waiting  2.0 s | took 1.11 s |  shot beat in the middle of a sentence, the robot should keep
+ 20.8 s | waiting  2.0 s | took 2.12 s |  listening. When the
+ 22.8 s | waiting  2.1 s | took 2.04 s |  person has really finished, it should
+ 25.0 s | waiting  2.0 s | took 2.24 s |  answer
+ 27.3 s | waiting  2.3 s | took 2.24 s | 
+ 28.4 s | waiting  2.2 s | took 1.09 s | 
+ 31.2 s | waiting  2.0 s | took 1.88 s | 
+ 33.2 s | waiting  2.0 s | took 1.94 s |  quickly because a long silence feels strange. If the robot did not understand something, it should politely ask a
+ 35.3 s | waiting  2.0 s | took 1.98 s |  person to cheat
+ 37.5 s | waiting  2.0 s | took 2.23 s | 
+ 40.5 s | waiting  2.3 s | took 2.99 s |  again. At the end of the talk, it should say goodbye
+  end   |  and wait for the next person who wants to speak.
+saved results/live_e_verylong_1.wav

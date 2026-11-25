@@ -1,0 +1,112 @@
+20:02:23,clean_01,"Hello robot, how are you today?","Hello robot, how are you today?",0.000,0.89,0.0826
+20:02:37,clean_02,Can you tell me the time please?,Can you tell me the time please?,0.000,0.84,0.0406
+20:02:51,clean_03,My name is Nila and I study at the university.,My name is Gila Andra I study at the University.,0.200,0.87,0.0414
+20:03:05,clean_04,Please turn to the left and wave at me.,Please turn to the left and the wave at me.,0.111,0.85,0.0470
+20:03:19,clean_05,What is the weather like in Erlangen?,What is the weather like in Erlangen?,0.000,0.88,0.0302
+20:03:33,clean_06,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,0.000,0.88,0.0437
+20:03:49,clean_07,Stop robot.,start blue boat.,1.500,2.76,0.0317
+20:04:03,clean_08,Where is the nearest train station?,Where is the nearest train station?,0.000,0.83,0.0264
+20:04:17,clean_09,Can you repeat that more slowly?,Can you repeat that more slowly?,0.000,0.80,0.0568
+20:04:31,clean_10,The meeting starts at half past three.,The meeting starts at half past three.,0.000,0.79,0.0419
+20:04:45,clean_11,I am looking for the computer science building.,I am looking for the comparison building.,0.250,0.84,0.0376
+20:04:59,clean_12,Thank you very much for your help.,Thank you very much for your help.,0.000,0.82,0.0269
+20:05:13,clean_13,Could you speak a little louder please?,Could you speak a little louder please?,0.000,0.82,0.0332
+20:05:27,clean_14,Today is Tuesday the twenty first of October.,Today is Tuesday at the 21st of October.,0.375,0.84,0.0394
+20:05:41,clean_15,Please follow me to the next room.,Please follow me to the next room.,0.000,0.84,0.0273
+20:05:55,clean_16,How many people are in this room?,How many people are in this room?,0.000,0.82,0.0450
+20:06:09,clean_17,I do not understand the question.,I do not understand the question.,0.000,0.82,0.0275
+20:06:23,clean_18,Turn off the lights when you leave.,Don't have the lights when you leave.,0.286,0.81,0.0347
+20:06:37,clean_19,What can you do for me?,What can you do for me?,0.000,0.81,0.0306
+20:06:51,clean_20,"Goodbye robot, see you tomorrow.",Good-bye Robert. See you tomorrow.,0.600,0.82,0.0355
+20:14:36,background_01,"Hello robot, how are you today?","Hello everyone, how are you today?",0.167,0.88,0.0860
+20:14:50,background_02,Can you tell me the time please?,Can you give me the time please?,0.143,0.84,0.0444
+20:15:04,background_03,My name is Nila and I study at the university.,My name is Mila Anda I study at the University.,0.200,0.86,0.0547
+20:15:18,background_04,Please turn to the left and wave at me.,Please turn to the left and wave at me.,0.000,0.88,0.0575
+20:15:32,background_05,What is the weather like in Erlangen?,What is the weather like in a long run?,0.429,0.87,0.0366
+20:15:46,background_06,I would like a cup of coffee with milk.,I would like a cup of coffee with the milk.,0.111,0.88,0.0399
+20:16:00,background_07,Stop robot.,Stop it or what?,1.500,0.83,0.0499
+20:16:14,background_08,Where is the nearest train station?,What is the nearest train station?,0.167,0.86,0.0440
+20:16:28,background_09,Can you repeat that more slowly?,There is a really sentimental emotional need and an intellectual and political need.,2.167,0.89,0.0066
+20:16:42,background_10,The meeting starts at half past three.,"It's pretty shaky at the moment, some of us at this time.",1.571,0.93,0.0074
+20:16:56,background_11,I am looking for the computer science building.,I'm looking for the computer science building.,0.250,0.87,0.0353
+20:17:10,background_12,Thank you very much for your help.,Thank you very much for your help.,0.000,0.86,0.0411
+20:17:24,background_13,Could you speak a little louder please?,Could you speak a little louder please?,0.000,0.85,0.0502
+20:17:38,background_14,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,0.250,0.85,0.0570
+20:17:52,background_15,Please follow me to the next room.,Please follow me to the next one.,0.143,0.83,0.0445
+20:18:06,background_16,How many people are in this room?,How many people are in this room?,0.000,0.87,0.0541
+20:18:20,background_17,I do not understand the question.,I do not understand their question.,0.167,0.87,0.0307
+20:18:34,background_18,Turn off the lights when you leave.,Don't know if the legs when you leave.,0.571,0.88,0.0513
+20:18:48,background_19,What can you do for me?,What can you do for me?,0.000,0.86,0.0316
+20:19:02,background_20,"Goodbye robot, see you tomorrow.","Good bye or both, see you tomorrow.",0.800,0.88,0.0555
+20:19:37,silence_01,,Whew. Whew. Whew. Whew. Whew. Whew.,,5.36,0.0038
+20:19:58,silence_02,,Thank you.,,7.75,0.0027
+20:20:12,silence_03,,You,,0.85,0.0084
+20:20:31,silence_04,,. . . . . .,,5.66,0.0020
+20:20:51,silence_05,,Okay.,,6.85,0.0031
+20:21:05,silence_06,,You,,0.83,0.0089
+20:21:23,silence_07,,"So, we'll see you in the next video.",,4.96,0.0028
+20:21:41,silence_08,,you,,5.62,0.0017
+20:21:59,silence_09,,You,,4.56,0.0046
+20:22:17,silence_10,,We'll be right back.,,4.89,0.0017
+20:28:56,background_09,Can you repeat that more slowly?,Can you repeat that more slowly?,0.000,0.87,0.0560
+20:29:10,background_10,The meeting starts at half past three.,The meeting starts at half past three.,0.000,0.87,0.0309
+20:30:05,noise_01,,All right.,,5.99,0.0036
+20:30:19,noise_02,,,,0.83,0.0064
+20:30:40,noise_03,,You,,8.12,0.0031
+20:31:00,noise_04,,"Alright, all right.",,6.84,0.0029
+20:31:19,noise_05,,All right. All right.,,6.42,0.0043
+20:31:38,noise_06,,I think that's all. So we'll take a look at the next slide. Here's a slide. Okay. I'll take a look at the next slide. Okay.,,5.96,0.0064
+20:31:57,noise_07,,Okay. Here we go. We'll go down to the end of the session. Okay. All right. All right. All right. All right. All right. Thank you. I'm glad to be here. I love you. We'll see you in the next video. Thanks. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. I love you. Bye. Bye. Bye. Bye. Bye. Bye.,,6.03,0.0076
+20:32:17,noise_08,,You,,6.25,0.0064
+20:32:38,noise_09,,"Uh, yeah.",,8.03,0.0027
+20:32:55,noise_10,,,,4.47,0.0027
+20:43:32,noise_loud_01,,,,0.88,0.0329
+20:43:46,noise_loud_02,,,,0.86,0.0332
+20:44:04,noise_loud_03,,,,5.42,0.0418
+20:44:18,noise_loud_04,,,,0.78,0.0343
+20:44:32,noise_loud_05,,,,0.79,0.0312
+20:44:46,noise_loud_06,,,,0.81,0.0397
+20:45:00,noise_loud_07,,,,0.84,0.0336
+20:45:14,noise_loud_08,,You,,0.79,0.0314
+20:45:33,noise_loud_09,,,,5.43,0.0285
+20:45:47,noise_loud_10,,,,0.84,0.0318
+20:46:59,cafe_speech_loud_01,"Hello robot, how are you today?",I really do it for all you today.,1.000,0.82,0.0849
+20:47:13,cafe_speech_loud_02,Can you tell me the time please?,I'm going to take you to the down,1.143,0.84,0.0511
+20:47:27,cafe_speech_loud_03,My name is Nila and I study at the university.,My ears are nice to me and they're nice to me.,1.000,0.88,0.0681
+20:47:43,cafe_speech_loud_04,Please turn to the left and wave at me.,We started to realize from reality.,0.889,3.06,0.0776
+20:47:59,cafe_speech_loud_05,What is the weather like in Erlangen?,I just don't have to make him a longer man.,1.429,3.08,0.0566
+20:48:13,cafe_speech_loud_06,I would like a cup of coffee with milk.,I would like to talk about how she would really be.,0.889,0.85,0.0890
+20:48:29,cafe_speech_loud_07,Stop robot.,It's time for a break.,2.500,2.77,0.0479
+20:48:45,cafe_speech_loud_08,Where is the nearest train station?,I'm not going to stop. I'm not going to stop. I'm not going to stop.,2.500,2.87,0.0307
+20:48:59,cafe_speech_loud_09,Can you repeat that more slowly?,"And we'll be back tomorrow, so we'll be back.",1.500,0.87,0.0688
+20:49:15,cafe_speech_loud_10,The meeting starts at half past three.,The windy sky is so short after me.,1.000,3.10,0.0496
+20:49:29,cafe_speech_loud_11,I am looking for the computer science building.,I'm going to be a third class and I'm third and third and third. I'm going to be a third class and I'm third and third and third.,3.500,1.02,0.0608
+20:49:43,cafe_speech_loud_12,Thank you very much for your help.,And you are meant for learning him.,0.714,0.82,0.0591
+20:49:57,cafe_speech_loud_13,Could you speak a little louder please?,Is this people in the clouded place?,1.000,0.83,0.0584
+20:50:16,cafe_speech_loud_14,Today is Tuesday the twenty first of October.,"It is, it is, it is good, it has to be perfect.",1.375,6.23,0.0778
+20:50:30,cafe_speech_loud_15,Please follow me to the next room.,Please follow me on the next video.,0.286,0.83,0.0522
+20:50:44,cafe_speech_loud_16,How many people are in this room?,I want you to go out in this room.,0.857,0.78,0.0664
+20:50:58,cafe_speech_loud_17,I do not understand the question.,I do not understand what those two are.,0.667,0.84,0.0511
+20:51:14,cafe_speech_loud_18,Turn off the lights when you leave.,I don't know if the light is in the room.,1.286,3.04,0.0620
+20:51:28,cafe_speech_loud_19,What can you do for me?,Why can't you be for me?,0.500,0.84,0.0602
+20:51:47,cafe_speech_loud_20,"Goodbye robot, see you tomorrow.","Good boy, good boy, good boy, come here, come here!",2.000,5.15,0.0765
+20:59:46,background_loud_01,"Hello robot, how are you today?",And then we had a conversation.,1.000,0.85,0.0942
+20:59:57,background_loud_02,Can you tell me the time please?,"Yeah, don't tell me the time, please. When I welcomed this woman unconditionally, I saw...",1.429,0.97,0.0696
+21:00:08,background_loud_03,My name is Nila and I study at the university.,"My name is Nana Best, and we are being the love is hard. It's not. Love is what happens.",1.400,1.01,0.0778
+21:00:19,background_loud_04,Please turn to the left and wave at me.,"Don't forget your left and your left and your left and your left and we welcome someone, anyone.",1.778,0.96,0.0854
+21:00:30,background_loud_05,What is the weather like in Erlangen?,"I'm just going to go ahead and do this with all the parts of myself, but it started just",2.571,0.97,0.0687
+21:00:41,background_loud_06,I would like a cup of coffee with milk.,I would like a coffee with demanding unreasonable and relentless,0.667,0.88,0.0791
+21:00:52,background_loud_07,Stop robot.,"after what I could do, she only told me she wanted to die over and over and over and over.",10.000,0.97,0.0506
+21:01:03,background_loud_08,Where is the nearest train station?,"After weeks of cleanliness to the station. Whether out of exhaustion or epiphany, instead of sh-",2.500,0.99,0.0584
+21:01:14,background_loud_09,Can you repeat that more slowly?,"I said, I'll love and always surprise me. Thank you for sharing.",2.000,0.93,0.0715
+21:01:25,background_loud_10,The meeting starts at half past three.,Let me think that's what I have. I should answer me. That voice. Now don't get spooked.,2.429,1.00,0.0502
+21:01:36,background_loud_11,I am looking for the computer science building.,the part answering didn't feel like some part. She told me that she was in a lot of pain and I told her I know,3.125,0.97,0.0706
+21:01:47,background_loud_12,Thank you very much for your help.,Thank you very much for your help and as clearly as I'm speaking to you now she said okay,1.714,0.96,0.0537
+21:01:58,background_loud_13,Could you speak a little louder please?,"dialogue with myself. Would you just be there after a longer, please? More voices with more points of view, some of them more fun.",3.143,1.04,0.0712
+21:02:09,background_loud_14,Today is Tuesday the twenty first of October.,"A lot of these kids would say they're going to get around the table of it. Well, they mixed characters and one more...",2.750,1.01,0.0773
+21:02:20,background_loud_15,Please follow me to the next room.,Kindness is for me. It was a partly gratitude. I thank myself for their,1.857,0.93,0.0555
+21:02:31,background_loud_16,How many people are in this room?,"How many, how many are I in this film? Less like a broken mirror and more like a prism.",2.000,0.98,0.0658
+21:02:42,background_loud_17,I do not understand the question.,"and while some of us are occasionally at the school, we're not mean, even my whiny, shaming...",2.667,1.00,0.0593
+21:02:53,background_loud_18,Turn off the lights when you leave.,She tells me that's what I need to know.,1.286,0.89,0.0797
+21:03:04,background_loud_19,What can you do for me?,exactly it should. So while my opening is for,1.500,0.87,0.0573
+21:03:15,background_loud_20,"Goodbye robot, see you tomorrow.","At the round table, we'll see you in a parking validation to remind everyone to sign to their cash.",3.400,0.96,0.0643

@@ -19,3 +19,23 @@ test_audio/
 .env
 *.key
 *.pem
+
+# --- private data: faces, voices, conversations (never in a public repo) ---
+recordings/
+scenario_videos*/
+*.mkv
+*.mp4
+*.webm
+*.jpg
+*.jpeg
+mvp/logs/
+vision/tracker_logs/
+vlm/vlm_frames*/
+/l2cs_gaze_*.csv
+
+# --- lab-internal notes (lab network, other users) ---
+JETSON_CONTEXT.txt
+JETSON_SETUP_LOG.md
+LAB_TODO_JETSON.md
+mvp/JETSON_RUN_COMMANDS.md
+jetson_results/logs/

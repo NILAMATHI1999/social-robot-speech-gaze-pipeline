@@ -1,0 +1,10 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.9 s | waiting  2.0 s | took 0.90 s | 
+  4.9 s | waiting  2.0 s | took 0.92 s |  I am
+  7.0 s | waiting  2.0 s | took 0.97 s |  working on
+  9.0 s | waiting  2.0 s | took 0.95 s |  a social report that can listen to people and
+ 11.1 s | waiting  2.0 s | took 1.05 s |  answer
+ 14.0 s | waiting  2.0 s | took 1.94 s | 
+ 15.2 s | waiting  2.0 s | took 1.16 s | 
+  end   |  them, it looks at the person who is speaking, wait until they finish and then replace with their short and friendly symptoms.
+saved results/live_g_noise_tv_1.wav

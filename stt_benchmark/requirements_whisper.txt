@@ -1,0 +1,5 @@
+# venv: ~/ament_ws/.venv (laptop). On the Jetson faster-whisper is already in ~/pepper_venv.
+faster-whisper==1.2.1
+numpy==1.26.4
+jiwer==4.0.0
+whisper-normalizer==0.1.15

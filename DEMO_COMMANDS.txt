@@ -1,0 +1,69 @@
+DEMO COMMANDS - run each block (laptop)            updated 24 Nov 2026
+=====================================================================
+Copy one block at a time into the terminal.
+For the voice-guided tests: laptop speaker (no headphones), phone light on your face (phone not in the picture).
+For 1, 2 and 10: set your OpenAI key in this terminal first (never in a file).
+
+
+# 1. WHOLE ROBOT, MULTI-PERSON (new): tracker IDs + gaze + lips per person + partner lock + Whisper + LLM + voice
+#    tiny detects the language (other languages ignored), base.en writes English, Smart Turn ends sentences
+cd ~/projects/social-robot-speech-gaze-pipeline/mvp
+GAZE_SCRIPT=../vision/people_gaze.py USE_SMART_TURN=1 ~/mvp_venv/bin/python chat_demo.py --model base.en --lang-model tiny --gaze
+
+
+# 2. WHOLE ROBOT, ONE PERSON (the version that worked before): biggest face + lips + Whisper + LLM + voice
+cd ~/projects/social-robot-speech-gaze-pipeline/mvp
+USE_SMART_TURN=1 ~/mvp_venv/bin/python chat_demo.py --model base.en --lang-model tiny --gaze
+
+
+# 3. MULTI-PERSON VISION ONLY: each person gets an ID box; green = LOOK, orange = AWAY; white box = partner
+#    live webcam; q = quit
+cd ~/projects/social-robot-speech-gaze-pipeline/vision
+~/step1_vision_venv/bin/python people_gaze.py
+
+
+# 4. MULTI-PERSON VISION ON A LAB VIDEO (2 people): shows IDs + who looks at the camera
+cd ~/projects/social-robot-speech-gaze-pipeline/vision
+~/step1_vision_venv/bin/python people_gaze.py ../scenario_videos_duo2/s02_t1.mkv
+
+
+# 5. TRACKER, LIVE SWITCHING: keys 1-6 change the tracker (6 = TrackTrack), r = record clip, q = quit
+cd ~/projects/social-robot-speech-gaze-pipeline/vision
+~/step1_vision_venv/bin/python tracker_switch.py
+
+
+# 6. TRACKER ON A HARD LAB VIDEO: person B stands in front of A for 2 s (only TrackTrack keeps A's ID)
+cd ~/projects/social-robot-speech-gaze-pipeline/vision
+~/step1_vision_venv/bin/python tracker_switch.py ../scenario_videos_duo2/s04_t1.mkv
+
+
+# 7. GAZE + LIPS TEST, ONE PERSON (voice-guided, 13 steps): look / away / covered / leave / talk / laptop talks
+cd ~/projects/test_helpers
+~/mvp_venv/bin/python gaze_lip_guide.py nocal
+
+
+# 8. PARTNER LOCK PER ID (voice-guided, 5 steps): lock -> other voice ignored -> turned away -> leave = unlock
+cd ~/projects/test_helpers
+~/mvp_venv/bin/python lips_ids_guide.py lock
+
+
+# 9. SPEECH TEST (window + voice, 11 steps): Whisper accuracy (WER) + delay, with hotwords for names
+cd ~/projects/test_helpers
+~/mvp_venv/bin/python stt_guide.py base.en hot
+
+
+# 10. ECHO: robot hears -> writes -> repeats your sentence; Smart Turn decides when you finished
+cd ~/projects/social-robot-speech-gaze-pipeline/mvp
+USE_SMART_TURN=1 ~/mvp_venv/bin/python echo_demo.py --model base.en
+
+
+# 11. VLM: small vision-language model answers a yes/no question about one picture
+cd ~/projects/social-robot-speech-gaze-pipeline/vlm
+~/vlm_venv/bin/python vlm_test.py
+
+
+NOTES
+- Without GAZE_SCRIPT, chat_demo uses the one-person gaze_trigger.py (as before).
+- Without USE_SMART_TURN=1, a sentence ends after a fixed 0.8 s pause (as before).
+- Stop any demo: Ctrl+C (or q in a camera window; say/type "stop chat" in chat_demo).
+- Results of every test: shared Google Sheet, one row per test group.

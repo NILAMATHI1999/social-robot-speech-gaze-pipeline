@@ -1,0 +1,3 @@
+model,device,compute_type,vad,wer_clean,extra_clean,wer_background,extra_background,wer_background_loud,extra_background_loud,wer_cafe_speech_loud,extra_cafe_speech_loud,halluc_silence,halluc_noise,halluc_noise_loud,latency_median_s,peak_ram_mb
+qwen3-asr-0.6b,cpu,float32,none,2.9,0.0,2.9,0.7,181.6,133.8,27.2,3.7,9/10,10/10,10/10,1.96,6057
+qwen3-asr-0.6b,cpu,float32,silero,1.5,0.0,1.5,0.0,180.9,127.2,35.3,1.5,0/10,0/10,1/10,1.74,6057

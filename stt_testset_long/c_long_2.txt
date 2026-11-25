@@ -1,0 +1,1 @@
+Yesterday I went to the laboratory at FAU in Erlangen to test the microphone on the robot. First we checked the speaker, then we measured how long the answer took, and after that we wrote the results in a table. Tomorrow we will repeat the test with two more people in the room.

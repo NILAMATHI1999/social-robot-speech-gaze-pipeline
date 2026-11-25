@@ -1,0 +1,29 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_01,background,"Hello robot, how are you today?","Hello, Robot, how are you today? Ex-military guy keep at the mirors.",6.576
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",5.599
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_01,background_loud,"Hello robot, how are you today?",And I asked people hor her to be. And then we had a conversation.,5.402
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_02,background_loud,Can you tell me the time please?,"Fear to make. Can you tell me the time, please? When I welcomed this woman unconditionally, I saw her.",6.266
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hellohood, how are you today?",6.075
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Can you take me the down please?,5.766
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_01,clean,"Hello robot, how are you today?","Hello robot, how are you today?",6.543
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,5.562
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_01,noise,,,5.495
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_02,noise,,,7.358
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_01,noise_loud,,That's why I went to.,6.56
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_02,noise_loud,,I.,5.527
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_01,silence,,,5.389
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_02,silence,,,5.388
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_01,background,"Hello robot, how are you today?","Hello Robot, how are you today?",2.461
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",2.347
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_01,background_loud,"Hello robot, how are you today?",I asked her to hold her to. And then we had a conversation.,4.011
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_02,background_loud,Can you tell me the time please?,"Fear to make. Can you tell me the time, please? When I welcomed this woman unconditionally, I saw her.",5.411
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hello everybody, how are you today?",2.903
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,I will tell you the down please.,2.344
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_01,clean,"Hello robot, how are you today?","Hello, robot, how are you today?",2.61
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,2.974
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_01,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_02,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_01,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_02,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_01,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_02,silence,,,0.0

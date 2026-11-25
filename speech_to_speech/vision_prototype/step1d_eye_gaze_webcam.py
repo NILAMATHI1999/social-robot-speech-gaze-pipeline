@@ -1,9 +1,11 @@
 
 from collections import deque
+from datetime import datetime
+
 
 import cv2
 import mediapipe as mp
-
+import csv
 
 CAMERA_INDEX = 0
 
@@ -11,6 +13,15 @@ CAMERA_INDEX = 0
 GAZE_HORIZONTAL_TOLERANCE = 0.15
 GAZE_VERTICAL_TOLERANCE = 0.18
 SMOOTHING_FRAMES = 7
+
+MIN_FACE_WIDTH_PX = 60          # OUR STARTING VALUE
+MIN_FACE_SCORE = 0.50           # OUR STARTING VALUE
+MIN_FACE_BRIGHTNESS = 35.0      # 0–255, OUR STARTING VALUE
+
+
+GAZE_YAW_TOLERANCE_DEG = 20.0       # OUR STARTING VALUE
+GAZE_PITCH_TOLERANCE_DEG = 20.0     # OUR STARTING VALUE
+GAZE_YAW_SIGN = -1.0                 # Calibrate with left/centre/right tests
 
 # MediaPipe Face Mesh landmark indexes.
 LEFT_EYE_CORNERS = (33, 133)
@@ -22,6 +33,47 @@ RIGHT_EYE_TOP_BOTTOM = (386, 374)
 LEFT_IRIS = range(468, 473)
 RIGHT_IRIS = range(473, 478)
 
+
+
+LOG_TO_CSV = True
+TEST_TRUE_DIRECTION = "unknown"
+TEST_POSITION = "unknown"
+TEST_DISTANCE_M = "unknown"
+TEST_PERSON = "unknown"
+TEST_LIGHTING = "unknown"
+
+def wrap_angle_deg(angle):
+    """Wrap an angle to [-180, 180]."""
+    return (angle + 180.0) % 360.0 - 180.0
+
+
+def classify_gaze_at_robot(
+    gaze_yaw_deg,
+    gaze_pitch_deg,
+    person_camera_angle_deg,
+    quality_state,
+):
+    """Return yes, no, or unknown."""
+
+    if quality_state != "usable":
+        return "unknown"
+
+    # Starting geometry: a person at +camera_angle looks back toward
+    # the camera using approximately the opposite gaze yaw.
+    expected_yaw_deg = GAZE_YAW_SIGN * person_camera_angle_deg
+
+    yaw_error = abs(
+        wrap_angle_deg(gaze_yaw_deg - expected_yaw_deg)
+    )
+    pitch_error = abs(gaze_pitch_deg)
+
+    if (
+        yaw_error <= GAZE_YAW_TOLERANCE_DEG
+        and pitch_error <= GAZE_PITCH_TOLERANCE_DEG
+    ):
+        return "yes"
+
+    return "no"
 
 def point(landmarks, index, width, height):
     landmark = landmarks[index]
@@ -62,8 +114,80 @@ def vertical_ratio(iris_y, top_y, bottom_y):
     return (iris_y - top) / height
 
 
+def assess_face_quality(frame, bbox, face_score):
+    """Return: quality_state, reason, face_width_px, brightness."""
+
+    x1, y1, x2, y2 = [int(value) for value in bbox]
+
+    height, width = frame.shape[:2]
+    x1 = max(0, min(x1, width - 1))
+    x2 = max(0, min(x2, width))
+    y1 = max(0, min(y1, height - 1))
+    y2 = max(0, min(y2, height))
+
+    face_width_px = max(0, x2 - x1)
+
+    if face_width_px < MIN_FACE_WIDTH_PX:
+        return "unknown", "too_small", face_width_px, None
+
+    if face_score < MIN_FACE_SCORE:
+        return "unknown", "low_score", face_width_px, None
+
+    crop = frame[y1:y2, x1:x2]
+
+    if crop.size == 0:
+        return "unknown", "face_missing", face_width_px, None
+
+    gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
+    brightness = float(gray.mean())
+
+    if brightness < MIN_FACE_BRIGHTNESS:
+        return "unknown", "too_dark", face_width_px, brightness
+
+    return "usable", "", face_width_px, brightness
+
+    quality_state, quality_reason, face_width_px, brightness = (
+        assess_face_quality(frame, bbox, float(score))
+    )
+
+    gaze_state = classify_gaze_at_robot(
+        gaze_yaw_deg=float(np.degrees(yaw)),
+        gaze_pitch_deg=float(np.degrees(pitch)),
+        person_camera_angle_deg=person_camera_angle_deg,
+        quality_state=quality_state,
+    )
 def main():
     camera = cv2.VideoCapture(CAMERA_INDEX)
+
+    log_file = None
+    log_writer = None
+
+    if LOG_TO_CSV:
+        log_name = datetime.now().strftime(
+            "step1d_gaze_%Y%m%d_%H%M%S.csv"
+        )
+        log_file = open(log_name, "w", newline="")
+        log_writer = csv.writer(log_file)
+
+        log_writer.writerow([
+            "timestamp",
+            "face_index",
+            "face_width_px",
+            "brightness",
+            "face_score",
+            "camera_angle_deg",
+            "gaze_yaw_deg",
+            "gaze_pitch_deg",
+            "gaze_state",
+            "unknown_reason",
+            "fps",
+            "true_direction",
+            "position",
+            "distance_m",
+            "person",
+            "lighting",
+            "prediction_correct",
+        ])
 
     if not camera.isOpened():
         raise RuntimeError("Could not open webcam")
@@ -308,6 +432,32 @@ def main():
                     (0, 0, 255),
                     2,
                 )
+        prediction_correct = (
+            ""
+            if TEST_TRUE_DIRECTION == "unknown"
+            else int(gaze_state == TEST_TRUE_DIRECTION)
+        )
+
+        if log_writer is not None:
+            log_writer.writerow([
+                f"{time.monotonic():.6f}",
+                face_index,
+                face_width_px,
+                "" if brightness is None else f"{brightness:.2f}",
+                f"{float(score):.3f}",
+                f"{person_camera_angle_deg:.2f}",
+                f"{gaze_yaw_deg:.2f}",
+                f"{gaze_pitch_deg:.2f}",
+                gaze_state,
+                quality_reason,
+                f"{fps:.2f}",
+                TEST_TRUE_DIRECTION,
+                TEST_POSITION,
+                TEST_DISTANCE_M,
+                TEST_PERSON,
+                TEST_LIGHTING,
+                prediction_correct,
+            ])
 
             cv2.imshow("Step 1D Eye Gaze", frame)
 
@@ -330,6 +480,8 @@ def main():
         mesh.close()
         cv2.destroyAllWindows()
 
+if log_file is not None:
+    log_file.close()
 
 if __name__ == "__main__":
     main()

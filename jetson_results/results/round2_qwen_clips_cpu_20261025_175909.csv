@@ -1,0 +1,221 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+qwen3-asr-0.6b,cpu,float32,none,background_01,background,"Hello robot, how are you today?","Hello, robot. How are you today?",4.693
+qwen3-asr-0.6b,cpu,float32,none,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",5.087
+qwen3-asr-0.6b,cpu,float32,none,background_03,background,My name is Nila and I study at the university.,"My name is Mila, and I study at the university.",5.826
+qwen3-asr-0.6b,cpu,float32,none,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,4.856
+qwen3-asr-0.6b,cpu,float32,none,background_05,background,What is the weather like in Erlangen?,What is the weather like in Langen?,4.48
+qwen3-asr-0.6b,cpu,float32,none,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with the milk.,5.276
+qwen3-asr-0.6b,cpu,float32,none,background_07,background,Stop robot.,Stop robot.,2.552
+qwen3-asr-0.6b,cpu,float32,none,background_08,background,What is the nearest train station?,What is the nearest train station?,3.768
+qwen3-asr-0.6b,cpu,float32,none,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,3.478
+qwen3-asr-0.6b,cpu,float32,none,background_10,background,The meeting starts at half past three.,The meeting starts at half past three.,4.211
+qwen3-asr-0.6b,cpu,float32,none,background_11,background,I am looking for the computer science building.,I am looking for the computer science building.,4.913
+qwen3-asr-0.6b,cpu,float32,none,background_12,background,Thank you very much for your help.,Thank you very much for your help.,4.889
+qwen3-asr-0.6b,cpu,float32,none,background_13,background,Could you speak a little louder please?,"Could you speak a little louder, please?",4.579
+qwen3-asr-0.6b,cpu,float32,none,background_14,background,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty-first of October.",4.952
+qwen3-asr-0.6b,cpu,float32,none,background_15,background,Please follow me to the next room.,Please follow me to the next room.,4.148
+qwen3-asr-0.6b,cpu,float32,none,background_16,background,How many people are in this room?,How many people are in this room?,4.113
+qwen3-asr-0.6b,cpu,float32,none,background_17,background,I do not understand the question.,I do not understand their question.,2.062
+qwen3-asr-0.6b,cpu,float32,none,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,1.691
+qwen3-asr-0.6b,cpu,float32,none,background_19,background,What can you do for me?,What can you do for me?,1.564
+qwen3-asr-0.6b,cpu,float32,none,background_20,background,"Goodbye robot, see you tomorrow.","Goodbye, robot. See you tomorrow.",1.705
+qwen3-asr-0.6b,cpu,float32,none,background_loud_01,background_loud,"Hello robot, how are you today?","Hello, she wrote her address today. And then we had a conversation.",2.445
+qwen3-asr-0.6b,cpu,float32,none,background_loud_02,background_loud,Can you tell me the time please?,"Can you tell me the time, please? When I welcomed this woman unconditionally, I saw.",2.725
+qwen3-asr-0.6b,cpu,float32,none,background_loud_03,background_loud,My name is Nila and I study at the university.,"My name is Mia, but I still love the love card. It's not love is what.",3.002
+qwen3-asr-0.6b,cpu,float32,none,background_loud_04,background_loud,Please turn to the left and wave at me.,"We start to figure out who deserves it, and we welcome someone, anyone.",2.288
+qwen3-asr-0.6b,cpu,float32,none,background_loud_05,background_loud,What is the weather like in Erlangen?,"What is the weather like here in Melbourne? Before I learned to do this with all the parts of myself, but it started just.",3.758
+qwen3-asr-0.6b,cpu,float32,none,background_loud_06,background_loud,I would like a cup of coffee with milk.,"I would like a cup of coffee with demanding, unreasonable, and relentless.",2.43
+qwen3-asr-0.6b,cpu,float32,none,background_loud_07,background_loud,Stop robot.,She only told me she wanted to die over and over and over and over.,2.469
+qwen3-asr-0.6b,cpu,float32,none,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of harassment, whether out of exhaustion or epiphany, instead of.",2.566
+qwen3-asr-0.6b,cpu,float32,none,background_loud_09,background_loud,Can you repeat that more slowly?,"I said aloud, ""In a question, surprise me."" Thank you for sharing.",2.598
+qwen3-asr-0.6b,cpu,float32,none,background_loud_10,background_loud,The meeting starts at half past three.,"The meeting starts at half past eight. She answered me, ""That voice."" Now don't get spooked. This is.",3.606
+qwen3-asr-0.6b,cpu,float32,none,background_loud_11,background_loud,I am looking for the computer science building.,"The part answering did infect some lines of the building. She told me that she was in a lot of pain, and I told her I know.",3.978
+qwen3-asr-0.6b,cpu,float32,none,background_loud_12,background_loud,Thank you very much for your help.,"Thank you so much for your help. And as clearly as I'm speaking to you now, she said, ""Okay.""",3.475
+qwen3-asr-0.6b,cpu,float32,none,background_loud_13,background_loud,Could you speak a little louder please?,Could you speak a little louder please?,1.729
+qwen3-asr-0.6b,cpu,float32,none,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty-fourth day of the wildly mixed characters and one.",2.615
+qwen3-asr-0.6b,cpu,float32,none,background_loud_15,background_loud,Please follow me to the next room.,Kindness. Please follow me to the next room. Gratitude. I thank myself for their kindness.,3.062
+qwen3-asr-0.6b,cpu,float32,none,background_loud_16,background_loud,How many people are in this room?,How many? How many fragments of itself? Less like a broken mirror and more like a prism.,2.995
+qwen3-asr-0.6b,cpu,float32,none,background_loud_17,background_loud,I do not understand the question.,"And while, some of us are usually uncomfortable, we're not mean. Even my whiny, shamey.",3.419
+qwen3-asr-0.6b,cpu,float32,none,background_loud_18,background_loud,Turn off the lights when you leave.,She tells me exactly what I need to know: what she needs to feel better and what she'd like for me to learn.,3.63
+qwen3-asr-0.6b,cpu,float32,none,background_loud_19,background_loud,What can you do for me?,What can you do for me? So while my openings for,2.178
+qwen3-asr-0.6b,cpu,float32,none,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the round table, I would hand out parking validation, remind everyone to sign with their cash.",2.992
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hello, neighborhood. How are you today?",1.88
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Can you tell me the phone number?,1.759
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,"My name is Lisa, and I study at the university.",2.266
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,Please turn the lights on. You are not.,2.053
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the weather like in Aragon?,1.905
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,2.067
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Stop the boat.,1.418
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,What about?,1.29
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,Can you repeat that more slowly?,1.614
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The meeting starts at half past three.,1.676
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,I am looking for a computer to build on.,2.031
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,1.863
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,"Could you speak a little louder, please?",1.96
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,Today is today. Get my gift for stock of favorite.,2.337
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next room.,1.896
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,Many people are in the room.,1.76
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,1.733
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,I know the lights will be on.,1.803
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,What can you do for me?,1.745
+qwen3-asr-0.6b,cpu,float32,none,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.","Goodbye robot, see you tomorrow.",1.951
+qwen3-asr-0.6b,cpu,float32,none,clean_01,clean,"Hello robot, how are you today?",Hello robot. How are you today?,1.927
+qwen3-asr-0.6b,cpu,float32,none,clean_02,clean,Can you tell me the time please?,"Can you tell me the time, please?",2.192
+qwen3-asr-0.6b,cpu,float32,none,clean_03,clean,My name is Nila and I study at the university.,My name is Nila Andai. Study at the university.,2.56
+qwen3-asr-0.6b,cpu,float32,none,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,2.25
+qwen3-asr-0.6b,cpu,float32,none,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,2.084
+qwen3-asr-0.6b,cpu,float32,none,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,2.194
+qwen3-asr-0.6b,cpu,float32,none,clean_07,clean,Stop robot.,Stop robot.,1.423
+qwen3-asr-0.6b,cpu,float32,none,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,1.882
+qwen3-asr-0.6b,cpu,float32,none,clean_09,clean,Can you repeat that more slowly?,Can you repeat that more slowly?,1.842
+qwen3-asr-0.6b,cpu,float32,none,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,1.986
+qwen3-asr-0.6b,cpu,float32,none,clean_11,clean,I am looking for the computer science building.,I am looking for the computers building.,1.954
+qwen3-asr-0.6b,cpu,float32,none,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,1.957
+qwen3-asr-0.6b,cpu,float32,none,clean_13,clean,Could you speak a little louder please?,"Could you speak a little louder, please?",2.065
+qwen3-asr-0.6b,cpu,float32,none,clean_14,clean,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty-first of October.",2.147
+qwen3-asr-0.6b,cpu,float32,none,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,1.929
+qwen3-asr-0.6b,cpu,float32,none,clean_16,clean,How many people are in this room?,How many people are in this room?,1.916
+qwen3-asr-0.6b,cpu,float32,none,clean_17,clean,I do not understand the question.,I do not understand the question.,1.826
+qwen3-asr-0.6b,cpu,float32,none,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,1.872
+qwen3-asr-0.6b,cpu,float32,none,clean_19,clean,What can you do for me?,What can you do for me?,1.85
+qwen3-asr-0.6b,cpu,float32,none,clean_20,clean,"Goodbye robot, see you tomorrow.","Goodbye, robot. See you tomorrow.",2.019
+qwen3-asr-0.6b,cpu,float32,none,noise_01,noise,,The.,1.231
+qwen3-asr-0.6b,cpu,float32,none,noise_02,noise,,The.,1.29
+qwen3-asr-0.6b,cpu,float32,none,noise_03,noise,,The.,1.277
+qwen3-asr-0.6b,cpu,float32,none,noise_04,noise,,The.,1.27
+qwen3-asr-0.6b,cpu,float32,none,noise_05,noise,,The.,1.318
+qwen3-asr-0.6b,cpu,float32,none,noise_06,noise,,The.,1.257
+qwen3-asr-0.6b,cpu,float32,none,noise_07,noise,,I'm.,1.429
+qwen3-asr-0.6b,cpu,float32,none,noise_08,noise,,The.,1.276
+qwen3-asr-0.6b,cpu,float32,none,noise_09,noise,,The.,1.292
+qwen3-asr-0.6b,cpu,float32,none,noise_10,noise,,The.,1.303
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_01,noise_loud,,Next.,1.283
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_02,noise_loud,,You're the hammer.,1.649
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_03,noise_loud,,I got the.,1.572
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_04,noise_loud,,I'm.,1.385
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_05,noise_loud,,The.,1.29
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_06,noise_loud,,The.,1.274
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_07,noise_loud,,I'm a.,1.504
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_08,noise_loud,,The.,1.318
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_09,noise_loud,,I know.,1.415
+qwen3-asr-0.6b,cpu,float32,none,noise_loud_10,noise_loud,,"Oh, oh,",30.278
+qwen3-asr-0.6b,cpu,float32,none,silence_01,silence,,The.,1.37
+qwen3-asr-0.6b,cpu,float32,none,silence_02,silence,,The.,1.384
+qwen3-asr-0.6b,cpu,float32,none,silence_03,silence,,,1.156
+qwen3-asr-0.6b,cpu,float32,none,silence_04,silence,,The.,1.322
+qwen3-asr-0.6b,cpu,float32,none,silence_05,silence,,The.,1.344
+qwen3-asr-0.6b,cpu,float32,none,silence_06,silence,,The.,1.355
+qwen3-asr-0.6b,cpu,float32,none,silence_07,silence,,The.,1.355
+qwen3-asr-0.6b,cpu,float32,none,silence_08,silence,,The.,1.377
+qwen3-asr-0.6b,cpu,float32,none,silence_09,silence,,I'm.,1.448
+qwen3-asr-0.6b,cpu,float32,none,silence_10,silence,,The.,1.363
+qwen3-asr-0.6b,cpu,float32,silero,background_01,background,"Hello robot, how are you today?","Hello, robot. How are you today?",1.51
+qwen3-asr-0.6b,cpu,float32,silero,background_02,background,Can you tell me the time please?,"Can you tell me the time, please.",1.508
+qwen3-asr-0.6b,cpu,float32,silero,background_03,background,My name is Nila and I study at the university.,My name is Mila and I study at the university.,2.113
+qwen3-asr-0.6b,cpu,float32,silero,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,1.827
+qwen3-asr-0.6b,cpu,float32,silero,background_05,background,What is the weather like in Erlangen?,What is the weather like in Elangan?,1.777
+qwen3-asr-0.6b,cpu,float32,silero,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.833
+qwen3-asr-0.6b,cpu,float32,silero,background_07,background,Stop robot.,Stop robot.,0.834
+qwen3-asr-0.6b,cpu,float32,silero,background_08,background,What is the nearest train station?,What is the nearest train station?,1.387
+qwen3-asr-0.6b,cpu,float32,silero,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,1.35
+qwen3-asr-0.6b,cpu,float32,silero,background_10,background,The meeting starts at half past three.,The meeting starts at half past three.,1.609
+qwen3-asr-0.6b,cpu,float32,silero,background_11,background,I am looking for the computer science building.,I am looking for the computer science building.,1.707
+qwen3-asr-0.6b,cpu,float32,silero,background_12,background,Thank you very much for your help.,Thank you very much for your help.,1.614
+qwen3-asr-0.6b,cpu,float32,silero,background_13,background,Could you speak a little louder please?,"Could you speak a little louder, please?",1.574
+qwen3-asr-0.6b,cpu,float32,silero,background_14,background,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty-first of October.",1.883
+qwen3-asr-0.6b,cpu,float32,silero,background_15,background,Please follow me to the next room.,Please follow me to the next room.,1.511
+qwen3-asr-0.6b,cpu,float32,silero,background_16,background,How many people are in this room?,How many people are in this room?,1.521
+qwen3-asr-0.6b,cpu,float32,silero,background_17,background,I do not understand the question.,I do not understand the question.,1.529
+qwen3-asr-0.6b,cpu,float32,silero,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,1.504
+qwen3-asr-0.6b,cpu,float32,silero,background_19,background,What can you do for me?,What can you do for me?,1.409
+qwen3-asr-0.6b,cpu,float32,silero,background_20,background,"Goodbye robot, see you tomorrow.","Goodbye, robot. See you tomorrow.",1.808
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_01,background_loud,"Hello robot, how are you today?","I asked her if she got that review today, and then we had a conversation.",2.775
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_02,background_loud,Can you tell me the time please?,"Can you tell me the time, please? When I welcomed this woman unconditionally, I saw.",3.579
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_03,background_loud,My name is Nila and I study at the university.,My name is Maria. I study the love. It's not love is what.,3.078
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_04,background_loud,Please turn to the left and wave at me.,"We stop to figure out who deserves it, and we welcome someone. Anyone.",2.992
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_05,background_loud,What is the weather like in Erlangen?,"It took me two more years before I learned to do this with all the parts of myself, but it started just.",3.926
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with demanding reasonable.,2.278
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_07,background_loud,Stop robot.,She only told me she wanted to die over and over and over and over.,2.931
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_08,background_loud,Where is the nearest train station?,"After weeks of harassment, whether out of exhaustion or epiphany, instead of.",3.274
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_09,background_loud,Can you repeat that more slowly?,"I said, ""Out loud,"" and it wasn't surprising. You for sharing.",2.908
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_10,background_loud,The meeting starts at half past three.,"The meeting starts at half past eight. She answered me, ""That voice."" Now don't get spooked. This is.",4.459
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_11,background_loud,I am looking for the computer science building.,"The part answering did infect some lines of the building. She told me that she was in a lot of pain, and I told her I know.",4.697
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_12,background_loud,Thank you very much for your help.,"Thank you, image, for your help. Clearly, as I'm speaking to you now, she said, ""Okay.""",3.994
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_13,background_loud,Could you speak a little louder please?,"Could you speak a little louder, please?",2.37
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty fifth round table of wildly mixed characters and one.",3.16
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_15,background_loud,Please follow me to the next room.,Please follow me to the next level. Gratitude. Thank myself for their.,2.924
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_16,background_loud,How many people are in this room?,How many? How many fragments of itself? Less like a broken mirror and more like a prism.,3.659
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_17,background_loud,I do not understand the question.,"And while, some of us are usually uncomfortable, we're not mean. Even my whiny, shamy.",3.425
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better, and what she'd like for me to learn.",3.715
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_19,background_loud,What can you do for me?,What can you do for me? So while my openings for,2.564
+qwen3-asr-0.6b,cpu,float32,silero,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the round table, I would hand out parking validation, remind everyone assigned with their cash.",3.528
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hello, my boy, how are you today?",1.735
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Someone taking the blame.,1.27
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,"My name is Lila, and I study at the university.",2.493
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,Please don't relax from your work.,1.64
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the weather like in Arunam?,1.787
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.748
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Stop road.,0.805
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,Can you repeat that most slowly?,1.525
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The meeting starts at half past three.,1.642
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,I am looking for a computer technician.,1.827
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,1.583
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,Do people living nowadays,1.278
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,Today is is June the twenty first of October.,2.155
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next journey.,1.74
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,Some people are in this room.,1.609
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,1.721
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,None of the lights will be on.,1.35
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,What can you do for me?,1.405
+qwen3-asr-0.6b,cpu,float32,silero,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.","Goodbye robot, Siri, tomorrow.",1.712
+qwen3-asr-0.6b,cpu,float32,silero,clean_01,clean,"Hello robot, how are you today?","Hello, robot. How are you today?",1.688
+qwen3-asr-0.6b,cpu,float32,silero,clean_02,clean,Can you tell me the time please?,"Can you tell me the time, please?",1.596
+qwen3-asr-0.6b,cpu,float32,silero,clean_03,clean,My name is Nila and I study at the university.,"My name is Nila, and I study at the university.",2.135
+qwen3-asr-0.6b,cpu,float32,silero,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,1.947
+qwen3-asr-0.6b,cpu,float32,silero,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,1.828
+qwen3-asr-0.6b,cpu,float32,silero,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,1.969
+qwen3-asr-0.6b,cpu,float32,silero,clean_07,clean,Stop robot.,Stop robot.,0.825
+qwen3-asr-0.6b,cpu,float32,silero,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,1.369
+qwen3-asr-0.6b,cpu,float32,silero,clean_09,clean,Can you repeat that more slowly?,Can you repeat that more slowly?,1.473
+qwen3-asr-0.6b,cpu,float32,silero,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,1.802
+qwen3-asr-0.6b,cpu,float32,silero,clean_11,clean,I am looking for the computer science building.,I am looking for the conference building.,1.809
+qwen3-asr-0.6b,cpu,float32,silero,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,1.412
+qwen3-asr-0.6b,cpu,float32,silero,clean_13,clean,Could you speak a little louder please?,"Could you speak a little louder, please?",1.908
+qwen3-asr-0.6b,cpu,float32,silero,clean_14,clean,Today is Tuesday the twenty first of October.,"Today is Tuesday, the twenty-first of October.",2.146
+qwen3-asr-0.6b,cpu,float32,silero,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,1.767
+qwen3-asr-0.6b,cpu,float32,silero,clean_16,clean,How many people are in this room?,How many people are in this room?,1.608
+qwen3-asr-0.6b,cpu,float32,silero,clean_17,clean,I do not understand the question.,I do not understand the question.,1.718
+qwen3-asr-0.6b,cpu,float32,silero,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,1.552
+qwen3-asr-0.6b,cpu,float32,silero,clean_19,clean,What can you do for me?,What can you do for me?,1.398
+qwen3-asr-0.6b,cpu,float32,silero,clean_20,clean,"Goodbye robot, see you tomorrow.","Goodbye, robot. See you tomorrow.",1.971
+qwen3-asr-0.6b,cpu,float32,silero,noise_01,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_02,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_03,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_04,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_05,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_06,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_07,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_08,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_09,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_10,noise,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_01,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_02,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_03,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_04,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_05,noise_loud,,So.,0.816
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_06,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_07,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_08,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_09,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,noise_loud_10,noise_loud,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_01,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_02,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_03,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_04,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_05,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_06,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_07,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_08,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_09,silence,,,0.0
+qwen3-asr-0.6b,cpu,float32,silero,silence_10,silence,,,0.0

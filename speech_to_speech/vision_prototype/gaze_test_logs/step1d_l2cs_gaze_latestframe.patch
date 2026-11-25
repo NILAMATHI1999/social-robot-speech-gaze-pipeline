@@ -1,0 +1,97 @@
+--- step1d_l2cs_gaze.py	2026-10-11 22:43:47.093901147 +0200
++++ /tmp/claude-1000/-home-nila-projects-social-robot-speech-gaze-pipeline/6f2c4977-fd1b-4e64-9feb-0dd53928b591/scratchpad/step1d_l2cs_gaze_latestframe.py	2026-10-11 22:43:47.091009437 +0200
+@@ -2,6 +2,7 @@
+ import argparse
+ import csv
+ import math
++import threading
+ import time
+ from datetime import datetime
+ from pathlib import Path
+@@ -37,6 +38,70 @@
+ 
+ 
+ 
++class LatestFrameCamera:
++    """Continuously capture and keep only the newest webcam frame."""
++
++    def __init__(self, camera_id):
++        self.cap = cv2.VideoCapture(camera_id)
++
++        if not self.cap.isOpened():
++            raise RuntimeError("Could not open webcam")
++
++        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
++        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
++        self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
++
++        self.condition = threading.Condition()
++        self.frame = None
++        self.frame_id = 0
++        self.last_read_id = 0
++        self.failed = False
++        self.running = True
++
++        self.thread = threading.Thread(
++            target=self._capture_loop,
++            daemon=True,
++        )
++        self.thread.start()
++
++    def _capture_loop(self):
++        while self.running:
++            success, frame = self.cap.read()
++
++            with self.condition:
++                if success:
++                    self.frame = frame
++                    self.frame_id += 1
++                else:
++                    self.failed = True
++
++                self.condition.notify_all()
++
++            if not success:
++                break
++
++    def read(self):
++        """Wait for a frame newer than the last one returned."""
++        with self.condition:
++            self.condition.wait_for(
++                lambda: self.failed
++                or self.frame_id != self.last_read_id,
++                timeout=5.0,
++            )
++
++            if self.failed or self.frame_id == self.last_read_id:
++                return False, None
++
++            self.last_read_id = self.frame_id
++
++            return True, self.frame
++
++    def release(self):
++        self.running = False
++        self.thread.join(timeout=1.0)
++        self.cap.release()
++
++
+ def wrap_angle(angle):
+     return (angle + 180.0) % 360.0 - 180.0
+ 
+@@ -193,14 +258,7 @@
+         device=device,
+     )
+ 
+-    camera = cv2.VideoCapture(args.cam)
+-
+-    if not camera.isOpened():
+-        raise RuntimeError("Could not open webcam")
+-
+-    camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+-    camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+-    camera.set(cv2.CAP_PROP_BUFFERSIZE, 1)
++    camera = LatestFrameCamera(args.cam)
+ 
+     csv_name = args.csv
+ 

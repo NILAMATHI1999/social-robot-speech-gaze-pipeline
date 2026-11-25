@@ -1,0 +1,140 @@
+--- step1d_l2cs_gaze.py	2026-10-11 21:54:31.097661237 +0200
++++ /tmp/claude-1000/-home-nila-projects-social-robot-speech-gaze-pipeline/6f2c4977-fd1b-4e64-9feb-0dd53928b591/scratchpad/step1d_l2cs_gaze_patched.py	2026-10-11 21:54:31.079996467 +0200
+@@ -3,6 +3,7 @@
+ import csv
+ import math
+ import time
++from collections import deque
+ from datetime import datetime
+ from pathlib import Path
+ 
+@@ -20,12 +21,18 @@
+ HORIZONTAL_FOV_DEG = 70.0
+ VERTICAL_FOV_DEG = 50.0
+ 
+-# Calibrate these signs with left/right and up/down tests.
+-GAZE_YAW_SIGN = -1.0
+-GAZE_PITCH_SIGN = -1.0
++# Here yaw = left/right and pitch = up/down. In an unmirrored frame the
++# webcam test gave yaw > 0 for the person's right (image left) and
++# pitch > 0 for up, so a person looking at the lens has gaze angles of
++# about +camera angle on both axes.
++GAZE_YAW_SIGN = 1.0
++GAZE_PITCH_SIGN = 1.0
+ 
+-GAZE_YAW_TOLERANCE_DEG = 20.0
+-GAZE_PITCH_TOLERANCE_DEG = 20.0
++GAZE_YAW_TOLERANCE_DEG = 10.0
++GAZE_PITCH_TOLERANCE_DEG = 10.0
++
++# Majority vote over the last frames of each face removes one-frame blips.
++SMOOTHING_FRAMES = 5
+ 
+ 
+ 
+@@ -126,6 +133,20 @@
+ 
+     return "no"
+ 
++
++def smooth_gaze(history, raw_state):
++    if raw_state == "unknown":
++        history.clear()
++        return "unknown"
++
++    history.append(raw_state)
++
++    if history.count("yes") * 2 > len(history):
++        return "yes"
++
++    return "no"
++
++
+ def main():
+     parser = argparse.ArgumentParser()
+ 
+@@ -213,6 +234,7 @@
+         "person",
+         "lighting",
+         "prediction_correct",
++        "gaze_state_raw",
+     ])
+ 
+     print("L2CS gaze test started.")
+@@ -221,6 +243,9 @@
+ 
+     previous_time = time.perf_counter()
+ 
++    # Faces are keyed by detection index, not tracked across frames.
++    gaze_histories = {}
++
+     try:
+         with torch.no_grad():
+             while True:
+@@ -277,6 +302,7 @@
+                         args.person,
+                         args.lighting,
+                         "",
++                        "unknown",
+                     ])
+                     cv2.putText(
+                         frame,
+@@ -288,6 +314,10 @@
+                         2,
+                     )
+ 
++                for index in list(gaze_histories):
++                    if index >= len(bboxes):
++                        del gaze_histories[index]
++
+                 for index, bbox in enumerate(bboxes):
+                     x1, y1, x2, y2 = [
+                         int(value) for value in bbox
+@@ -299,11 +329,13 @@
+                         else 0.0
+                     )
+ 
++                    # L2CS names the angles the other way round: its
++                    # "pitch" is left/right and its "yaw" is up/down.
+                     yaw_deg = math.degrees(
+-                        float(yaw_values[index])
++                        float(pitch_values[index])
+                     )
+                     pitch_deg = math.degrees(
+-                        float(pitch_values[index])
++                        float(yaw_values[index])
+                     )
+ 
+                     quality_state, reason, face_width, brightness = (
+@@ -325,7 +357,7 @@
+                         (y1 + y2) / 2.0,
+                     )
+ 
+-                    gaze_state = classify_gaze(
++                    raw_gaze_state = classify_gaze(
+                         yaw_deg,
+                         pitch_deg,
+                         camera_angle,
+@@ -333,6 +365,14 @@
+                         quality_state,
+                     )
+ 
++                    gaze_state = smooth_gaze(
++                        gaze_histories.setdefault(
++                            index,
++                            deque(maxlen=SMOOTHING_FRAMES),
++                        ),
++                        raw_gaze_state,
++                    )
++
+                     if args.true_direction in ("yes", "no"):
+                         prediction_correct = int(
+                             gaze_state == args.true_direction
+@@ -408,6 +448,7 @@
+                         args.person,
+                         args.lighting,
+                         prediction_correct,
++                        raw_gaze_state,
+                     ])
+ 
+                 cv2.putText(

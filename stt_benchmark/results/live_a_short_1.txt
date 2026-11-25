@@ -1,0 +1,5 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.9 s | waiting  2.0 s | took 0.89 s | 
+  4.9 s | waiting  2.0 s | took 0.84 s | 
+  end   |  Hello everyone, how are you today?
+saved results/live_a_short_1.wav

@@ -1,0 +1,62 @@
+# vlm_venv: small vision-language model tests (SmolVLM2-500M first), laptop CPU only
+# Created 17 Nov 2026. Separate venv: does not touch mvp_venv or step1_vision_venv.
+# Use a terminal WITHOUT ROS sourced (otherwise pip warns about launch-ros / generate-parameter-library-py: harmless).
+#
+# Install order matters: CPU torch FIRST, then transformers.
+# (If transformers comes first, pip pulls the CUDA torch build with ~3 GB of nvidia-* packages.)
+#
+#   python3 -m venv ~/vlm_venv
+#   ~/vlm_venv/bin/pip install --dry-run --index-url https://download.pytorch.org/whl/cpu torch torchvision
+#   ~/vlm_venv/bin/pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+#   ~/vlm_venv/bin/pip install --dry-run transformers accelerate pillow num2words   # check: no nvidia-* / cuda-* / torch-*
+#   ~/vlm_venv/bin/pip install transformers accelerate pillow num2words
+#   ~/vlm_venv/bin/python -c "import torch, transformers; print(torch.__version__, transformers.__version__)"
+#
+# Jetson later: do NOT pip install torch there; use the Jetson's own CUDA torch.
+#
+# Step 1 done 17 Nov 2026 (CPU torch):
+torch==2.15.0+cpu
+torchvision==0.29.2+cpu
+numpy==2.5.4
+pillow==13.0.0
+sympy==1.14.0
+networkx==3.7
+jinja2==3.1.6
+MarkupSafe==3.0.3
+filelock==4.2.4
+fsspec==2026.9.0
+mpmath==1.3.0
+typing-extensions==4.16.0
+setuptools==78.1.0
+# Step 2 done 17 Nov 2026 (dry run clean: no nvidia-* / cuda-* / torch-*). Check printed: 2.15.0+cpu 5.23.0
+transformers==5.23.0
+accelerate==1.16.0
+num2words==0.5.14
+huggingface_hub==2.4.0
+tokenizers==0.23.3
+safetensors==0.8.0
+hf-xet==1.8.0
+PyYAML==6.0.3
+regex==2026.11.15
+tqdm==4.70.1
+psutil==7.2.2
+packaging==26.3
+pydantic==2.14.3
+pydantic_core==2.50.4
+docopt==0.6.2
+rich==15.0.0
+typer==0.29.1
+click==8.5.1
+httpx2==2.16.2
+httpcore2==2.16.2
+h11==0.16.0
+anyio==4.16.0
+idna==3.20
+truststore==0.10.5
+Pygments==2.21.0
+markdown-it-py==4.3.0
+mdurl==0.1.2
+shellingham==1.5.4
+annotated-doc==0.0.6
+annotated-types==0.8.0
+typing-inspection==0.4.5

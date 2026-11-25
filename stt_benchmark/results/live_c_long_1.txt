@@ -1,0 +1,14 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.9 s | waiting  2.0 s | took 0.91 s | 
+  4.9 s | waiting  2.0 s | took 0.86 s |  I am
+  6.9 s | waiting  2.0 s | took 0.90 s |  working on a social robot that can
+  9.0 s | waiting  2.0 s | took 0.98 s |  listen to people and answer them.
+ 11.9 s | waiting  2.0 s | took 1.84 s |  It looks at the
+ 14.2 s | waiting  2.0 s | took 2.21 s | 
+ 15.2 s | waiting  2.1 s | took 0.92 s |  the person who is
+ 17.9 s | waiting  2.0 s | took 1.79 s | 
+ 19.2 s | waiting  2.0 s | took 1.04 s |  speaking wait until they finish and then replace with a short and friendly sentence. Sometimes the
+ 21.2 s | waiting  2.0 s | took 1.07 s |  room is
+ 24.0 s | waiting  2.0 s | took 1.79 s |  loud, so the robot has to decide
+  end   |  carefully who it should listen to.
+saved results/live_c_long_1.wav

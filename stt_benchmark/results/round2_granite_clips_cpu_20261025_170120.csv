@@ -1,0 +1,221 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_01,background,"Hello robot, how are you today?","Hello, Robot, how are you today? Ex-military guy keep at the mirors.",5.694
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",6.272
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_03,background,My name is Nila and I study at the university.,My name is Mila and I study at the university.,6.425
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,5.91
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_05,background,What is the weather like in Erlangen?,What is the weather late in Elangen?,5.76
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with the milk.,5.791
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_07,background,Stop robot.,Stop Robot quir but what I to share.,6.119
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_08,background,What is the nearest train station?,What is the nearest train station?,7.119
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,6.982
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_10,background,The meeting starts at half past three.,The meeting starts at half- past three.,7.012
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_11,background,I am looking for the computer science building.,I am looking for the computer science building.,6.656
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_12,background,Thank you very much for your help.,Thank you very much for your help.,6.019
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_13,background,Could you speak a little louder please?,"Could you speak a little louder, please?",5.438
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_14,background,Today is Tuesday the twenty first of October.,"Today is Tuesday, the 21st of October.",7.189
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_15,background,Please follow me to the next room.,Please follow me to the next room.,6.284
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_16,background,How many people are in this room?,How many people are in this room?,5.277
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_17,background,I do not understand the question.,I do not understand the question.,5.281
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_18,background,Turn off the lights when you leave.,Turn off the lives when you leave.,5.445
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_19,background,What can you do for me?,What can you do for me.,6.61
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_20,background,"Goodbye robot, see you tomorrow.",Goodbye robot. See you tomorrow.,6.827
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_01,background_loud,"Hello robot, how are you today?",And I asked people hor her to be. And then we had a conversation.,7.227
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_02,background_loud,Can you tell me the time please?,"Fear to make. Can you tell me the time, please? When I welcomed this woman unconditionally, I saw her.",6.131
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_03,background_loud,My name is Nila and I study at the university.,My name is I'm told too often that love is hard. It's not Love is what.,6.633
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_04,background_loud,Please turn to the left and wave at me.,"We still try to figure out who deserves it, and we welcome someone, anyone.",7.175
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_05,background_loud,What is the weather like in Erlangen?,"leg years before I learned to do this with all the parts of myself, but it started just.",6.38
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with demand unreasonable and relentless.,6.11
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_07,background_loud,Stop robot.,Her what I could do she only told me she wanted to die over and over and over and over.,6.119
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_08,background_loud,Where is the nearest train station?,"After weeks is the nearest training station, whether out of exhaustion or epiphany, instead of.",8.013
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_09,background_loud,Can you repeat that more slowly?,"I said out loud in a voice that surprised me, Thank you for sharing.",7.603
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_10,background_loud,The meeting starts at half past three.,The meeting starts at half past She answered me that voice Now don't get spooked. This is.,6.755
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_11,background_loud,I am looking for the computer science building.,"part answering. She told me that she was in a lot of pain and I told her, I know.",5.696
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_12,background_loud,Thank you very much for your help.,"To you, but I will not. Thank you very much for your help, and as clearly as I'm speaking to you now, she said, Okay.",6.556
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_13,background_loud,Could you speak a little louder please?,"Dialogue with myselfer, please more voices with more points of view, some of them more fun.",6.248
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,"A Tuesday, they're doing different roundtable of wildly mixed characters and one.",6.54
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_15,background_loud,Please follow me to the next room.,"Kindness Please follow me. most importantly, gratitude. I thank myself for their contrib.",7.019
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_16,background_loud,How many people are in this room?,How many how many I think of my fragment itself less like a broken mirror and more like a prism.,7.381
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_17,background_loud,I do not understand the question.,"And while some of us are occasion, we're not mean, even my whiny, shamy.",6.256
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better and what she'd like for me to learn.",7.037
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_19,background_loud,What can you do for me?,"Exactly as you do for me, so while my openings for.",6.799
+granite-speech-5.0-470m-turboctc,cpu,float32,none,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.",At the roundtable I would hand out parking validation and remind everyone to sign for their cash.,6.706
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hellohood, how are you today?",5.707
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,Can you take me the down please?,5.372
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,My niece La and I study at the university.,6.511
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,Please don't the left and the.,6.397
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the weather like in Irwondon?,6.389
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with me.,5.909
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Stop pro.,5.493
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,I.,5.219
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,Can you repeat that mouse please?,6.979
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The meeting starts at half past three.,6.43
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,And you like a competition building.,6.228
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,5.953
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,Did those people a louder please?,6.165
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,Today is doing the 21st of ofctober year.,6.283
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next stream.,6.834
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,How many people are in this room?,7.135
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,5.753
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,Don of the light you.,5.214
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,What can you do for me?,5.768
+granite-speech-5.0-470m-turboctc,cpu,float32,none,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.",Goodbye robot. See you tomorrow.,5.395
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_01,clean,"Hello robot, how are you today?","Hello robot, how are you today?",5.263
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,5.316
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_03,clean,My name is Nila and I study at the university.,My name is Nila and I study at the university.,5.284
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,5.555
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,5.499
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,5.18
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_07,clean,Stop robot.,Stop robot.,5.266
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,5.547
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_09,clean,Can you repeat that more slowly?,Can you repeat that more slowly?,5.807
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,5.696
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_11,clean,I am looking for the computer science building.,I am looking for the comparisons building.,5.97
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,5.256
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_13,clean,Could you speak a little louder please?,Could you speak a little louder please?,5.699
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_14,clean,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,5.476
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,5.452
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_16,clean,How many people are in this room?,How many people are in this room?,5.426
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_17,clean,I do not understand the question.,I do not understand their questionine.,5.599
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,5.582
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_19,clean,What can you do for me?,What can you do for me?,5.799
+granite-speech-5.0-470m-turboctc,cpu,float32,none,clean_20,clean,"Goodbye robot, see you tomorrow.",Goodbye Robert. See you tomorrow.,5.298
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_01,noise,,,5.309
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_02,noise,,,5.173
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_03,noise,,,5.77
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_04,noise,,,5.485
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_05,noise,,,5.334
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_06,noise,,,5.713
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_07,noise,,,5.411
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_08,noise,,,5.356
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_09,noise,,,5.239
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_10,noise,,,6.132
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_01,noise_loud,,That's why I went to.,5.398
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_02,noise_loud,,I.,5.216
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_03,noise_loud,,I.,5.238
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_04,noise_loud,,I.,5.518
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_05,noise_loud,,.,5.674
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_06,noise_loud,,.,5.285
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_07,noise_loud,,actually.,5.29
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_08,noise_loud,,.,5.534
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_09,noise_loud,,actually.,5.202
+granite-speech-5.0-470m-turboctc,cpu,float32,none,noise_loud_10,noise_loud,,.,5.873
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_01,silence,,,5.43
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_02,silence,,,5.183
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_03,silence,,,5.725
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_04,silence,,,5.67
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_05,silence,,,5.89
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_06,silence,,,5.705
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_07,silence,,,5.971
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_08,silence,,,6.122
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_09,silence,,,5.42
+granite-speech-5.0-470m-turboctc,cpu,float32,none,silence_10,silence,,.,5.672
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_01,background,"Hello robot, how are you today?","Hello Robot, how are you today?",2.529
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_02,background,Can you tell me the time please?,"Can you tell me the time, please?",2.586
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_03,background,My name is Nila and I study at the university.,My name is Mila and I study at the university.,4.051
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_04,background,Please turn to the left and wave at me.,Please turn to the left and wave at me.,3.341
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_05,background,What is the weather like in Erlangen?,What is the weather late in Elangen?,2.625
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_06,background,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,2.756
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_07,background,Stop robot.,Stop robot.,1.827
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_08,background,What is the nearest train station?,What is the nearest train station?,2.547
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_09,background,Can you repeat that more slowly?,Can you repeat that more slowly?,3.017
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_10,background,The meeting starts at half past three.,The meeting starts at half past three.,2.835
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_11,background,I am looking for the computer science building.,I am looking for the computer science building.,2.815
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_12,background,Thank you very much for your help.,Thank you very much for your help.,2.888
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_13,background,Could you speak a little louder please?,"Could you speak a little louder, please?",2.822
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_14,background,Today is Tuesday the twenty first of October.,"Today is Tuesday, the 21st of October.",3.707
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_15,background,Please follow me to the next room.,Please follow me to the next room.,2.625
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_16,background,How many people are in this room?,How many people are in this room?,2.601
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_17,background,I do not understand the question.,I do not understand the question.,2.657
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_18,background,Turn off the lights when you leave.,Turn off the lights when you leave.,2.477
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_19,background,What can you do for me?,What can you do for me?,2.142
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_20,background,"Goodbye robot, see you tomorrow.",Goodbye robot. See you tomorrow.,3.427
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_01,background_loud,"Hello robot, how are you today?",I asked her to hold her to. And then we had a conversation.,4.459
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_02,background_loud,Can you tell me the time please?,"Fear to make. Can you tell me the time, please? When I welcomed this woman unconditionally, I saw her.",5.379
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_03,background_loud,My name is Nila and I study at the university.,My name is Le Iatole too often that love is hard. It's not Love is what.,4.738
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_04,background_loud,Please turn to the left and wave at me.,"We still try to figure out who deserves it, and we welcome someone, anyone.",4.738
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_05,background_loud,What is the weather like in Erlangen?,"Or before I learned to do this with all the parts of myself, but it started just.",4.695
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_06,background_loud,I would like a cup of coffee with milk.,I would like a cup of coffee withable.,3.885
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_07,background_loud,Stop robot.,Her What I could do She only told me she wanted to die over and over and over and over.,5.473
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_08,background_loud,Where is the nearest train station?,"After weeks is the nearest training station, whether out of exhaustion or epiphany, instead of.",7.316
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_09,background_loud,Can you repeat that more slowly?,"I said out loud in a voice that surprised me, you for sharing.",4.321
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_10,background_loud,The meeting starts at half past three.,The meeting starts at half past She answered me that voice Now don't get spooked. This is.,5.367
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_11,background_loud,I am looking for the computer science building.,"part answering. She told me that she was in a lot of pain, and I told her, I know.",5.779
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_12,background_loud,Thank you very much for your help.,"To you, but I will not. Thank you very much for your help. As clearly as I'm speaking to you now, she said, Okay.",5.875
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_13,background_loud,Could you speak a little louder please?,"With myself, please more voices with more points of view, some of them more fun.",5.364
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_14,background_loud,Today is Tuesday the twenty first of October.,"A lot of these Tuesday, they're doing different roundtable of wildly mixed characters and one.",5.494
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_15,background_loud,Please follow me to the next room.,"Please follow me. Most importantly, gratitude. Thank my for their.",4.342
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_16,background_loud,How many people are in this room?,How many how many I think of my fragment itself less like a broken mirror and more like a prism.,5.75
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_17,background_loud,I do not understand the question.,"And while some of us are occasionally, we're not mean, even my whiny, shamy.",5.766
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_18,background_loud,Turn off the lights when you leave.,"She tells me exactly what I need to know, what she needs to feel better and what she'd like for me to learn.",4.468
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_19,background_loud,What can you do for me?,"Exactly ass you do for me, so, while my openings for.",4.641
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,background_loud_20,background_loud,"Goodbye robot, see you tomorrow.","At the roundtable, I would hand out parking validation and remind everyone to sign for their cash.",5.524
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?","Hello everybody, how are you today?",3.456
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,I will tell you the down please.,2.903
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_03,cafe_speech_loud,My name is Nila and I study at the university.,My name is Lila and I study at the university.,3.842
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_04,cafe_speech_loud,Please turn to the left and wave at me.,Please don't go the elect and the me.,3.235
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_05,cafe_speech_loud,What is the weather like in Erlangen?,What is the weather like in Oondon?,3.052
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_06,cafe_speech_loud,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,2.887
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_07,cafe_speech_loud,Stop robot.,Stop the.,1.944
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_08,cafe_speech_loud,Where is the nearest train station?,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_09,cafe_speech_loud,Can you repeat that more slowly?,Can you repeat that m slowly?,2.982
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_10,cafe_speech_loud,The meeting starts at half past three.,The meeting starts at half past three.,4.202
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_11,cafe_speech_loud,I am looking for the computer science building.,And youube have a competition building.,4.838
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_12,cafe_speech_loud,Thank you very much for your help.,Thank you very much for your help.,3.423
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_13,cafe_speech_loud,Could you speak a little louder please?,"Is those people little louder, please?",4.459
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_14,cafe_speech_loud,Today is Tuesday the twenty first of October.,Today is doing the 21st part of.,6.625
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_15,cafe_speech_loud,Please follow me to the next room.,Please follow me to the next stream.,3.721
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_16,cafe_speech_loud,How many people are in this room?,How many people are in this room?,4.659
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_17,cafe_speech_loud,I do not understand the question.,I do not understand the question.,4.696
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_18,cafe_speech_loud,Turn off the lights when you leave.,Don the la you.,3.488
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_19,cafe_speech_loud,What can you do for me?,Why can you be for me?,3.526
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,cafe_speech_loud_20,cafe_speech_loud,"Goodbye robot, see you tomorrow.",Goodbye we both. See you tomorrow.,3.687
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_01,clean,"Hello robot, how are you today?","Hello, robot, how are you today?",2.787
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,2.886
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_03,clean,My name is Nila and I study at the university.,My name is Nila and I study at the university.,3.86
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_04,clean,Please turn to the left and wave at me.,Please turn to the left and wave at me.,3.455
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_05,clean,What is the weather like in Erlangen?,What is the weather like in Erlangen?,3.862
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_06,clean,I would like a cup of coffee with milk.,I would like a cup of coffee with milk.,4.357
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_07,clean,Stop robot.,Stop robot.,2.202
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_08,clean,Where is the nearest train station?,Where is the nearest train station?,2.541
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_09,clean,Can you repeat that more slowly?,Can you repeat that more slowly?,2.554
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_10,clean,The meeting starts at half past three.,The meeting starts at half past three.,3.442
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_11,clean,I am looking for the computer science building.,I am looking for the comparisons building.,3.11
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_12,clean,Thank you very much for your help.,Thank you very much for your help.,2.69
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_13,clean,Could you speak a little louder please?,Could you speak a little louder please?,3.624
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_14,clean,Today is Tuesday the twenty first of October.,Today is Tuesday the 21st of October.,3.742
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_15,clean,Please follow me to the next room.,Please follow me to the next room.,2.89
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_16,clean,How many people are in this room?,How many people are in this room?,2.557
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_17,clean,I do not understand the question.,I do not understand the question.,3.43
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_18,clean,Turn off the lights when you leave.,Turn off the lights when you leave.,2.902
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_19,clean,What can you do for me?,What can you do for me?,2.55
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,clean_20,clean,"Goodbye robot, see you tomorrow.","Goodbye, Robot. See you tomorrow.",3.349
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_01,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_02,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_03,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_04,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_05,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_06,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_07,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_08,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_09,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_10,noise,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_01,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_02,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_03,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_04,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_05,noise_loud,,.,2.078
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_06,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_07,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_08,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_09,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,noise_loud_10,noise_loud,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_01,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_02,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_03,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_04,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_05,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_06,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_07,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_08,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_09,silence,,,0.0
+granite-speech-5.0-470m-turboctc,cpu,float32,silero,silence_10,silence,,,0.0

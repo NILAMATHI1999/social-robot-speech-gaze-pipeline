@@ -1,0 +1,8 @@
+speak now, new audio every 2.0 s, Ctrl+C to stop
+  2.9 s | waiting  2.0 s | took 0.91 s | 
+  4.9 s | waiting  2.0 s | took 0.86 s |  My name is
+  7.0 s | waiting  2.0 s | took 0.92 s | 
+  9.0 s | waiting  2.0 s | took 0.96 s | 
+ 11.0 s | waiting  2.0 s | took 0.96 s |  Nila and I studied at the
+  end   |  University in Nilaongan and today I want to show you my project.
+saved results/live_b_medium_1.wav

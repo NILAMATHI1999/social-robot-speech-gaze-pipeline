@@ -1,0 +1,29 @@
+model,device,compute_type,vad,clip,set,reference,hypothesis,seconds
+base.en,cuda,float16,none,background_01,background,"Hello robot, how are you today?","Hello everyone, how are you today?",0.823
+base.en,cuda,float16,none,background_02,background,Can you tell me the time please?,Can you give me the time please?,0.461
+base.en,cuda,float16,none,background_loud_01,background_loud,"Hello robot, how are you today?",And then we had a conversation.,0.407
+base.en,cuda,float16,none,background_loud_02,background_loud,Can you tell me the time please?,"Yeah, don't tell me the time, please. When I welcomed this woman unconditionally, I saw...",0.646
+base.en,cuda,float16,none,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?",I really do it for all you to do.,0.475
+base.en,cuda,float16,none,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,I'm going to take you to the boundary.,0.452
+base.en,cuda,float16,none,clean_01,clean,"Hello robot, how are you today?","Hello robot, how are you today?",0.424
+base.en,cuda,float16,none,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,0.476
+base.en,cuda,float16,none,noise_01,noise,,OK. Ready. OK. That's what you're talking about. We have to hang out with you. Good night. That's the difference. OK. OK. How are you today? Good night. Good night. Good night. Good night. Good night. Good night. Good night. Good night. Good night. Good night. Good night. Good night.,12.569
+base.en,cuda,float16,none,noise_02,noise,,... ... ... ...,2.894
+base.en,cuda,float16,none,noise_loud_01,noise_loud,,,0.52
+base.en,cuda,float16,none,noise_loud_02,noise_loud,,,0.497
+base.en,cuda,float16,none,silence_01,silence,,.,6.876
+base.en,cuda,float16,none,silence_02,silence,,... ... ... ... ... ...,4.914
+base.en,cuda,float16,silero,background_01,background,"Hello robot, how are you today?","Hello everyone, how are you today?",0.518
+base.en,cuda,float16,silero,background_02,background,Can you tell me the time please?,Can you tell me the time please?,0.456
+base.en,cuda,float16,silero,background_loud_01,background_loud,"Hello robot, how are you today?",as their people in Pearl Road here to be and then we had a conversation.,0.674
+base.en,cuda,float16,silero,background_loud_02,background_loud,Can you tell me the time please?,"Yeah, don't tell me the time, please. When I welcomed this woman unconditionally, I saw...",0.778
+base.en,cuda,float16,silero,cafe_speech_loud_01,cafe_speech_loud,"Hello robot, how are you today?",I really do it for all you to do.,0.498
+base.en,cuda,float16,silero,cafe_speech_loud_02,cafe_speech_loud,Can you tell me the time please?,So I'm going to take you the boundary.,0.496
+base.en,cuda,float16,silero,clean_01,clean,"Hello robot, how are you today?","Hello robot, how are you today?",0.488
+base.en,cuda,float16,silero,clean_02,clean,Can you tell me the time please?,Can you tell me the time please?,0.502
+base.en,cuda,float16,silero,noise_01,noise,,,0.056
+base.en,cuda,float16,silero,noise_02,noise,,,0.039
+base.en,cuda,float16,silero,noise_loud_01,noise_loud,,,0.034
+base.en,cuda,float16,silero,noise_loud_02,noise_loud,,,0.034
+base.en,cuda,float16,silero,silence_01,silence,,,0.033
+base.en,cuda,float16,silero,silence_02,silence,,,0.033
